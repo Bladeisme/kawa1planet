@@ -34,10 +34,10 @@ googleAnalytics = "G-5C3W6P2YX9"
     description = "同人女"
     # profile photo of author in author card
     # 作者头像
-    image = "/images/author.jpeg"
+    image = "/images/author.png"
     # link of followme in author card and footer
     # 作者卡片里 followme 和页脚作者的链接
-    link = "https://github.com/xioyito"
+    link = "https://weibo.com/6500612922"
 
 # Taxonomies
 [taxonomies]
@@ -171,7 +171,7 @@ showToc = true
         pageSize = 5
 
   # Waline comment
-[params.waline]
+    [params.waline]
     enable = true
     serverURL = "kawa1planet.fun/"  #已绑定域名
     avatar = "monsterid"
@@ -263,60 +263,3 @@ showToc = true
     # [markup.goldmark]
     #     [markup.goldmark.renderer]
     #         unsafe = true
-
-# 多语言设置
-[languages]
-
-        
-    [languages.zh]
-        languageName = '简体中文'
-        weight = 2
-        contentDir = 'content/chinese'
-        [languages.zh.menus]
-            [[languages.zh.menus.main]]
-                name = "主页"
-                url = "/zh"
-                weight = 1
-                pre = "<i class='fa fa-home'></i>"
-            [[languages.zh.menus.main]]
-                name = "文章"
-                url = "/zh/posts"
-                weight = 2
-                pre = "<i class='fa fa-book'></i>"
-            [[languages.zh.menus.main]]
-                name = "分类"
-                url = "/zh/categories"
-                weight = 3
-                pre = "<i class='fa fa-folder-open'></i>"
-            [[languages.zh.menus.main]]
-                name = "系列"
-                url = "/zh/series"
-                weight = 4
-                pre = "<i class='fa fa-gears'></i>"
-            [[languages.zh.menus.main]]
-                name = "标签"
-                url = "/zh/tags"
-                weight = 5
-                pre = "<i class='fa fa-tags'></i>"        
-            [[languages.zh.menus.main]]
-                name = "关于"
-                url = "/zh/about"
-                weight = 6
-                pre = "<i class='fa fa-info-circle'></i>"
-            [[languages.zh.menus.social]]
-                name = "GitHub"
-                url = "https://github.com/xioyito"
-                pre = "<i class='fa fa-github'></i>"
-                weight = 1
-            [[languages.zh.menus.social]]
-                name = "YouTube"
-                url = "https://www.youtube.com"
-                pre = "<i class='fa fa-youtube'></i>"
-                weight = 2
-            [[languages.zh.menus.sponsor]]
-                name = "微信"
-                url = "/images/sponsor/Wechat.jpeg"
-            [[languages.zh.menus.sponsor]]
-                name = "支付宝"
-                url = "/images/sponsor/Alipay.jpeg"
-  
