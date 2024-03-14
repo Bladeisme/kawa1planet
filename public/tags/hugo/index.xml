@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Mar 2024 00:03:24 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo|从Hexo迁移到Hugo</title>
+      <link>http://localhost:1313/posts/log/</link>
+      <pubDate>Thu, 07 Mar 2024 00:03:24 +1100</pubDate>
+      <guid>http://localhost:1313/posts/log/</guid>
+      <description>建站日记</description>
+    </item>
+  </channel>
+</rss>
