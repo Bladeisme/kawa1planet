@@ -7,23 +7,18 @@ tag: false
 ---
 
 ## 卡哇1星球
-
 同人女宇宙，致力于生产卡哇1。欢迎每一位卡哇1来本星球定居。  
-
 [AO3_Bladeisme/TheBlazingglacier](https://archiveofourown.org/users/Theblazingglacier)  
 [AO3_Cirrocumulus_S](https://archiveofourown.org/users/Cirrocumulus_S)  
 
 
-
 ## 关于我
-
 腿腿desu。永恒同人女。  
 日常看电影，时不时打游戏，偶尔看漫画，试图看书，基本不看动画了。  
 欢迎找我聊天！  
 
-[提问箱：弱智校花与不笑豚](https://box.n3ko.cc/_/meaningless)  
+[提问箱：弱智校花与不笑豚](https://box.n3ko.cc/_/meaningless)    
 
 
 ## 朋友们
-
-[鱼缸底两万里](https://erimland.vercel.app)  
+[鱼缸底两万里](https://erimland.vercel.app)    
