@@ -52,7 +52,8 @@ showToc = true
         # style of theme: auto, light, dark
         mode = 'auto'
 
-enableimgloop = true
+    [params.imgloop]
+        enableimgloop = true
 
 ## Waline
     [params.waline]
