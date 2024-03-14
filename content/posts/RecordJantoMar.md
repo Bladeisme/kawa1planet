@@ -1,7 +1,7 @@
 ---
 title: "Record|1-3月书影"
 date: 2022-04-22T12:07:37+11:00
-tags: [Record,电影，读书]
+tags: [Record,电影,读书]
 categories: [Record]
 toc: true
 Summary: "例行的书影记录。以下都摘自我的毛象嘟文。"

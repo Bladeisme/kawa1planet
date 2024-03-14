@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>旅游 on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/%E6%97%85%E6%B8%B8/</link>
+    <description>Recent content in 旅游 on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Feb 2024 16:20:14 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%97%85%E6%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Record|去日本了！</title>
+      <link>http://localhost:1313/posts/travel-japan/</link>
+      <pubDate>Sat, 03 Feb 2024 16:20:14 +1100</pubDate>
+      <guid>http://localhost:1313/posts/travel-japan/</guid>
+      <description>Records | 京都的枯山水是真正的枯·山·水 灌后想去日本，原定今年夏天去，但回国后还是想去，加上家里人也说想去就去呗反正日元贬值，之前的钱也取不出来，于是说走就走了！ 旅游的要义就是搭配合理，比如我什么也没干全部</description>
+    </item>
+  </channel>
+</rss>

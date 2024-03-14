@@ -3,20 +3,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Kawa1Planet | Hugo|从Hexo迁移到Hugo</title>
-    <meta name="description" content="建站日记 ">
-    <link rel="canonical" href="http://localhost:1313/posts/log/" />
+    <title>Kawa1Planet | Record|去日本了！</title>
+    <meta name="description" content="枯山水是真正的枯-山-水。 ">
+    <link rel="canonical" href="http://localhost:1313/posts/travel-japan/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta property="og:title" content="Hugo|从Hexo迁移到Hugo" />
-<meta property="og:description" content="建站日记" />
+    <meta property="og:title" content="Record|去日本了！" />
+<meta property="og:description" content="枯山水是真正的枯-山-水。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/log/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-03-07T00:03:24+11:00" />
-<meta property="article:modified_time" content="2024-03-07T00:03:24+11:00" />
+<meta property="og:url" content="http://localhost:1313/posts/travel-japan/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-02-03T16:20:14+11:00" />
+<meta property="article:modified_time" content="2024-02-03T16:20:14+11:00" />
 
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Hugo|从Hexo迁移到Hugo"/>
-<meta name="twitter:description" content="建站日记"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Record|去日本了！"/>
+<meta name="twitter:description" content="枯山水是真正的枯-山-水。"/>
 
     
 
@@ -201,24 +201,24 @@
             </div>
         
         <div class="hero-content">
-            <div class="hero-title">Hugo|从Hexo迁移到Hugo</div>
+            <div class="hero-title">Record|去日本了！</div>
             <div class="hero-subtitle"></div>
             <div class="hero-date">
-                    <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2024-3-7 &nbsp;</span>
-                    <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2024-3-7 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2024-2-3 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2024-2-3 &nbsp;</span>
                     <span class="no-wrap"><i class="fa fa-folder"></i>
                         收录于:
                         
                             <a href='
-                                /categories/hugo
+                                /categories/%E6%97%85%E6%B8%B8
                             '>
-                                hugo
+                                旅游
                             </a>
                     </span>    
             </div>
             <div class="timelong">
-                <span class="no-wrap"><i class="fa fa-pencil"></i> 文章字数: 2570 &nbsp;</span>
-                <span class="no-wrap"><i class="fa fa-clock-o"></i> 阅读时间: 6 分钟 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-pencil"></i> 文章字数: 6331 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-clock-o"></i> 阅读时间: 13 分钟 &nbsp;</span>
                 <span class="no-wrap"><i class="fa fa-eye"></i> 阅读量: <span id="busuanzi_value_page_pv"></span></span>
             </div>
         </div>
@@ -254,133 +254,137 @@
     
         <div class="content">
             <div class="content-self">
-                <p><font color=#417D7A>搬家！</font></p>
-<h1 id="font-color417d7a建博font"><font color=#417D7A>建博</font></h1>
-<p>之前首页蛮多朋友开始自建博客，看了之后觉得蛮有趣的于是我也跟风捣鼓了一个，用的hexo，网上教程很多而且非常详细。当时想应该不会玩很久吧，没想到也两年了。2022年4月8日本博勉强开始运转，内容还不算很多，但hexo的更新列表越来越长、长到我每次更新都觉得是在报错了。于是今年决定也用hugo啦。<br>
-建站参考的塔塔的<a href="https://mantyke.icu/posts/2021/hugo-build-blog/">《一起动手搭建个人博客吧》</a>一文。中间因为各种原因炸了8次吧，最后换用本主题勉力动起来了，当时心情：你就在此地不要走动，我去睡个觉。</p>
-<p>选用的是<a href="https://github.com/nodejh/hugo-theme-mini">mini主题</a>，看它比较旧，上一次更新是好多年前，有点担心，果不其然出了问题，tag页和category页虽然显示正常，但无法点击跳转文章，并且实际上hugo server之后localhost:1313也无法显示。目前为止这个问题还没解决，查看主题issue也发现其他人遇到了一样的情况并且很不幸，也没有人回答有效的解决方式。这点加入list。</p>
-<h1 id="font-color417d7a装修font"><font color=#417D7A>装修</font></h1>
-<p>此时此刻又发现了惊天大问题，我的博客根目录下没有<code>asset</code>文件夹也没有<code>static</code>和<code>layouts</code>，只有public。我从<code>themes/mini</code>里复制了一个layouts文件夹到根目录下进行修改。</p>
-<h2 id="font-color417d7a修改整体配色font"><font color=#417D7A>修改整体配色</font></h2>
-<p>改CSS比较简单，但因为我根目录下无<code>style.css</code>，我是直接在<code>themes/mini/static/css</code>里改的，理论上似乎不能动主题文件夹但……<br>
-背景改成灰色，整体色改为绿色。<br>
-这有一个简便的修改方式：打开博客网页，按F12，可以查看每一部分的css，它会具体到<code>style.css</code>的某一行，还可以直接在上面修改、调整、预览<br>
-<img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ%E6%88%AA%E5%9B%BE20240307154459.png" alt="photo" title="_no"></p>
-<h2 id="font-color417d7a改头像与网站icofont"><font color=#417D7A>改头像与网站ico</font></h2>
-<p>这一步也比较简单，直接替换images文件夹下的图即可。可以搜一个将文件转换成ico格式的在线转换网站，很方便。</p>
-<h2 id="font-color417d7a增加about页font"><font color=#417D7A>增加about页</font></h2>
-<p>其实本主题导航栏里就有「关于」，但点进去404，谷歌一番后发现大家给的添加about页的教程都一样，就是直接在根目录的content文件夹里新建一个<code>about.md</code>，打开这个文件，在抬头部分写上：<code>menu: &quot;main&quot;</code><br>
-config.toml里写入：</p>
-<pre tabindex="0"><code class="language-[menu]" data-lang="[menu]"> [[menu.main]]
-    name = &#34;About&#34;
-    pageRef = &#34;/about&#34;
-    weight = 10
-</code></pre><p>我依样画葫芦建立该文件并写好后发现，它竟然出现在了list页，并且被计入文章总数了！翻了一遍目录，想到about页应该和categories&amp;tags是一样的格式，遂把<code>about.md</code>移到了/about文件夹下，再更新，完成！</p>
-<h2 id="font-color417d7a增加站点运行时间与全站总字数总篇数font"><font color=#417D7A>增加站点运行时间与全站总字数&amp;总篇数</font></h2>
-<p>运行时间代码参考知乎这篇<a href="https://www.zhihu.com/question/614820608">《Hugo博客如何添加网站运行时间？》</a>。<br>
-踩的坑：<br>
-因为本主题自带copyright，我在config将copyright改成了「卡哇1星球自转中」，因此修改后无反应。于是在config中将copyright设置为false。server后发现自定义的copyright是没有了，变成了默认模式！打开footer尝试研究代码，只看懂了if/else，我灵机一动，这不就是「如果A则，否则B」的意思吗，于是将这一整块代码全部删除，把上文里的代码放到<code>&lt;footer&gt;&lt;/footer&gt;</code>之间。<br>
-之后还想添加站点总字数和总篇数，<del>抄太多了想不起来抄自哪里了（抱歉！）</del>。<br>
-我使用的代码：</p>
-<pre tabindex="0"><code class="language-站点统计" data-lang="站点统计">close
-  {{$scratch := newScratch}}
-  {{ range (where .Site.Pages &#34;Kind&#34; &#34;page&#34; )}}
-      {{$scratch.Add &#34;total&#34; .WordCount}}
-  {{ end }}&lt;/code&gt;&lt;/pre&gt;
-  看不懂放在哪里，遂放在&lt;code&gt;\&lt;footer id=&#34;footer&#34;&gt;&lt;/code&gt;下一行。
-  接下来是：
-  &lt;pre&gt;&lt;code&gt;{{ $articleCount := len .Site.RegularPages }}
-  {{ $totalWordCount := 0 }}
-  {{ range .Site.Pages }}
-  {{ $totalWordCount = add $totalWordCount .WordCount }}
-  {{ end }}&lt;/code&gt;&lt;/pre&gt;
-  在&lt;code&gt;&lt; div&gt;卡哇1星球自转 &lt; span id=&#34;days&#34;&gt;0&lt; /span&gt;&lt; /div&gt;&lt;/code&gt;这一行后加入
-  &lt;pre&gt;&lt;code&gt;&lt; div&gt;已生产 {{ $articleCount }} 篇文章，共 {{ $totalWordCount }} 字&lt; /div&gt;
-  /* 去掉空格 */
-</code></pre><h2 id="font-color417d7a增加评论区并修改font"><font color=#417D7A>增加评论区并修改</font></h2>
-<p>mini主题自带评论功能，但是用的是disqus，我想用waline，于是先按<a href="https://waline.js.org/guide/get-started/#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93">waline的文档</a>注册并部署。这里有几个坑：</p>
-<ol>
-<li>使用国际版LeanCloud，我在hexo时便已注册过国际版，这步这次略过。但是好像使用国内版本会出问题，具体我也不清楚，总之建议用国际版。</li>
-<li><code>serverURL</code>是vercel部署的waline地址。</li>
-<li>作为管理员注册waline时填的地址也是上面这个，不是自己博客的地址。不过写错了也没关系可以修改。</li>
-</ol>
-<p><del>虽然waline给了手把手教程但还是每一步都会踩雷我们纯小白是这样的</del><br>
-修改waline头像参考<a href="https://innerso.prvcy.page/posts/configure-waline/">本篇</a>,在vercel的环境变量中添加：<code>key=GRAVATAR_STR</code>，<code>value=https://cravatar.cn/avatar/{{mail|md5}}?d=monsterid</code>
-邮箱接收评论提醒：没成功，sign。<br>
-评论区CSS样式：<br>
-我因为没有asset等文件，直接写在<code>comment.html</code>文件里了。</p>
-<pre tabindex="0"><code class="language-waline" data-lang="waline">close
-  .waline-container {
-      background-color: transparent;
-      border-radius: var(--card-border-radius);
-      box-shadow: var(--shadow-l1);
-      padding: 2%; /*缩小边距*/
+                <h1 id="font-color417d7arecords--京都的枯山水是真正的枯山水font"><font color=#417D7A>Records | 京都的枯山水是真正的枯·山·水</font></h1>
+<p>灌后想去日本，原定今年夏天去，但回国后还是想去，加上家里人也说想去就去呗反正日元贬值，之前的钱也取不出来，于是说走就走了！<br>
+旅游的要义就是搭配合理，比如我什么也没干全部交给朋友做攻略看机酒，我随便地批阅全部同意好好好走走走我可以。最近淡季，机票价格非常低，原本西进东出，不过东出价格比较高后来改了东进西出。日本酒店价格好像在周末时会上浮10%，那两天恰好在京都，大概因为京都这段时间是旅游淡季，酒店价格很低。<br>
+整个旅行是15-24，15到东京，24中午分开走。中间换了几家酒店，都挺干净，除了镰仓的酒店比较贵之外，别的价格都还行。在东京我和朋友住的是仅限女性的胶囊酒店，没有洗衣房（唯一的不足），之后都是双人间，两人住宿一共4k5rmb，来回机票是1k8左右（因为买得迟后来涨价了几百）。</p>
+<h2 id="font-color417d7a东京font"><font color=#417D7A>东京</font></h2>
+<p>原先觉得东京没什么好玩的，没留几天，加之要东出，还能多一晚，结果到了之后发现好像还是东京比较好买买买二次元，于是有点后悔了，应该在东京多呆几天的！<br>
+来东京是为了打卡几个点。没打算所有点都跑，选了几个：井上吧唧店（八重洲的快闪店）、流川&amp;仙道拉面店、海南路过的Sporty、湘北原型武藏野北高、bar moon walk；后来又在象上看到有人推荐中野的中古同人本店，恰好在中野站附近，于是安排上也去一趟；第二日时间有余，以及发现田无神社离武藏野北高挺近，就也去了一趟田无神社。</p>
+<p><font color=#069A8E>D1</font></p>
+<p>下飞机后坐机场bus到东京站，正好井上吧唧店快闪店就在八重洲，先去快闪店逛了一圈，东西不太多，而且11号7号10号等吧唧好像都卖完了（其他的太贵了我买不下手）。<br>
+到达酒店后已经晚上了，流川面馆就在新宿，于是去那里吃完饭。但……不是很好吃……店面很小，只有一条吧台能坐，就是新宿路边那种平价面馆，水平和富士そば差不多，吃过一次，不太想再去吃第二次。</p>
 
-  }
-  .waline-container .vcount {
-      color: var(--card-text-color-main);
-  }
 
-  :root{
-    /* 主题色 */
-    --waline-font-size: 1rem ;
-    --waline-theme-color: #154c47; /* 主题色，按钮颜色 */
-    --waline-active-color: #f04853c4;
-    --waline-color: #154c47;
-    --waline-bg-color: transparent; /* 设置背景透明，官网CSS文件里无这一条我自己添加的 */
-    --waline-bgcolor-light: #c8c8c8;
-    --waline-border-color: #154c47; /* 边框线颜色 */
-    --waline-disable-bgcolor: #FAF9F7;
-    --waline-avatar-size:5rem !important;
-    --waline-m-avatar-size:calc(var(--waline-avatar-size)*9/13) !important; 
-    --waline-badge-color:rgba(5, 150, 148, 0.425) ;
-    --waline-badge-font-size: 0.45em ;
-    --waline-info-bgcolor: #f8f8f8 ;
-    --waline-info-color:#999 ;
-    --waline-info-font-size: 0.625rem ;
-    --waline-border: 1px solid var(--waline-border-color);
-    --waline-avatar-radius: 50%; /* 0就是正方形，可以自由设置头像圆角 */
-  }
-  .comment-waline{
-    /*
-    margin-top: 10px;
-    position:relative;
-    float: none;
-    display: inline;
-    padding: 10px;
-    */
-    background-color: transparent;
-    margin-top: 18px;
-    padding-top: 25px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-weight: 300;
-    line-height: 1.8;
+<p>吃完后去了常去的廉价酒吧，以前住得离池袋近，去过好多回，250一杯，可以点原创鸡尾酒，告诉bartender推し，bartender会根据角色（不认识的角色的话主要是根据颜色）制作鸡尾酒。最近涨价了，最早是220y，这次点了一杯流川一杯仙道，bartender恰好都认识，口感比较难形容，仙道那杯最上面是酸奶，喝起来大概是有些海盐味，流川这杯口感更厚些。</p>
+<p><font color=#069A8E>D2</font></p>
+<p>早上去了sporty喝咖啡，权当早饭，没想到这就是我们在日本喝到的巅峰了！店主小姐姐的手艺很好。后来又去小川，发现用的也是一样的豆子，可是味道却不如sporty这个小姐姐的。而且她的拿铁是先手冲之后加奶做的，拉花也手艺高超！sporty也是体育用品店，店里的手冲杯架子还是篮球架，于是立刻拿出来和我的小猴合影了！</p>
 
-    /*
-    border-left: 1px solid rgba(0,0,0,0.1);
-    border-right: 1px solid rgba(0,0,0,0.1);
-    */
-  }
-  .comment-underline {
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    width: 50px;
-    border-bottom: 3px solid #f0485388;
-</code></pre><h2 id="font-color417d7a修改目录样式font"><font color=#417D7A>修改目录样式</font></h2>
-<p>mini自带的目录显示在文章上方，而且比较丑。找了很多教程修改都不成功，最后绝望想起以前hexo用的主题也有目录，想研究下hexo那个主题怎么写的，没想到该主题竟然被搬到hugo来了！于是立刻复制粘贴了对方的<code>toc.html</code>。<br>
-<a href="https://github.com/flysnow-org/maupassant-hugo">maupassant-hugo</a>,这个主题也挺不错的，功能齐全。<br>
-替换掉我的toc.html文件后开始修改样式，发现css样式写在toc.html里了，于是直接在上面修改：</p>
+
+<p>中午原计划在仙道そば吃午饭，我和友思来想去都觉得这个面真的不好吃要不还是别吃了，于是扭头就走。仙道そば和broadway正好在中野站一前一后，先去了中古店，简直本子爱好者的同人女天堂，但是时间紧急没能多逛，然后又火速去仙道そば对面拍了个照闪现就跑。</p>
+<div style="text-align:center">
+<img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ图片20240220223322.jpg" height = "350px"></div><br>
+午饭后去田无神社，意外挺多人在排队祈祷，神社入口处的龙神据说能保佑学业，不少家长过来，后来发现不远处就是武藏野北高，也许就是那里的学生家长过来祈祷的，泽北来田无神社总有种去雍和宫求神的感觉。顺便在田无神社写了祈祷签文，必要な経験をください，写废神社好多张纸，也没投钱（自愿的）。字太丑了就没拍照片。  
+最后来看我们萌萌的小馒绘马！  
+<div style="text-align:center">
+<img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ图片20240220223330.jpg" height = "350px"></div><br>
+<p>从田无神社出去走到路口坐公交车，四站就能到武藏野北高校，没想到两地如此之近！<br>
+学校禁止入内，我们到时大门没完全拉上，于是我和友站在校门口使劲张望。等我们去对面等公交时大门就拉上了，很抱歉让你们见到不審者。学校非常小，除了体育馆、操场和教学楼（一栋？）之外就没有其他了。观望之后觉得站大门口看到的体育馆就是漫画里的篮球馆，模样稍稍不同，大门边上的自行车棚里车停得东倒西歪，有些根本没停在车棚里。学校门口有宣传窗，贴了一年的重要活动，总的来说和我编排的差不多，不过想着以后万一写文用到呢就拍下来了，这里记录一下：</p>
+<details>
+    <summary>
+      <h4>
+        一年间重要活动
+      </h4>
+    </summary>
 <ul>
-<li>修改<code>background-color</code>删除背景；`</li>
-<li><code>margin-left&lt;/code&gt;修改左右位置；</code></li>
-<li><code>&lt; div class=&quot;post-toc&quot; style=&quot;position: fixed; top: 100px;&quot;&gt;</code>，top是指到浏览器上方的距离。</li>
-<li>最后发现目录位置是固定的，这样一来文章下拉后就看不到目录了，感觉失去意义，于是把<code>position</code>改成了<code>fixed</code>。</li>
+<li>
+<p>一学期：<br>
+四月：入学式、新入生欢迎会、spring seminar（1年生）、健康诊断、进路调查、进路合同HR（2、3年生）（不确定是什么，看着像招聘说明会）；<br>
+五月：学生总会（不知道这是什么）、中间考查、医疗看护系guidance、夏季讲习日程发表、模拟测试（3年生）；<br>
+六月：体育祭、体能测试、进路笔记分发·说明（1年生）、学部·学科说明会（2年生）、推荐入试说明会 &amp; 模拟测试 &amp; 国公立大学入试说明会（3年生）；<br>
+七月：期末考查、夏季讲习、社团活动合宿、GTEC（2年生）、第一回共同测试说明会&amp;夏季学习guidance&amp;英语检定测试等（3年生）；<br>
+八月（暑假）：夏季讲习、社团活动合宿、open campus（可以来参观学校）、模拟测试（3年生）；</p>
+</li>
+<li>
+<p>二学期：<br>
+九月：緑光祭(似乎是文化祭)、TGG、autumn seminar（2年生）、TGG（1年生）、OB·OG座谈会 &amp; 大学模拟授课 &amp; 选择科目说明会（2年）、第二回共通测试说明会 &amp; 模拟面试 &amp; 共通测试出愿校内DDL &amp; 模拟测试（3年）；<br>
+十月：中间考查、模拟guidance &amp; 模拟测试（3年）<br>
+十一月：修学旅行、campus tour（1年生）、三方面谈（1年）、选择科目决定（2年）、进路卡提交 &amp; 三方面谈（3年）；<br>
+十二月：期末考查、冬季讲习、English Camp（British Hills）、进路guidance &amp; GTEC（1年）、第三回共同测试说明会（3年）；</p>
+</li>
+<li>
+<p>三学期：<br>
+一月：冬季讲习、大学入学共通考试、（都立高校推荐入试）、一二年共通模拟测试、三年级start集会 &amp; 第一志愿提出（2年）； 共通测试 &amp; 共通测试团结会 &amp; 大学入学共通测试 &amp; 国公立2次考试出愿指导（3年）；<br>
+二月：合唱祭、speech contest、都立高校一般入试、国公立前期测试（3年）；<br>
+三月：学年期末考查、卒业式、艺术鉴赏教师、海外语学研修、合格速报会 &amp; 三方面谈（2年）、国公立后期对策讲习（3年）。</p>
+  </details>
+</li>
 </ul>
-<p><font color=#417D7A>3.14更新：研究发现除了fixed之外还有relative，感觉应该是相对的意思，但修改后不久就换了主题，所以还没有测试过效果。</font></p>
-<p>暂时先修改到这里。</p>
+<p>呃手打一遍之后发现还挺多的，另外武藏野北高的偏差值是65，不算低，我们去时学校似乎还挂着Global Education Network 20 指定校 的横幅，可见赤木刚宪的成绩好是真的好。<br>
+贴个疯疯到学校一游图：</p>
+<div style="text-align:center">
+<img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ图片20240220223326.jpg" height = "400px"></div><br>
+<p>晚上和饼师面基了！涉谷有一家电影主题的酒吧，据说只做电影不做动画，点第二杯时先准备了备选项再问能点SD吗，bartender欣然答应，于是上了一杯红黑色的酒，但我拍得太惨不忍睹，此处略过照片。</p>
+<p><font color=#069A8E>D3</font></p>
+<p>去神奈川了，新宿lumine那里可以买一日券，价格1600日元，包含到藤泽的单程&amp;江之电车费，一日内可以随便刷。在lumine坐小田急线直达藤泽（路上可以看到富士山），到藤泽后出站换江之电。<br>
+第一站是镰仓高校，太出名了，当时很多港台人来旅游，在藤泽站基本都是在说先去镰仓高校啊。此处压根没有二次元，全是现充来玩。江之电穿过居民区，就贴着马路与居民房，间隔非常小，坐几站之后就能看到海，然后就到镰高。应该无论何时人都非常多……但是确实非常美丽！大家都在路口等电车经过拍照。<br>
+顺坡往上是镰高，校门口写着可以拍校门口，但禁止进入，也禁止无人机进入拍照，不可骚扰学生。感觉大家都习惯了耶。学校对面就有俩学校，打了架可以立刻送医，多方便！立刻设想一通流川枫旁若无人走来别人学校不小心出了交通事故送仙道彰就医的故事 <del>（让你见到CP脑真不好意思）</del></p>
+
+
+<p>镰仓高校一站路外是七里滨（可以在车站购买纪念券），对面的711不仅可以买拖鞋、冲浪板等，还设置了特别的卫生间供人换衣冲澡。我们到镰仓高时也确实看到有人在冲浪，后来又在路上看到抱着冲浪板要去冲浪的当地居民……<br>
+在七里滨等到日落，这里的日落很美，清新的落日！</p>
+
+
+<p>晚上的插曲：<br>
+七里滨看完落日后去鵠沼海岸，走了三公里多最后发现太晚了海滨公园关门了，fine。<br>
+在藤泽站找了个饭店吃饭，美美拌好饭后发现上面的白色沙拉实际上是，芥末！天呢，杀人于无形！<br>
+晚饭后想找本地同人本店，因为想知道是否会有SD同人本，谷歌地图一番后发现本地只有两家二次元店：A店还有一家不知道什么名字的同人本店。过了八点A店关门了，另一家店离藤泽站不远，我和朋友就去了，地段诡异，进门前就觉得很怪，进门后就是真人AV女友的大奶和pussy，我不死心，转了一圈，里面正在看色情写真的工薪男缓缓扭头看我俩。友说我们快跑吧，我说我们都是成年人了有什么不能看的。但还是光速跑路。上楼到地面后我俩想着是不是走错地儿了，很机智地用电梯下楼，于是又回到熟悉的起点~~~<br>
+这偌大的藤泽竟然找不出第二个二次元，离开东京后我开始想念东京了！</p>
+<p>酒店在辻堂，和朋友办完入住后又走去海南大原型湘工大，说远不远，但走了很久，湘工大附高似乎在大学里面，谷歌显示入口在另一个地方，但是当时已经是晚上十点了，我和友已走了一天，不愿再走，就在大学校门口拍了个照。湘工大体育一直不错，有高中时期体育赛事拿奖的可以直接入读体育科，这学校似乎也出过不少国手。我们去时校门口正好挂了庆祝IH出场的横幅，但是没有篮球部~~</p>
+<p><font color=#069A8E>D4</font></p>
+<p>去了江之岛！<br>
+江之岛隔壁就有码头，来之前谷歌一番，最旧的码头应该就是仙道比赛后去钓鱼的那个码头，面对江之岛，当天天气很好，可以很清晰地看到富士山。恁会选地方！</p>
+<div style="text-align:center">
+<img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ图片20240220235026.jpg" height = "400px">
+</div>
+<p>路过抽签处，逢签必抽于是我又抽了！抽到了7番小吉。上到神社处后等朋友排队买御朱印，我又美美给流仙挂上恋爱绘马。<br>
+江之岛去年四月我已来过一遍，当时没有走到最上面，这次走到了将近顶端，顶上人少，安静许多，和朋友一起站着看海，能听到海风吹过海浪的声音，友说在这里简直像假的似的，太不真实了。</p>
+<div style="text-align:center">
+<img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ图片20240220235030.jpg"  height = "400px"><br><br>
+</div>
+<p>下午去坂之下，也要走挺久，要走到停车场为止。走过去时看到一群海鸟站在石头堆上罚站，一本正经，一鸟一石尖尖，也没鸟飞走，大家向着同一个方向，不知道的还以为在朝圣。<br>
+坂之下这儿其实是禁止攀登的，堤也挺高，应该有一米或者更多，回程时见到一大哥在努力攀爬，并且失败。他大概是见到我拿着的疯疯，在我们靠近时频频回头，果不其然我们走到了他问我这儿是流川枫那个吗。这为大哥是我来镰仓遇到的唯一一个灌粉，些微悲从中来了。</p>
+
+
+<p>23年四月回国前我来镰仓玩了半天，当时很不喜欢日本，但来了镰仓之后却觉得很平静，这一次来依旧如此觉得。本来还想去镰高附近逛逛，因为学校旁边就是居民区，不晓得会不会有什么小咖啡店之类的，但是行程紧张，最后也没逛成。这里海确实非常蓝，很干净，不过有闻到消毒水味，大概是一直在消毒清洁吧，空气中消毒水味还挺重的。btw鹰也很多！可以理解仙道为什么来这里，理由可以有很多，也可能只是单纯因为镰仓真的很清凉、缓慢，悠闲又舒适。有时间的话还想再来一趟，虽然总有一天会厌倦的，但目前为止还没有，总是意犹未尽。晚上在酒店都开始查本地房价了！</p>
+<h2 id="font-color417d7a京都fontbr"><font color=#417D7A>京都</font><br></h2>
+<p><font color=#069A8E>D5-8</font><br></p>
+<p>前一天晚上坐新干线去京都，很方便，可以到站再买自由票，有车就上，只要始发站与终点站对就行。京都基本上由朋友规划，我对看山不感兴趣，简略带过。京都冬季是淡季，琉璃光院等也都关门，许多寺庙都在休整，买了票也只能逛一半；还有不少是需要单独买庭院票的，一般都是去庭院看枯山水和云龙图。总的而言京都就是枯、山、水，唯一的好处是游客很少。<br>
+先去了岚山那边的两个什么寺，无关心甚至不记得名字，看了枯山水，但感想是不穿鞋好冷。岚山小火车停运，我和友也没坐上。之后与在京都念书的友会合，之后的行程一直都是我们仨一起。去打卡的一些景点：金阁寺、银阁寺、三十三间堂、建仁寺、东寺、因幡堂，还有我忘了。东寺可以买枫叶与篮球御守，本想买篮球御守，但不幸切了，但好像比较热门的枫叶御守还有。另外还打卡了小川咖啡（就在京都站）和Weekenders。后者味道还不错，达到了sporty的水平，友说有sporty的水平说明很好了呀，之前去东京的Koffee Mameya喝觉得很一般。<br>
+不过第一天去买电车一日券时遇到机器故障，我投入一万后机器就开始尖叫。我去电车站找staff，staff说这不归他们管，要问公交车司机，于是等公交车来后我又问司机，司机说这他也不知道怎么办，此时路过一位小姐姐，热心地问了情况后对司机说她会替我们给工作人员打电话。之后她觉得冷又怕我们冷，去买了暖宝宝送我们。樱花妹说她有个关系很好的朋友是中国人，一起上学一起学钢琴的，不过现在因为朋友父亲工作调动，朋友回上海了。我问她那去过中国吗，她说去过啊，去过好多地方，比我去得还多！最后她陪我们等了四十几分钟，等工作人员一路跑过来把人骂了一顿就走了（……）。感谢你，好心的樱花妹。<br>
+另外还在mandarake买到了仙道彰小卡！第一天去时买了一张流卡，第二天本想去买晴子，顺便问staff是否还有其他卡，他问我想要什么，我说我要仙道彰的，staff：なるほど。我：诶，你为什么なるほど？staff笑笑不说话。他问同事还有无其他原画卡，说了之后同事：なるほど！翻卡看到仙的卡，我当场尖叫出声（不好意思），很激动地和友说透支一下压岁钱吧，staff之一突然笑了，我问你为什么笑，你们一个两个反应都好奇怪呀！staff翻出他名牌，原来是中国人，好吧！最后买了好多张走。<br>
+隔壁的茑屋书店还有卖全新完全版，立刻入手几本，又给友带了四本回国。完全版真的，它真的，做得太好了！之后几天坐车都在翻完全版，太喜欢了，必收齐一整套。<br>
+放点疯疯图，抱歉每顿饭都要拍：</p>
+
+
+<p><font color=#069A8E>D9-10</font><br></p>
+<p>京都最后一天其实没玩，起床早饭后就去了大阪，中午到大阪后去了日本桥，一无所获……这里的二次元我都不认识。傍晚购入USJ 1.5日券，赶着关门前去了，进门后我和友就觉得来错了地方，我们不应该来这里，这是现充的游乐园，我俩还都恐高，压根没有什么能玩的，最后玩了……小黄人！<br>
+第二天又要来，起床后就有点不想去了，但是花了这么多钱买门票，遂早起排队等开园。先去了任天堂，赛车很好玩，对小火车兴致缺缺，游览一圈任天堂景区。不过任天堂区沉浸感做得很好，如果再大点就更好，而且也没有卡比，我们是卡比粉！<br>
+接着去HP区，HP的4D影院有点太刺激……又上又下的，这和坐过山车有什么区别？？3D有些过时，不过沉浸感还是挺好的，从不晕3D的本人晕3D了。下车后我和友头晕目眩，但叶面色如常，不愧是去玩了飞天翼龙的人！（并且这人还一边排HP园区一边画画，什么人啊这）<br>
+排某儿童项目（我和友菜得只能坐旋转木马）时突然降雪，只下了短短几分钟就停了，当天似乎京都已经下大雪了，两人一度想回京都瞅瞅。之后因为太冷了我们提早出去觅食，这个USJ至少是来过了，十年内应该都不会去主题乐园玩了。<br>
+最后一天早起回家，关西机场真的太小了，想要购物的话还是建议从成田走，关西机场可以说是巴掌大，什么都没有。</p>
+
+
+<p>单独放一张疯疯坐旋转木马：</p>
+<p><font color=#069A8E>你很美，你很特别，你有一点疏离，你和大家都不一样。<br>
+而疯疯就坐在角落，严肃地，由骑士守护着。你看看这花花世界，后面的都是牛鬼蛇神。</font></p>
+<img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/IMG_4688.JPG" height = "400px">
+<br>
+<h2 id="font-color417d7a地址fontbr"><font color=#417D7A>地址</font><br></h2>
+<p>Sporty：東京都目黒区東が丘２丁目１２−１９<br>
+<font color=#069A8E>（目黑站出来后不远）</font><br><br></p>
+<p>流川そば：東京都新宿区西新宿７丁目９−１５ 新宿ダイカンプラザ ビズネス 清田ビル 101<br>
+仙道そば：東京都中野区中野３丁目３３−１５ KHTビル １Ｆ<br>
+中野Broadway：東京都中野区中野５丁目５２−１５</p>
+<p><font color=#069A8E>（两地在中野JR一前一后，离中野站都不算太远，可以从新宿坐中央线到中野）</font><br><br></p>
+<p>武藏野北高等学校：東京都武蔵野市八幡町２丁目３−１０<br>
+田无神社：東京都西東京市田無町３丁目７−４</p>
+<p><font color=#069A8E>（两地之间可以坐公交直达）</font><br><br></p>
+<p>镰仓高校&amp;七里滨：坐江之电可达。<br>
+辻堂海岸（团地，电影良住的地方，我没去）：JR辻堂站，应该是在藤泽坐JR一站就到。<br>
+湘工大：辻堂站坐公交可达。<br>
+坂之下：稲村ケ崎駅，沿海岸线一直走，走到停车场处。此站另一方向是镰仓大佛。</p>
+<p>END</p>
 
             </div>
             
@@ -389,9 +393,9 @@ config.toml里写入：</p>
                     <span class="down-type-item">
                         <div class="type-text">
                             <a href='
-                                        /tags/hugo
+                                        /tags/%E6%97%85%E6%B8%B8
                                     '>
-                                <i class="fa fa-tag"></i> hugo
+                                <i class="fa fa-tag"></i> 旅游
                             </a>
                         </div>
                     </span>
@@ -405,13 +409,23 @@ config.toml里写入：</p>
                     
     
         
-        <a href="http://localhost:1313/posts/hellworld/" class="pre pre-last" style="text-align: center;">
+        <a href="http://localhost:1313/posts/recordjantomar/" class="pre">
             <span class="pre-icon"><i class="fa fa-hand-o-left"></i></span>
             <div class="pre-title-root">
-                <span>Hellworld</span>
+                <span>Record|1-3月书影</span>
             </div>
         </a>
         
+
+        
+        <a href="http://localhost:1313/posts/hellworld/" class="next">
+            <div class="next-title-root">
+                <span>Hellworld</span>
+            </div>
+            <span class="next-icon"><i class="fa fa-hand-o-right"></i></span>
+        </a>
+        
+
     
     
 
@@ -501,6 +515,26 @@ config.toml里写入：</p>
     </div>
     <div class="list">
         
+            <a href="http://localhost:1313/posts/log/">
+                
+<a href="http://localhost:1313/posts/log/">
+    <div class="list-item">
+        <div class="icon-other-root">
+            
+                <div class="icon-other" style="background-image: url(  );"></div>
+            
+        </div>
+        <div class="list-right">
+            <div class="other-title">
+                Hugo|从Hexo迁移到Hugo
+            </div>
+            <div class="other-summary">建站日记</div>
+            <div class="other-date">2024-3-7</div>
+        </div>
+    </div>
+</a>
+            </a>
+        
             <a href="http://localhost:1313/posts/hellworld/">
                 
 <a href="http://localhost:1313/posts/hellworld/">
@@ -516,26 +550,6 @@ config.toml里写入：</p>
             </div>
             <div class="other-summary">Hell World Again</div>
             <div class="other-date">2024-3-1</div>
-        </div>
-    </div>
-</a>
-            </a>
-        
-            <a href="http://localhost:1313/posts/travel-japan/">
-                
-<a href="http://localhost:1313/posts/travel-japan/">
-    <div class="list-item">
-        <div class="icon-other-root">
-            
-                <div class="icon-other" style="background-image: url(  );"></div>
-            
-        </div>
-        <div class="list-right">
-            <div class="other-title">
-                Record|去日本了！
-            </div>
-            <div class="other-summary">Records | 京都的枯山水是真正的枯·山·水 灌后想去日本，原定今年夏天去，但回国后还是想去，加上家里人也说想去就去呗反正日元贬值，之前的钱也取不出来，于是说走就走了！ 旅游的要义就是搭配合理，比如我什么也没干全部</div>
-            <div class="other-date">2024-2-3</div>
         </div>
     </div>
 </a>
