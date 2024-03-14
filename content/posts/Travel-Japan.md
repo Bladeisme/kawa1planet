@@ -3,8 +3,9 @@ title: "Record|去日本了！"
 toc: true
 date: 2024-02-03T16:20:14+11:00
 tags: [旅游]
-description: 枯山水是真正的枯-山-水。
+description: 
 categories: [旅游]
+Summary: "枯山水是真正的枯-山-水。"
 ---
 
 # <font color=#417D7A>Records | 京都的枯山水是真正的枯·山·水</font>
