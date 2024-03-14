@@ -52,6 +52,20 @@ showToc = true
         # style of theme: auto, light, dark
         mode = 'auto'
 
+## Waline
+    [params.waline]
+        enableWaline = true
+        walineServerURL = "https://planetwaline.vercel.app/"
+        walinePlaceholder = "坐，请讲。"
+        walineAvatar = "mp"
+        walineMeta = ["nick", "mail", "link"]
+        walinePageSize = 10
+        walineLang = "zh-CN"
+        walineHighlight = true
+        walineAvatarCDN = "monsterid"
+        walineRequiredFields = ["nick", "mail"]
+# 说明：https://waline.js.org/
+
 [[menu.main]]
     name = "主页"
     url = "/"
@@ -150,14 +164,6 @@ showToc = true
         # 最新文章最大显示数量
         maxPageNewestCount = 5
 
-
-  # Waline comment
-    [params.waline]
-    enable = true
-    serverURL = "kawa1planet.fun/"  #已绑定域名
-    avatar = "monsterid"
-    # 输入框提示文字
-    placeholder = '坐，请讲。'
 
     # footer
     # 页面底部配置
