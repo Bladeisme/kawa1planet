@@ -22,6 +22,7 @@ enableGitInfo = false
 # length of summary
 # 摘要的字数限制
 summaryLength = 100
+contentDir = 'content/posts/'
 
 # If true, auto-detect Chinese/Japanese/Korean Languages in the content.
 # This will make .Summary and .WordCount behave correctly for CJK languages.
