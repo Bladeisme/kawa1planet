@@ -1,12 +1,12 @@
 # Uncommented options are not recommended for modification
 # 未标注释的选项建议不要修改
 
-baseURL = 'http://kawa1planet.fun/'
+baseURL = 'http://xxx.xxx/'
 languageCode = 'en-us'
 
 # website title
 # 网站标题
-title = 'Kawa1Planet'
+title = 'NewBee'
 # theme
 # 主题
 theme = "NewBee"
@@ -21,17 +21,16 @@ enableRobotsTXT = true
 enableGitInfo = false
 # length of summary
 # 摘要的字数限制
-summaryLength = 100
+summaryLength = 50
 
 # If true, auto-detect Chinese/Japanese/Korean Languages in the content.
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 # 中日韩语言请改为 true
 hasCJKLanguage = true
-googleAnalytics = "G-5C3W6P2YX9"
 
 [author]
-    name = "Bladeisme"
-    description = "同人女"
+    name = "xioyito"
+    description = "Be Water, My Friend."
     # profile photo of author in author card
     # 作者头像
     image = "/images/author.jpeg"
@@ -46,7 +45,6 @@ googleAnalytics = "G-5C3W6P2YX9"
     series = "series"
     
 [params]
-showToc = true
     [params.site]
         onlyOneLang = false
         # style of theme: auto, light, dark
@@ -60,13 +58,13 @@ showToc = true
         homeTopImg = "/images/home.jpg"
         # title in home top image, support Markdown
         # 主页标题，支持Markdown语法
-        homeTitle = "Kawa1Planet"
+        homeTitle = "XIOYITO"
         # font size(px)
         # 主页标题字号（单位：px）
-        homeTitleFontSize = 35
+        homeTitleFontSize = 40
         # content in home top image, support Markdown
         # 主页内容，支持Markdown语法
-        homeContent = "卡哇1星球自转中"
+        homeContent = "Be Water, My Friend"
         # font size(px)
         # 主页内容字号（单位：px）
         homeContentFontSize = 20
@@ -104,7 +102,7 @@ showToc = true
         aboutTopImg = "/images/about.jpg"
         # description of about page
         # 子标题
-        aboutDes = "The Foxes Come at Night"
+        aboutDes = "description of about page"
 
         # default image for a post without "image" param
         # 当文章没有设置图片时，将用此图来替代
@@ -136,13 +134,6 @@ showToc = true
         visitor = true
         # 单页最大评论数目
         pageSize = 5
-
-  # Waline comment
-[params.waline]
-    enable = true
-    serverURL = "kawa1planet.fun/"  #已绑定域名
-    avatar = "monsterid"
-    placeholder = "坐，请讲。"     
 
     # footer
     # 页面底部配置
@@ -216,13 +207,13 @@ showToc = true
         lineAnchors = ''
         lineNoStart = 1
         # 显示每一行代码前的序号
-        lineNos = false
+        lineNos = true
         anchorLineNos = false
-        lineNumbersInTable = false
+        lineNumbersInTable = true
         noClasses = false
         noHl = false
         # 代码高亮样式，更多样式请移步：https://xyproto.github.io/splash/docs/
-        style = 'autumn'
+        style = 'monokailight'
         tabWidth = 4
 
     # enable the following code if there are html statements in your md file
