@@ -2,7 +2,6 @@
 title: "欢迎登陆卡哇1星球"
 date: 2024-03-05T00:38:47+11:00
 draft: false
-menu: "main"
 toc: false
 hidden: true
 tag: false
