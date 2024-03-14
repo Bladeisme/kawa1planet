@@ -50,6 +50,16 @@
     {{ if .Site.Params.waline.enable }}
         <script src='https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
     {{ end }}
+    {{ if and (.Params.comments | default .Site.Params.enableComments) (eq hugo.Environment "production") }}
+    {{ if or (in .Site.Params.mainSections .Section) .Params.comments }}
+
+       {{ if .Site.Params.enableWaline }}
+           {{ partial "comments.html" . }}
+       {{ end }}
+
+    {{ end }}
+{{ end }}
+
     {{ if .Params.math }}
         {{- partial "math-jax.html" . -}}
     {{ end }}
