@@ -47,23 +47,14 @@
         <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
     {{ end }}
-
-    {{ if and (.Params.comments | default .Site.Params.enableComments) (eq hugo.Environment "production") }}
-    {{ if or (in .Site.Params.mainSections .Section) .Params.comments }}
-
-       {{ if .Site.Params.enableWaline }}
-           <div id="waline"></div>
-       {{ end }}
-
+    {{ if .Site.Params.waline.enable }}
+        <script src='//cdnjs.cloudflare.com/ajax/libs/valine/1.5.0/Valine.min.js'></script>
     {{ end }}
-{{ end }}
-
-
     {{ if .Params.math }}
         {{- partial "math-jax.html" . -}}
     {{ end }}
     {{ if .Params.mermaid }}
-        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"></script>
     {{ end }}
     <script src="/js/lazysizes.min.js" async=""></script>
     <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
