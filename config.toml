@@ -250,9 +250,9 @@ showToc = true
         lineNoStart = 1
         # 显示每一行代码前的序号
         lineNos = false
-        anchorLineNos = false
+        anchorLineNos = true
         lineNumbersInTable = false
-        noClasses = false
+        noClasses = true
         noHl = false
         # 代码高亮样式，更多样式请移步：https://xyproto.github.io/splash/docs/
         style = 'autumn'
@@ -262,4 +262,4 @@ showToc = true
     # 如果md文件中有html语句，请启用以下代码
     # [markup.goldmark]
     #     [markup.goldmark.renderer]
-    #         unsafe = true
+    #         unsafe = false
