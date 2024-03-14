@@ -4,6 +4,7 @@ date: {{ .Date }}
 draft: true
 description: 
 tag: 
+series:
 categories:
 toc: false
 hidden: 
