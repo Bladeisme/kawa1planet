@@ -150,32 +150,14 @@ showToc = true
         # 最新文章最大显示数量
         maxPageNewestCount = 5
 
-    # Valine comment
-    # Valine评论（详情请移步：https://valine.js.org/）
-    [params.valine]
-        # 是否开启Valine评论系统
-        enable = false
-        # appid，具体请参考：https://valine.js.org/configuration.html#appId
-        appid = 'xxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxx'
-        # appKey，具体请参考：https://valine.js.org/configuration.html#appKey
-        appkey = 'xxxxxxxxxxxxxxxxxxxxxxxx'
-        # 输入框提示文字
-        placeholder = '输入你的评论'
-        # 头像，具体请参考：https://valine.js.org/avatar.html
-        avatar = 'robohash'
-        # 评论时要求的必须填写项，可选值：['nick']或['nick','mail']
-        requiredFields = ['nick']
-        # 文章访问量统计
-        visitor = true
-        # 单页最大评论数目
-        pageSize = 5
 
   # Waline comment
     [params.waline]
     enable = true
     serverURL = "kawa1planet.fun/"  #已绑定域名
     avatar = "monsterid"
-    placeholder = "坐，请讲。"     
+    # 输入框提示文字
+    placeholder = '坐，请讲。'
 
     # footer
     # 页面底部配置
@@ -261,7 +243,7 @@ showToc = true
 
     # enable the following code if there are html statements in your md file
     # 如果md文件中有html语句，请启用以下代码
-    
+
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true

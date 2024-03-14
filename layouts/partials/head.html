@@ -47,9 +47,18 @@
         <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
     {{ end }}
-    {{ if .Site.Params.valine.enable }}
-        <script src='//cdnjs.cloudflare.com/ajax/libs/valine/1.5.0/Valine.min.js'></script>
+
+    {{ if and (.Params.comments | default .Site.Params.enableComments) (eq hugo.Environment "production") }}
+    {{ if or (in .Site.Params.mainSections .Section) .Params.comments }}
+
+       {{ if .Site.Params.enableWaline }}
+           <div id="waline"></div>
+       {{ end }}
+
     {{ end }}
+{{ end }}
+
+
     {{ if .Params.math }}
         {{- partial "math-jax.html" . -}}
     {{ end }}
