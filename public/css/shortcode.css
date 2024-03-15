@@ -270,7 +270,7 @@ figure img {
 }
 
 .swiper-slide img {
-    width: 100%; /* 图片宽度自适应容器 */
-    height: auto; /* 图片高度自适应宽度 */
+    width: auto; /* 图片宽度自适应容器 */
+    height: 400px; /* 图片高度自适应宽度 */
     margin: 0; /* 可选：去除图片的默认 margin */
 }
