@@ -72,14 +72,14 @@
     {{ end }}
 </div>
 {{ if $isPage }}
-    {{ if or .Site.Menus.sponsor .Site.Params.valine.enable }}
+    {{ if or .Site.Menus.sponsor .Site.Params.waline.enable }}
         <div class="content-last">
             {{ if .Site.Menus.sponsor }}
                 <button class="aixin content-last-item efct-button">
                     <i class="fa fa-heart"></i>
                 </button>
             {{ end }}
-            {{ if .Site.Params.valine.enable }}
+            {{ if .Site.Params.waline.enable }}
                 <button class="pinglun content-last-item efct-button">
                     <i class="fa fa-comment"></i>
                 </button>

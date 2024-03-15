@@ -1,5 +1,3 @@
-{{ if and (.Params.comments | default .Site.Params.enableComments) (eq hugo.Environment "production") }}
-
 
 <head>
     <!-- ... -->
@@ -21,5 +19,3 @@
       });
     </script>
   </body>
-  
-  {{ end }}

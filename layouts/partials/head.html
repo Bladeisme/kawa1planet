@@ -26,9 +26,6 @@
     <link rel="stylesheet" href='{{ "css/home.css" | relURL }}' />
     <!-- 1 -->
     <link rel="stylesheet" href='{{ "css/syntax.css" | relURL }}' />
-    {{ if .Site.Params.valine.enable }}
-        <link rel="stylesheet" href='{{ "css/comment.css" | relURL }}' />
-    {{ end }}
     <link rel="stylesheet" href='{{ "css/shortcode.css" | relURL }}' />
     
     {{ if eq .Site.Params.Site.Mode "dark" }}
@@ -48,9 +45,6 @@
         <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
     {{ end }}
     
-    {{ if .Site.Params.waline.enable }}
-        <script src='https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
-    {{ end }}
 
     {{ if .Params.math }}
         {{- partial "math-jax.html" . -}}

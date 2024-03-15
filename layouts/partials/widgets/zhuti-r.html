@@ -1,4 +1,4 @@
-{{ $enable_mulu := and .Site.Params.Valine.enable (or (eq .Section "about") (eq .Kind "page")) }}
+{{ $enable_mulu := and .Site.Params.waline.enable (or (eq .Section "about") (eq .Kind "page")) }}
 <div class="zhuti-r-0">
     <div class="zhuti-r-1">
         {{ if $enable_mulu }}
