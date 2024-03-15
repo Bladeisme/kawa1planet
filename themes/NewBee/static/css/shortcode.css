@@ -260,20 +260,10 @@ figure img {
 
 /* 轮播图 */
 
-.swiper-container {
-    max-height: 400px;
-    width: auto; 
-    margin: 2em auto;
-}
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background-color: hsla(var(--color-contrast-lower-h), var(--color-contrast-lower-s), var(--color-contrast-lower-l), 0.5);
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    img {
-        margin: 0 !important;
-    }
+/* 在此处添加到你的CSS样式表中 */
+
+.swiper-slide img {
+    width: 100%; /* 图片宽度自适应容器 */
+    height: auto; /* 图片高度自适应宽度 */
+    margin: 0; /* 可选：去除图片的默认 margin */
 }
