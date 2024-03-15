@@ -263,14 +263,14 @@ figure img {
 /* 在此处添加到你的CSS样式表中 */
 
 .swiper-container {
-    max-height: 400px; /* 设置轮播容器的最大高度 */
-    width: auto; /* 让容器宽度自适应 */
+    max-width: 500px; /* 让容器宽度自适应 */
+    height: auto; /* 设置轮播容器的最大高度 */
     margin: 2em auto; /* 可选：调整轮播容器的上下边距 */
     overflow: hidden; /* 可选：隐藏超出容器的部分 */
 }
 
 .swiper-slide img {
-    width: auto; /* 图片宽度自适应容器 */
-    height: 400px; /* 图片高度自适应宽度 */
+    width: 500px; /* 图片宽度自适应容器 */
+    height: auto; /* 图片高度自适应宽度 */
     margin: 0; /* 可选：去除图片的默认 margin */
 }
