@@ -294,9 +294,27 @@
 </div>
 
     
+        <div class="content-last">
+            
+            
+                <button class="pinglun content-last-item efct-button">
+                    <i class="fa fa-comment"></i>
+                </button>
+            
+        </div>
+    
     
     <div id="waline"></div>
-    
+    <script type="module">
+        import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+  
+        init({
+          el: '#waline',
+          serverURL: 'https://planetwaline.vercel.app',
+          lang: 'zh-CN',
+  
+        });
+      </script>
 
 
             </div>
@@ -304,6 +322,11 @@
                 
 <div class="zhuti-r-0">
     <div class="zhuti-r-1">
+        
+            <div class="button-r">
+                <button class="button-mulu efct-button" type="button"><span><i class="fa fa-bars"></i></span><span class="bars-text"> 目录</span></button>
+                <button class="button-comment efct-button" type="button"><span><i class="fa fa-comment"></i></span><span class="comment-text"> 评论</span></button>
+            </div>
         
         <div id="r1">
             
@@ -421,6 +444,15 @@
         </div>
         <div id="r2">
             
+    <div id="waline"></div>
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+  
+      init({
+        el: '#waline',
+        serverURL: 'https://planetwaline.vercel.app',
+      });
+    </script>
         </div> 
     </div>
 </div>

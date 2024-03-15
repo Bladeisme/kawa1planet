@@ -55,7 +55,7 @@ showToc = true
 
 ## Waline
     [params.waline]
-        enableWaline = true
+        enable = true
         walineServerURL = "https://planetwaline.vercel.app/"
         walinePlaceholder = "坐，请讲。"
         walineAvatar = "mp"
