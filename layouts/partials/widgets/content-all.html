@@ -114,7 +114,7 @@
           /* 主题色 */
           --waline-font-size: 1rem ;
           --waline-theme-color: #154c47;
-          --waline-active-color: #f04853c4;
+          --waline-active-color: #335c5f;
           --waline-color: #154c47;
           --waline-bg-color: transparent;
           --waline-bgcolor-light: rgba(200, 200, 200, 0.4);
@@ -131,27 +131,30 @@
           --waline-avatar-radius: 50%;
         }
 
-        html[class="scroll-smooth dark"]{
-            /* 常规颜色 */
-            --waline-white: #000;
+ /*夜间模式*/
+         :root[data-scheme="dark"] {
+            --waline-theme-color: #acc6e0;
+            --waline-white: #34495e; /*按键字体颜色*/
+            --waline-active-color: #335c5f;
             --waline-light-grey: #666;
-            --waline-dark-grey: #999;
+            --waline-dark-grey: #5c8c88; /*ID颜色*/
+            --waline-badge-color: #acc6e0;
 
             /* 布局颜色 */
-            --waline-color: #888;
-            --waline-bg-color: #1e1e1e;
-            --waline-bg-color-light: #272727;
-            --waline-border-color: #333;
-            --waline-disable-bg-color: #444;
+            --waline-text-color: rgba(255, 255, 255, 0.7);
+            --waline-bgcolor: transparent;
+            --waline-bgcolor-light: #66696b;/*行内代码块颜色*/
+            --waline-border-color: #5c8c88;
+            --waline-disable-bgcolor: #444;
             --waline-disable-color: #272727;
 
             /* 特殊颜色 */
-            --waline-bq-color: #272727;
+            --waline-bq-color:  #9B9C9C; /*quote*/
 
             /* 其他颜色 */
-            --waline-info-bg-color: #272727;
-            --waline-info-color: #666;
-            }
+            --waline-info-bgcolor: #acc6e0;
+            --waline-info-color: #9B9C9C;
+        }
 
         .comment-waline{
           /*

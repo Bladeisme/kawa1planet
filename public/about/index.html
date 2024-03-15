@@ -301,7 +301,7 @@
            
           --waline-font-size: 1rem ;
           --waline-theme-color: #154c47;
-          --waline-active-color: #f04853c4;
+          --waline-active-color: #335c5f;
           --waline-color: #154c47;
           --waline-bg-color: transparent;
           --waline-bgcolor-light: rgba(200, 200, 200, 0.4);
@@ -318,27 +318,30 @@
           --waline-avatar-radius: 50%;
         }
 
-        html[class="scroll-smooth dark"]{
-             
-            --waline-white: #000;
+  
+         :root[data-scheme="dark"] {
+            --waline-theme-color: #acc6e0;
+            --waline-white: #34495e;  
+            --waline-active-color: #335c5f;
             --waline-light-grey: #666;
-            --waline-dark-grey: #999;
+            --waline-dark-grey: #5c8c88;  
+            --waline-badge-color: #acc6e0;
 
              
-            --waline-color: #888;
-            --waline-bg-color: #1e1e1e;
-            --waline-bg-color-light: #272727;
-            --waline-border-color: #333;
-            --waline-disable-bg-color: #444;
+            --waline-text-color: rgba(255, 255, 255, 0.7);
+            --waline-bgcolor: transparent;
+            --waline-bgcolor-light: #66696b; 
+            --waline-border-color: #5c8c88;
+            --waline-disable-bgcolor: #444;
             --waline-disable-color: #272727;
 
              
-            --waline-bq-color: #272727;
+            --waline-bq-color:  #9B9C9C;  
 
              
-            --waline-info-bg-color: #272727;
-            --waline-info-color: #666;
-            }
+            --waline-info-bgcolor: #acc6e0;
+            --waline-info-color: #9B9C9C;
+        }
 
         .comment-waline{
            
