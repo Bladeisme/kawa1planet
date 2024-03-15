@@ -28,6 +28,11 @@
     <link rel="stylesheet" href='{{ "css/syntax.css" | relURL }}' />
     <link rel="stylesheet" href='{{ "css/shortcode.css" | relURL }}' />
     
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+  
     {{ if eq .Site.Params.Site.Mode "dark" }}
     <!-- 1 -->
         <link rel="stylesheet" href='{{ "css/style-dark.css" | relURL }}' />
