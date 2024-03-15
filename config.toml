@@ -46,14 +46,12 @@ googleAnalytics = "G-5C3W6P2YX9"
     series = "series"
     
 [params]
+enableimgloop = true
 showToc = true
     [params.site]
         onlyOneLang = false
         # style of theme: auto, light, dark
         mode = 'auto'
-
-    [params.imgloop]
-        enableimgloop = true
 
 ## Waline
     [params.waline]
