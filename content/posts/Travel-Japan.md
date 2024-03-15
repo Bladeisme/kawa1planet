@@ -33,7 +33,7 @@ Summary: "枯山水是真正的枯-山-水。"
 
 早上去了sporty喝咖啡，权当早饭，没想到这就是我们在日本喝到的巅峰了！店主小姐姐的手艺很好。后来又去小川，发现用的也是一样的豆子，可是味道却不如sporty这个小姐姐的。而且她的拿铁是先手冲之后加奶做的，拉花也手艺高超！sporty也是体育用品店，店里的手冲杯架子还是篮球架，于是立刻拿出来和我的小猴合影了！  
 
-{{< imgloop "https://raw.githubusercontent.com/Bladeisme/blog-img/master/IMG_4197.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ图片20240220222918.jpg" >}}
+{{< imgloop "https://raw.githubusercontent.com/Bladeisme/blog-img/master/IMG_4197.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ图片20240220222918.jpg" maxHeight="400px" >}}
 
 中午原计划在仙道そば吃午饭，我和友思来想去都觉得这个面真的不好吃要不还是别吃了，于是扭头就走。仙道そば和broadway正好在中野站一前一后，先去了中古店，简直本子爱好者的同人女天堂，但是时间紧急没能多逛，然后又火速去仙道そば对面拍了个照闪现就跑。  
 
