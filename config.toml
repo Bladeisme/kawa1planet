@@ -56,16 +56,6 @@ showToc = true
 ## Waline
     [params.waline]
         enable = true
-        walineServerURL = "https://planetwaline.vercel.app/"
-        walinePlaceholder = "坐，请讲。"
-        walineAvatar = "mp"
-        walineMeta = ["nick", "mail", "link"]
-        walinePageSize = 10
-        walineLang = "zh-CN"
-        walineHighlight = true
-        walineAvatarCDN = "monsterid"
-        walineRequiredFields = ["nick", "mail"]
-# 说明：https://waline.js.org/
 
 [[menu.main]]
     name = "主页"
