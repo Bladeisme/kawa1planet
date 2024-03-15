@@ -56,8 +56,6 @@ showToc = true
 ## Waline
     [params.waline]
         enable = true
-        emoji = "https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png,https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan,https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif"
-        placeholder = "坐，请讲。"
 
 [[menu.main]]
     name = "主页"
