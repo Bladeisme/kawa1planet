@@ -1049,7 +1049,6 @@
          'https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan',
          'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
         ],
-        dark: 'html[class="scroll-smooth dark"]',
       });
     </script>
 
@@ -1068,12 +1067,12 @@
   :root{
      
     --waline-font-size: 1rem ;
-    --waline-theme-color: #154c47;
+    --waline-theme-color: #5c8c88;
     --waline-active-color: #335c5f;
-    --waline-color: #154c47;
+    --waline-color: #5c8c88;
     --waline-bg-color: transparent;
     --waline-bgcolor-light: rgba(200, 200, 200, 0.4);
-    --waline-border-color: #154c47;
+    --waline-border-color: #5c8c88;
     --waline-disable-bgcolor: #FAF9F7;
     --waline-avatar-size:5rem !important;
     --waline-m-avatar-size:calc(var(--waline-avatar-size)*9/13) !important; 
@@ -1087,7 +1086,7 @@
   }
 
  
-    html[class="scroll-smooth dark"]{
+  :root[data-scheme="dark"] {
       --waline-theme-color: #acc6e0;
       --waline-white: #34495e;  
       --waline-active-color: #335c5f;
