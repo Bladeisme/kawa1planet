@@ -261,8 +261,8 @@ figure img {
 /* 轮播图 */
 
 .swiper-container {
-    height: auto; 
-    max-width: 500px;
+    max-height: 600px; 
+    max-width: 820px
     margin: 2em auto;
 }
 .swiper-slide {
