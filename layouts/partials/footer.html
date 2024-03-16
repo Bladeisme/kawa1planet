@@ -1,4 +1,16 @@
 <footer class="footer">
+
+    {{$scratch := newScratch}}
+    {{ range (where .Site.Pages "Kind" "page" )}}
+        {{$scratch.Add "total" .WordCount}}
+    {{ end }}
+
+    {{ $articleCount := len .Site.RegularPages }}
+    {{ $totalWordCount := 0 }}
+    {{ range .Site.Pages }}
+    {{ $totalWordCount = add $totalWordCount .WordCount }}
+    {{ end }}
+
     {{ if .Site.Params.footer.enable }}
         <div class="container">
             <div class="footer-items">
@@ -12,6 +24,8 @@
                     <div class="footer-item">
                         © {{ .Site.Params.footer.from }}-{{ now.Format "2006" }} <a href="{{ .Site.Author.link }}">{{ .Site.Author.name }}</a>
                     </div>
+                    <div>卡哇1星球自转 <span id="days">0</span></div>
+                    <div>已生产 {{ $articleCount }} 篇文章，共 {{ $totalWordCount }} 字</div>
                 {{ end }}
                 {{ if .Site.Params.footer.themeInfo }}
                     <div class="footer-item">
