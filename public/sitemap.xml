@@ -2,38 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-03-16T23:59:07+11:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-03-16T23:59:07+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-03-16T23:59:07+11:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sd/</loc>
-    <lastmod>2024-03-16T23:59:07+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
-    <lastmod>2024-03-16T23:59:07+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/series/snow-blindness/%E9%9B%AA%E7%9B%B2/</loc>
-    <lastmod>2024-03-16T23:59:07+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-03-16T23:59:07+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E6%B5%81%E4%BB%99/</loc>
-    <lastmod>2024-03-16T23:59:07+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/aftersun/</loc>
-    <lastmod>2024-03-16T23:59:07+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E5%90%8C%E4%BA%BA/</loc>
-    <lastmod>2024-03-16T23:59:07+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/uzak/</loc>
-    <lastmod>2024-03-16T23:31:09+11:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-03-07T20:57:13+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2024-03-07T20:57:13+11:00</lastmod>
@@ -42,6 +18,9 @@
     <lastmod>2024-03-07T20:57:13+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/log2/</loc>
+    <lastmod>2024-03-07T20:57:13+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-03-07T20:57:13+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/log/</loc>
@@ -65,6 +44,9 @@
     <loc>http://localhost:1313/tags/jojo/</loc>
     <lastmod>2023-01-02T12:17:59+11:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2023-01-02T12:17:59+11:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/series/symphony-of-klein/</loc>
     <lastmod>2023-01-02T12:17:59+11:00</lastmod>
   </url><url>
@@ -72,6 +54,9 @@
     <lastmod>2023-01-02T12:17:59+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/thebygonelove/</loc>
+    <lastmod>2023-01-02T12:17:59+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E5%90%8C%E4%BA%BA/</loc>
     <lastmod>2023-01-02T12:17:59+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/trotn/</loc>

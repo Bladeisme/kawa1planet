@@ -6,15 +6,8 @@
     <description>Recent content in Categories on Kawa1Planet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Mar 2024 23:59:07 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 07 Mar 2024 20:57:13 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>同人</title>
-      <link>http://localhost:1313/categories/%E5%90%8C%E4%BA%BA/</link>
-      <pubDate>Sat, 16 Mar 2024 23:59:07 +1100</pubDate>
-      <guid>http://localhost:1313/categories/%E5%90%8C%E4%BA%BA/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Hugo</title>
       <link>http://localhost:1313/categories/hugo/</link>
@@ -27,6 +20,13 @@
       <link>http://localhost:1313/categories/%E6%97%85%E6%B8%B8/</link>
       <pubDate>Sat, 03 Feb 2024 16:20:14 +1100</pubDate>
       <guid>http://localhost:1313/categories/%E6%97%85%E6%B8%B8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>同人</title>
+      <link>http://localhost:1313/categories/%E5%90%8C%E4%BA%BA/</link>
+      <pubDate>Mon, 02 Jan 2023 12:17:59 +1100</pubDate>
+      <guid>http://localhost:1313/categories/%E5%90%8C%E4%BA%BA/</guid>
       <description></description>
     </item>
     <item>
