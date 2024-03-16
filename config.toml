@@ -158,7 +158,7 @@ showToc = true
         # whether to enable footer
         enable = true
         # copyright
-        copyRight = false
+        copyRight = true
         from = 2022
         # wheher to enable count of visitor and view
         visitor = true

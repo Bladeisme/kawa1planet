@@ -565,6 +565,36 @@
                     </div>
                 
                 
+                    <div class="footer-item">
+                        © 2022-2024 <a href="https://weibo.com/6500612922">Bladeisme</a>
+                    </div>
+                    
+
+                    <div>星球已自转 <span id="days">0</span></div>
+                    
+                    <script>
+                        var s0 = '';
+                        s1 = new Date(s0.replace(/-/g, "/"));
+                        s2 = new Date();
+                        var days = s2.getTime() - s1.getTime();
+                      
+                        var date = new Date;
+                        var year = date.getFullYear();
+                        document.getElementById('year').innerHTML = year;
+                      
+                        var BootDate = new Date("");
+                        function ShowRunTime(id) {
+                          var NowDate = new Date();
+                          var RunDateM = parseInt(NowDate - BootDate);
+                          var RunDays = Math.floor(RunDateM / (24 * 3600 * 1000));
+                          var days = RunDays + "天";
+                          document.getElementById(id).innerHTML = days;
+                        }
+                        ShowRunTime('days');
+                        setInterval("ShowRunTime('days')", 1000);
+                      </script>
+
+                    <div>已生产 6 篇文章，共 34488 字</div>
                 
 
                 

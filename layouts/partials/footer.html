@@ -22,9 +22,12 @@
                 {{ end }}
                 {{ if .Site.Params.footer.copyRight }}
                     <div class="footer-item">
-                        © {{ .Site.Params.footer.from }}-{{ now.Format "2006" }} <a href="{{ .Site.Author.link }}">{{ .Site.Author.name }}</a>，星球已自转 <span id="days">0</span>
+                        © {{ .Site.Params.footer.from }}-{{ now.Format "2006" }} <a href="{{ .Site.Author.link }}">{{ .Site.Author.name }}</a>
                     </div>
+                    {{ end }}
 
+                    <div>星球已自转 <span id="days">0</span></div>
+                    
                     <script>
                         var s0 = '{{ .Site.Params.buildDate }}';
                         s1 = new Date(s0.replace(/-/g, "/"));
@@ -48,7 +51,6 @@
                       </script>
 
                     <div>已生产 {{ $articleCount }} 篇文章，共 {{ $totalWordCount }} 字</div>
-                {{ end }}
                 
 
                 {{ if .Site.Params.footer.themeInfo }}
