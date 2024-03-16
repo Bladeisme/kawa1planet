@@ -20,25 +20,34 @@
                         <i class="fa fa-eye"></i> <span id="busuanzi_value_site_uv"></span>
                     </div>
                 {{ end }}
+                {{ if .Site.Params.footer.copyRight }}
+                    <div class="footer-item">
+                        © {{ .Site.Params.footer.from }}-{{ now.Format "2006" }} <a href="{{ .Site.Author.link }}">{{ .Site.Author.name }}</a>,星球已自转<span id="days">0</span>天
+                    </div>
+                    {{ end }}
 
-
-
-                    <section class="copyright">
-                        &copy; 
-                        {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
-                            {{ .Site.Params.footer.since }} - 
-                        {{ end }}
-                        {{ now.Format "2006" }} <a href="{{ .Site.Author.link }}">卡哇1星球</a>已自转<i class="fas fa-bell"></i> <a id="days">0</a>天<br>
-                    </section>
-                
                     <script>
-                        var s1 = '2022-04-08';//设置为建站时间
-                        s1 = new Date(s1.replace(/-/g, "/"));
+                        var s0 = '2022-04-08';
+                        s1 = new Date(s0.replace(/-/g, "/"));
                         s2 = new Date();
                         var days = s2.getTime() - s1.getTime();
-                        var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
-                        document.getElementById('days').innerHTML = number_of_days;
-                      </script>
+                      
+                        var date = new Date;
+                        var year = date.getFullYear();
+                        document.getElementById('year').innerHTML = year;
+                      
+                        var BootDate = new Date('2022-04-08');
+                        function ShowRunTime(id) {
+                          var NowDate = new Date();
+                          var RunDateM = parseInt(NowDate - BootDate);
+                          var RunDays = Math.floor(RunDateM / (24 * 3600 * 1000));
+                          var days = RunDays + "天";
+                          document.getElementById(id).innerHTML = days;
+                        }
+                        ShowRunTime('days');
+                        setInterval("ShowRunTime('days')", 1000);
+                    </script>
+                      
 
                     <div>已生产 {{ $articleCount }} 篇文章，共 {{ $totalWordCount }} 字</div>
                 
