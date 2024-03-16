@@ -52,6 +52,7 @@ showToc = true
         onlyOneLang = false
         # style of theme: auto, light, dark
         mode = 'auto'
+buildDate = "2022-04-08"
 
 ## Waline
     [params.waline]
