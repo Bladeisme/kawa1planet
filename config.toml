@@ -164,7 +164,7 @@ showToc = true
         visitor = true
         # wheher to enable theme information
         themeInfo = true
-        buildDate = "2022-04-08"
+
 
     # aplayer, se  more: https://aplayer.js.org/#/zh-Hans/
     # 音乐播放器配置，详情请移步：https://aplayer.js.org/#/zh-Hans/
