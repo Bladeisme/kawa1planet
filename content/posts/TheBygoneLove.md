@@ -1,5 +1,5 @@
 ---
-title: "布茸/旧时代爱人"
+title: "布茸|旧时代爱人"
 toc: false
 date: 2023-01-02T12:17:59+11:00
 tags: [JOJO,布茸]
