@@ -57,21 +57,24 @@ config.toml里写入：
 之后还想添加站点总字数和总篇数，~~抄太多了想不起来抄自哪里了（抱歉！）~~。  
 我使用的代码：
 
-```站点统计
-close
+```
   {{$scratch := newScratch}}
   {{ range (where .Site.Pages "Kind" "page" )}}
       {{$scratch.Add "total" .WordCount}}
-  {{ end }}</code></pre>
-  看不懂放在哪里，遂放在<code>\<footer id="footer"></code>下一行。
+  {{ end }}
+  ```
+  看不懂放在哪里，遂放在`<footer id="footer">`下一行。
   接下来是：
-  <pre><code>{{ $articleCount := len .Site.RegularPages }}
+  ```
+  {{ $articleCount := len .Site.RegularPages }}
   {{ $totalWordCount := 0 }}
   {{ range .Site.Pages }}
   {{ $totalWordCount = add $totalWordCount .WordCount }}
-  {{ end }}</code></pre>
-  在<code>< div>卡哇1星球自转 < span id="days">0< /span>< /div></code>这一行后加入
-  <pre><code>< div>已生产 {{ $articleCount }} 篇文章，共 {{ $totalWordCount }} 字< /div>
+  {{ end }}
+  ```
+  在`< div>卡哇1星球自转 < span id="days">0< /span>< /div>`这一行后加入
+```
+< div>已生产 {{ $articleCount }} 篇文章，共 {{ $totalWordCount }} 字< /div>
   /* 去掉空格 */
 ```
 
