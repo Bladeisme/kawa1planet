@@ -9,6 +9,7 @@ categories:
 toc: false
 hidden: 
 Summary:
+image: "/images/default.jpg"
 ---
 
 Hell World Again

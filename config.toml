@@ -114,28 +114,24 @@ showToc = true
         categoryTopImg = "/images/categories.jpg"
         # description of categories terms page
         # 子标题
-        categoryDes = "description of categories page"
 
         # top image in series terms page
         # 系列页面的顶部图
         seriesTopImg = "/images/series.jpg"
         # description of series terms page
         # 子标题
-        seriesDes = "description of series page"
 
         # top image in tags terms page
         # 标签页面的顶部图
         tagTopImg = "/images/tag.jpg"
         # description of tags terms page
         # 子标题
-        tagDes = "description of tags page"
 
         # top image in allposts page
         # 所有文章页面的顶部图
         allPostsTopImg = "/images/allPosts.jpg"
         # description of allposts page
         # 子标题
-        allPostsDes = "description of allposts page"
 
         # top image in about page
         # 关于页面的顶部图
@@ -149,11 +145,11 @@ showToc = true
         postsTopImg = "/images/default.jpg"
         
         # 主页文章最大显示数量
-        maxHomePostCount = 5
+        maxHomePostCount = 6
         # 相关文章最大显示数量
-        maxPageRelatedCount = 5
+        maxPageRelatedCount = 3
         # 最新文章最大显示数量
-        maxPageNewestCount = 5
+        maxPageNewestCount = 3
 
 
     # footer

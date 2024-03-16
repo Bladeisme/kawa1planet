@@ -6,6 +6,7 @@ tags: [JOJO,布茸]
 series: [Symphony of Klein]
 Summary: "我在十五岁时遇到乔鲁诺，他说这是个好年纪，相逢的人会再相逢。"
 categories: [同人]
+image: "/images/default.jpg"
 ---
 
 又名《我的一个朋友乔鲁诺》<br>

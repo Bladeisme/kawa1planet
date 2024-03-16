@@ -6,6 +6,7 @@ tags: [JOJO,布茸]
 series: [Symphony of Klein]
 Summary: "就在这时，欧律狄刻两只充满悲哀和柔情的眼死死地盯着他，飘然坠回那令人毛骨悚然的深渊。她又遭遇了第二次死，但没有哀怨，——假如她能抱怨的话，那她也只能怨她被爱得太深了。"
 categories: [同人]
+image: "/images/default.jpg"
 ---
 
 旧文存档<br>

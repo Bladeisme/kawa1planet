@@ -6,6 +6,7 @@ tags: [旅游]
 description: 
 categories: [旅游]
 Summary: "枯山水是真正的枯-山-水。"
+image: "/images/default.jpg"
 ---
 
 # <font color=#417D7A>Records | 京都的枯山水是真正的枯·山·水</font>

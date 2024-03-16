@@ -1,12 +1,14 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+lastmod:
 draft: true
 description: 
 tag: 
 series:
 categories:
 toc: false
-hidden: 
+hideFromHomePage:
 Summary:
+image: "/images/default.jpg"
 ---

@@ -8,6 +8,7 @@ categories: [hugo]
 toc: true
 hidden: 
 Summary: "建站日记"
+image: "/images/default.jpg"
 ---
 
 <font color=#417D7A>搬家！</font>

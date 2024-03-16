@@ -5,6 +5,8 @@ tags: [Record,电影,读书]
 categories: [Record]
 toc: true
 Summary: "例行的书影记录。以下都摘自我的毛象嘟文。"
+image: "/images/default.jpg"
+hideFromHomePage: true
 ---
 <!--more-->
 
