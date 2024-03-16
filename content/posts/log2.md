@@ -18,7 +18,7 @@ image: "/images/default.jpg"
 不过之前在其他人的博客看到了订阅功能并且能够一月一发送邮件，觉得还蛮好玩的，暂时订阅了观察一阵子！
 
 ## <font color=#417D7A>给评论区增加表情包</font>
-看安装方式添加emoji的方法也不同，我的之前所述css等都写在`comment.html`里，直接修改config无效我也不知道为什么，可能因为没添加相关语法吧。这次我也直接在`comment.html`>里修改了。  
+看安装方式添加emoji的方法也不同，我的之前所述css等都写在`comment.html`里，直接修改config无效我也不知道为什么，可能因为没添加相关语法吧。这次我也直接在`comment.html`里修改了。  
 在`serverURL`这一行之后、`]`之前添加  
 ```
 emoji: [
