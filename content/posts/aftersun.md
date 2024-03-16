@@ -10,7 +10,7 @@ categories: [同人]
 toc: false
 hideFromHomePage:
 Summary: "流川忽然意识到他的假期很长，离去东京参加训练还有许久，他还不知道要做些什么。"
-image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/aftersun.jpg"
+image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/cover.jpg"
 ---
 
 ## <font color=#417D7A>Aftersun/晒后假日</font>
