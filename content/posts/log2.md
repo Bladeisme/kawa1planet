@@ -11,6 +11,8 @@ Summary: "解决不了问题就解决提出问题的东西"
 image: "/images/default.jpg"
 ---
 
+# <font color=#417D7A>修改，从入门到重新投胎</font>
+
 ## <font color=#417D7A>RSS订阅</font>
 略一研究，不是很想使用，想必也没人会订阅，而且我写了会发长毛象！博客自带该功能，我直接取消了。检查之后发现about页面里还有，打开<code>about.xml</code>删除相关语法。  
 不过之前在其他人的博客看到了订阅功能并且能够一月一发送邮件，觉得还蛮好玩的，暂时订阅了观察一阵子！
@@ -60,8 +62,6 @@ emoji: [
 ## <font color=#417D7A>添加轮播图</font>
 部分参考[《Hugo | 在文章中插入轮播图片》](https://mantyke.icu/posts/2021/cf2cf0fb/)，在`shortcodes`文件夹下新建`imgloop.html`文件，
 ```
-close
-
 {{ if .Site.Params.enableimgloop }}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
     <!-- Swiper -->
@@ -151,3 +151,27 @@ show_date_time();
 ```
 
 **文章总篇数修改方式不变~**
+
+## <font color=#417D7A>隐藏文章</font>
+之前为了测试把两年前的读书观影记录摆上来了，越看越觉得傻*，决定隐藏文章。方法：在文章抬头部分加入`hidden: true`即可
+
+## <font color=#417D7A>折叠</font>
+在shortcodes新建`detail.html`，写入：
+```
+<details>
+  <summary>{{ (.Get 0) | markdownify }}</summary>
+  {{ .Inner | markdownify }}
+</details>
+```
+短代码是：
+```
+{{< detail "这里是折叠提示词" >}}
+需要隐藏的内容
+{{< /detail >}}
+```
+效果：  
+
+{{< detail "这里是折叠提示词" >}}
+需要隐藏的内容
+{{< /detail >}}
+

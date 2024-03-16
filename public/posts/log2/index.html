@@ -3,19 +3,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Kawa1Planet | Record</title>
-    <meta name="description" content=" ">
-    <link rel="canonical" href="http://localhost:1313/categories/record/" />
+    <title>Kawa1Planet | Hugo|博客装修日记</title>
+    <meta name="description" content="解决不了问题就解决提出问题的东西 ">
+    <link rel="canonical" href="http://localhost:1313/posts/log2/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta property="og:title" content="Record" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/categories/record/" />
+    <meta property="og:title" content="Hugo|博客装修日记" />
+<meta property="og:description" content="解决不了问题就解决提出问题的东西" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/posts/log2/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-07T20:57:13+11:00" />
+<meta property="article:modified_time" content="2024-03-07T20:57:13+11:00" />
 
 
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Record"/>
-<meta name="twitter:description" content=""/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Hugo|博客装修日记"/>
+<meta name="twitter:description" content="解决不了问题就解决提出问题的东西"/>
 
     
 
@@ -188,29 +190,41 @@
 
 
         <div id="content">
-    
 
 
 
 
-
-
-    
-        
-    
 
 
 
 
     <div class="hero">
         
-            
-                <div class="hero-img">
-                    <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default.jpg" alt="">
-                </div>
-            
+            <div class="hero-img">
+                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default.jpg" alt="">
+            </div>
+        
         <div class="hero-content">
-            <h1 class="hero-title">分类: Record</h1>
+            <div class="hero-title">Hugo|博客装修日记</div>
+            <div class="hero-subtitle"></div>
+            <div class="hero-date">
+                    <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2024-3-7 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2024-3-7 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-folder"></i>
+                        收录于:
+                        
+                            <a href='
+                                /categories/hugo
+                            '>
+                                hugo
+                            </a>
+                    </span>    
+            </div>
+            <div class="timelong">
+                <span class="no-wrap"><i class="fa fa-pencil"></i> 文章字数: 1872 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-clock-o"></i> 阅读时间: 4 分钟 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-eye"></i> 阅读量: <span id="busuanzi_value_page_pv"></span></span>
+            </div>
         </div>
     </div>
 
@@ -229,7 +243,7 @@
     
 
 
-<div class="terms-body">
+<div class="content-root">
     <div class="long">
         <button class="tosides-1 text-wbd">
             <i class="fa fa-arrow-right"></i>
@@ -242,101 +256,207 @@
         </button>
     </div>
     
-        <div class="terms-row">
+        <div class="content">
+            <div class="content-self">
+                <h1 id="font-color417d7a修改从入门到重新投胎font"><font color=#417D7A>修改，从入门到重新投胎</font></h1>
+<h2 id="font-color417d7arss订阅font"><font color=#417D7A>RSS订阅</font></h2>
+<p>略一研究，不是很想使用，想必也没人会订阅，而且我写了会发长毛象！博客自带该功能，我直接取消了。检查之后发现about页面里还有，打开<code>about.xml</code>删除相关语法。<br>
+不过之前在其他人的博客看到了订阅功能并且能够一月一发送邮件，觉得还蛮好玩的，暂时订阅了观察一阵子！</p>
+<h2 id="font-color417d7a给评论区增加表情包font"><font color=#417D7A>给评论区增加表情包</font></h2>
+<p>看安装方式添加emoji的方法也不同，我的之前所述css等都写在<code>comment.html</code>里，直接修改config无效我也不知道为什么，可能因为没添加相关语法吧。这次我也直接在<code>comment.html</code>&gt;里修改了。<br>
+在<code>serverURL</code>这一行之后、<code>]</code>之前添加</p>
+<pre tabindex="0"><code>emoji: [
+    &#39;url&#39;,
+    ]
+</code></pre><p>即可，朋友分享了blob和小豆泥表情包，所以我的是：</p>
+<pre tabindex="0"><code>emoji: [
+    &#39;https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png&#39;,
+    &#39;https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan&#39;,
+    &#39;https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif&#39;,
+     ],
+</code></pre><h2 id="font-color417d7a修改评论区样式-darkmodefont"><font color=#417D7A>修改评论区样式-darkmode</font></h2>
+<p>看不懂！失败！放弃！</p>
+<h2 id="font-color417d7ablockquote重叠font"><font color=#417D7A>blockquote重叠</font></h2>
+<p>之前为了让代码块显色修改了blockquote，可能改错了但确实显背景色了！接着我发现了一个问题：引用块比较近的地方重叠了。排查之后删除了style.css里blockquote这段里的<code>height = 2px</code>，恢复正常。<br>
+这个代码块我感觉是我设置错误，如果有人知道怎么让代码块显示背景色请告诉我。我在highlight pre等加上了background-color之后是代码单行有背景色，我想要引用模块整个显示背景色。总之暂时这么整了。</p>
+<h2 id="font-color417d7a314-更换主题至newbeefont"><font color=#417D7A>3.14-更换主题至NewBee</font></h2>
+<p>解决不了问题就解决提出问题的东西！之前的mini主题很简洁我蛮喜欢但鉴于我完全不懂写码，很多地方都解决不了，所以精挑细选寻觅到了一个新主题<a href="https://github.com/xioyito/NewBee">NewBee</a>,这次我学聪明了，先看主题更新时间，最近一次是2024年，想必作者还在维护，看到伊说有问题可以去issue提，又发现伊三周前还回答了别人的问题，感觉作者目前为止都有在关注该主题。而且本主题功能也多，各方面我都比较喜欢，于是堂堂更换！<br>
+<del>因为不知道怎么更换总之下载下来修改config没成功于是我直接备份内容删博重来了</del></p>
+<h2 id="font-color417d7a更换waline评论系统font"><font color=#417D7A>更换waline评论系统</font></h2>
+<p>搞不定，直接问了作者，请见<a href="https://github.com/xioyito/NewBee/issues/30">本issue</a>。其余步骤同上一篇文章。</p>
+<h2 id="font-color417d7a启用h5font"><font color=#417D7A>启用H5</font></h2>
+<p>主题自带该渲染功能，但没启用。修改config文件下最底部的</p>
+<pre tabindex="0"><code>    # enable the following code if there are html statements in your md file
+    # 如果md文件中有html语句，请启用以下代码
+
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+</code></pre><p>删掉代码部分的<code>#</code>即可，加上#后会变成注释。</p>
+<h2 id="font-color417d7a添加轮播图font"><font color=#417D7A>添加轮播图</font></h2>
+<p>部分参考<a href="https://mantyke.icu/posts/2021/cf2cf0fb/">《Hugo | 在文章中插入轮播图片》</a>，在<code>shortcodes</code>文件夹下新建<code>imgloop.html</code>文件，</p>
+<pre tabindex="0"><code>{{ if .Site.Params.enableimgloop }}
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css&#34;&gt;
+    &lt;!-- Swiper --&gt;
+    &lt;style&gt;
+        .swiper-slide img {
+            width: 100%; /* 图片宽度自适应容器 */
+            height: auto; /* 图片高度自适应宽度 */
+            margin: 0; /* 可选：去除图片的默认 margin */
+        }
+    &lt;/style&gt;
+    &lt;div class=&#34;swiper-container&#34;&gt;
+        &lt;div class=&#34;swiper-wrapper&#34;&gt;
+            {{$itItems := split (.Get 0) &#34;,&#34;}}
+            {{range $itItems }}
+            &lt;div class=&#34;swiper-slide&#34;&gt;
+                &lt;img src=&#34;{{.}}&#34; alt=&#34;&#34;&gt;
+            &lt;/div&gt;
+            {{end}}
+        &lt;/div&gt;
+        &lt;!-- Add Pagination --&gt;
+        &lt;div class=&#34;swiper-pagination&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js&#34;&gt;&lt;/script&gt;
+     &lt;!-- Initialize Swiper --&gt;
+     &lt;script&gt;
+        var swiper = new Swiper(&#39;.swiper-container&#39;, {
+            pagination: &#39;.swiper-pagination&#39;,
+            paginationClickable: true,
+            //自动调节高度
+            autoHeight: true,
+            //键盘左右方向键控制
+            keyboardControl : true,
+            //鼠标滑轮控制
+            mousewheelControl : true,
+            //自动切换
+            //autoplay : 5000,
+            //懒加载
+            lazyLoading : true,
+            lazyLoadingInPrevNext : true,
+            //无限循环
+            loop : true,
+        });
+    &lt;/script&gt;
+{{ end }}
+</code></pre><p>修改css，在<code>/public/css/shortcodes.css</code>最末尾添加：</p>
+<pre tabindex="0"><code>/* 轮播图 */
+
+/* 在此处添加到你的CSS样式表中 */
+
+.swiper-container {
+    max-width: 500px; /* 让容器宽度自适应 */
+    height: auto; /* 设置轮播容器的最大高度 */
+    margin: 2em auto; /* 可选：调整轮播容器的上下边距 */
+    overflow: hidden; /* 可选：隐藏超出容器的部分 */
+}
+
+.swiper-slide img {
+    width: 500px; /* 图片宽度自适应容器 */ /* 图片固定500px宽度 */
+    height: auto; /* 图片高度自适应宽度 */
+    margin: 0; /* 可选：去除图片的默认 margin */
+}
+</code></pre><h2 id="font-color417d7a修改页尾网站信息新font"><font color=#417D7A>修改页尾网站信息·新</font></h2>
+<p>这个主题已启用卜算子进行流量统计（这玩意儿开着就是让我知道没人看……），anyway鉴于它写在footer的copyright下了，这会儿不好直接false整个copyright，因为试了一下发现会把流量统计也关闭。尝试之前修改法发现没成功，新抄一段，代码来自<a href="https://www.10101.io/2018/09/16/Blog_2">《增加博客运行时间和阅读统计》</a>
+在<code>© {{ .Site.Params.footer.from }}-{{ now.Format &quot;2006&quot; }} &lt;a href=&quot;{{ .Site.Author.link }}&quot;&gt;{{ .Site.Author.name }}&lt;/a&gt;</code>之后增加<code>星球已自转 &lt;SPAN id=span_dt_dt&gt;&lt;/SPAN&gt;</code>,然后在这个div下增加</p>
+<pre tabindex="0"><code>&lt;SCRIPT language=javascript&gt;
+function show_date_time(){
+window.setTimeout(&#34;show_date_time()&#34;, 1000);
+ BirthDay=new Date(&#34;04/08/2022&#34;);//日期自己修改
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+span_dt_dt.innerHTML=&#34;&#34;+daysold+&#34;天&#34;;
+}
+show_date_time();
+&lt;/SCRIPT&gt;
+</code></pre><p><strong>文章总篇数修改方式不变~</strong></p>
+<h2 id="font-color417d7a隐藏文章font"><font color=#417D7A>隐藏文章</font></h2>
+<p>之前为了测试把两年前的读书观影记录摆上来了，越看越觉得傻*，决定隐藏文章。方法：在文章抬头部分加入<code>hidden: true</code>即可</p>
+<h2 id="font-color417d7a折叠font"><font color=#417D7A>折叠</font></h2>
+<p>在shortcodes新建<code>detail.html</code>，写入：</p>
+<pre tabindex="0"><code>&lt;details&gt;
+  &lt;summary&gt;{{ (.Get 0) | markdownify }}&lt;/summary&gt;
+  {{ .Inner | markdownify }}
+&lt;/details&gt;
+</code></pre><p>短代码是：</p>
+<pre tabindex="0"><code><details>
+  <summary>这里是折叠提示词</summary>
+  需要隐藏的内容
+</details>
+</code></pre><p>效果：</p>
+<details>
+  <summary>这里是折叠提示词</summary>
+  需要隐藏的内容
+</details>
+
+            </div>
             
-            <div class="terms-root">
-                
-                
-
-
-
-<div class="card-large">
-    <div class="card-large-img">
-
-        
-                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default.jpg" alt='图片加载失败'>
-        
-    </div>
-    <div class="card-large-content">
-        <div class="up-title"><a href="/posts/recordjantomar/">Record|1-3月书影</a></div>
-        <div class="up-date">
-            <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2022-4-22 &nbsp;</span>
-            <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2022-4-22 &nbsp;</span>
-            <span class="no-wrap"><i class="fa fa-folder"></i>
-                
-                    收录于:
+                <div class="tags">
                     
-                        <a href='
-                                        /categories/record
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/hugo
                                     '>
-                                Record
+                                <i class="fa fa-tag"></i> hugo
                             </a>
-                
-            </span>
+                        </div>
+                    </span>
+                    
+                </div>
+            
         </div>
-        <div class="down-summary">例行的书影记录。以下都摘自我的毛象嘟文。</div>
-    </div>
-    <div class="card-readmore">
-        <a href="http://localhost:1313/posts/recordjantomar/">
-            <span><i class="fa fa-arrow-right"></i></span>
+        
+            
+                <div class="pre-next">
+                    
+    
+        
+        <a href="http://localhost:1313/posts/log/" class="pre pre-last" style="text-align: center;">
+            <span class="pre-icon"><i class="fa fa-hand-o-left"></i></span>
+            <div class="pre-title-root">
+                <span>Hugo|从Hexo迁移到Hugo</span>
+            </div>
         </a>
-    </div>
-</div>
-
-
-
+        
+    
     
 
+                </div>
+            
+        
+    
+</div>
 
-    <div class="down-type">
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/record
-                        '>
-                    <i class="fa fa-tag"></i> Record
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/%E7%94%B5%E5%BD%B1
-                        '>
-                    <i class="fa fa-tag"></i> 电影
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/%E8%AF%BB%E4%B9%A6
-                        '>
-                    <i class="fa fa-tag"></i> 读书
-                </a>
-            </div>
-        </span>
-        
-    </div>
-
-<div class="dang"></div>
-            </div>
+    
+        <div class="content-last">
+            
+            
+                <button class="pinglun content-last-item efct-button">
+                    <i class="fa fa-comment"></i>
+                </button>
             
         </div>
     
-</div>
+    
+    <div id="waline"></div>
+    <script type="module">
+        import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+  
+        init({
+          el: '#waline',
+          serverURL: 'https://planetwaline.vercel.app',
+          lang: 'zh-CN',
+        });
+      </script>
+
+
 
 
             </div>
@@ -344,6 +464,11 @@
                 
 <div class="zhuti-r-0">
     <div class="zhuti-r-1">
+        
+            <div class="button-r">
+                <button class="button-mulu efct-button" type="button"><span><i class="fa fa-bars"></i></span><span class="bars-text"> 目录</span></button>
+                <button class="button-comment efct-button" type="button"><span><i class="fa fa-comment"></i></span><span class="comment-text"> 评论</span></button>
+            </div>
         
         <div id="r1">
             
@@ -405,33 +530,16 @@
 
 
 
+    
+    
+
 
 <div class="other">
     <div class="other-up">
-        <div class="other-qita text-wbd">最新文章</div>
+        <div class="other-qita text-wbd">相关文章</div>
         <div class="xian"></div>
     </div>
     <div class="list">
-        
-            <a href="http://localhost:1313/posts/log2/">
-                
-<a href="http://localhost:1313/posts/log2/">
-    <div class="list-item">
-        <div class="icon-other-root">
-            
-                <div class="icon-other" style="background-image: url( /images/default.jpg );"></div>
-            
-        </div>
-        <div class="list-right">
-            <div class="other-title">
-                Hugo|博客装修日记
-            </div>
-            <div class="other-summary">解决不了问题就解决提出问题的东西</div>
-            <div class="other-date">2024-3-7</div>
-        </div>
-    </div>
-</a>
-            </a>
         
             <a href="http://localhost:1313/posts/log/">
                 
@@ -473,11 +581,127 @@
 </a>
             </a>
         
+            <a href="http://localhost:1313/posts/travel-japan/">
+                
+<a href="http://localhost:1313/posts/travel-japan/">
+    <div class="list-item">
+        <div class="icon-other-root">
+            
+                <div class="icon-other" style="background-image: url( /images/default.jpg );"></div>
+            
+        </div>
+        <div class="list-right">
+            <div class="other-title">
+                Record|去日本了！
+            </div>
+            <div class="other-summary">枯山水是真正的枯-山-水。</div>
+            <div class="other-date">2024-2-3</div>
+        </div>
+    </div>
+</a>
+            </a>
+        
     </div>
 </div>
         </div>
         <div id="r2">
             
+    <div id="waline"></div>
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+  
+      init({
+        el: '#waline',
+        serverURL: 'https://planetwaline.vercel.app',
+        placeholder: "坐，请讲。",
+        emoji: [
+         'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png',
+         'https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan',
+         'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
+        ],
+      });
+    </script>
+
+<style>
+  .waline-container {
+      background-color: transparent;
+      border-radius: var(--card-border-radius);
+      box-shadow: var(--shadow-l1);
+      padding: 2%;  
+  
+  }
+  .waline-container .vcount {
+      color: var(--card-text-color-main);
+  }
+  
+  :root{
+     
+    --waline-font-size: 1rem ;
+    --waline-theme-color: #5c8c88;
+    --waline-active-color: #335c5f;
+    --waline-color: #5c8c88;
+    --waline-bg-color: transparent;
+    --waline-bgcolor-light: rgba(200, 200, 200, 0.4);
+    --waline-border-color: #5c8c88;
+    --waline-disable-bgcolor: #FAF9F7;
+    --waline-avatar-size:5rem !important;
+    --waline-m-avatar-size:calc(var(--waline-avatar-size)*9/13) !important; 
+    --waline-badge-color:rgba(5, 150, 148, 0.425) ;
+    --waline-badge-font-size: 0.45em ;
+    --waline-info-bgcolor: #f8f8f8 ;
+    --waline-info-color:#999 ;
+    --waline-info-font-size: 0.625rem ;
+    --waline-border: 1px solid var(--waline-border-color);
+    --waline-avatar-radius: 50%;
+  }
+
+ 
+  :root[data-scheme="dark"] {
+      --waline-theme-color: #acc6e0;
+      --waline-white: #34495e;  
+      --waline-active-color: #335c5f;
+      --waline-light-grey: #666;
+      --waline-dark-grey: #5c8c88;  
+      --waline-badge-color: #acc6e0;
+
+       
+      --waline-text-color: rgba(255, 255, 255, 0.7);
+      --waline-bgcolor: transparent;
+      --waline-bgcolor-light: #66696b; 
+      --waline-border-color: #5c8c88;
+      --waline-disable-bgcolor: #444;
+      --waline-disable-color: #272727;
+
+       
+      --waline-bq-color:  #9B9C9C;  
+
+       
+      --waline-info-bgcolor: #acc6e0;
+      --waline-info-color: #9B9C9C;
+  }
+
+  .comment-waline{
+     
+    background-color: transparent;
+    margin-top: 18px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 300;
+    line-height: 1.8;
+  
+     
+  }
+  .comment-underline {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 50px;
+    border-bottom: 3px solid #f0485388;
+  }
+  </style>
+  
         </div> 
     </div>
 </div>
