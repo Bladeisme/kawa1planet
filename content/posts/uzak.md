@@ -1,5 +1,5 @@
 ---
-title: "流仙/Uzak"
+title: "流仙|Uzak"
 date: 2024-03-16T23:31:09+11:00
 lastmod:
 draft: false
