@@ -52,7 +52,6 @@ showToc = true
         onlyOneLang = false
         # style of theme: auto, light, dark
         mode = 'auto'
-buildDate = "2022-04-08"
 
 ## Waline
     [params.waline]
@@ -165,7 +164,8 @@ buildDate = "2022-04-08"
         visitor = true
         # wheher to enable theme information
         themeInfo = true
-
+        buildDate = "2022-04-08"
+        
     # aplayer, se  more: https://aplayer.js.org/#/zh-Hans/
     # 音乐播放器配置，详情请移步：https://aplayer.js.org/#/zh-Hans/
     [params.aplayer]
