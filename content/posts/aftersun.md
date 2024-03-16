@@ -1,5 +1,5 @@
 ---
-title: "流仙|Aftersun"
+title: "Aftersun"
 date: 2024-03-16T23:59:07+11:00
 lastmod:
 draft: false
