@@ -545,32 +545,28 @@
                 
                 
                     <div class="footer-item">
-                        © 2022-2024 <a href="https://weibo.com/6500612922">Bladeisme</a>,星球已自转<span id="days">0</span>天
+                        © 2022-2024 <a href="https://weibo.com/6500612922">Bladeisme</a>,星球已自转 <SPAN id=span_dt_dt></SPAN>天
                     </div>
+
+                    <SCRIPT language=javascript>
+                        function show_date_time(){
+                        window.setTimeout("show_date_time()", 1000);
+                        BirthDay=new Date("04/08/2022");
+                        today=new Date();
+                        timeold=(today.getTime()-BirthDay.getTime());
+                        sectimeold=timeold/1000
+                        secondsold=Math.floor(sectimeold);
+                        msPerDay=24*60*60*1000
+                        e_daysold=timeold/msPerDay
+                        daysold=Math.floor(e_daysold);
+                        span_dt_dt.innerHTML=""+daysold+"天";
+                        }
+                        show_date_time();
+                    </SCRIPT>
+
                     
 
-                    <script>
-                        var s0 = '2022-04-08';
-                        s1 = new Date(s0.replace(/-/g, "/"));
-                        s2 = new Date();
-                        var days = s2.getTime() - s1.getTime();
-                      
-                        var date = new Date;
-                        var year = date.getFullYear();
-                        document.getElementById('year').innerHTML = year;
-                      
-                        var BootDate = new Date('2022-04-08');
-                        function ShowRunTime(id) {
-                          var NowDate = new Date();
-                          var RunDateM = parseInt(NowDate - BootDate);
-                          var RunDays = Math.floor(RunDateM / (24 * 3600 * 1000));
-                          var days = RunDays + "天";
-                          document.getElementById(id).innerHTML = days;
-                        }
-                        ShowRunTime('days');
-                        setInterval("ShowRunTime('days')", 1000);
-                    </script>
-                      
+
 
                     <div>已生产 6 篇文章，共 34438 字</div>
                 
