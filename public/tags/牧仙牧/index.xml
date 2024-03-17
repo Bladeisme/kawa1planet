@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>牧仙牧 on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/%E7%89%A7%E4%BB%99%E7%89%A7/</link>
+    <description>Recent content in 牧仙牧 on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Mar 2024 12:56:05 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%89%A7%E4%BB%99%E7%89%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SD|牧仙/红色沙漠</title>
+      <link>http://localhost:1313/posts/reddesert/</link>
+      <pubDate>Sun, 17 Mar 2024 12:56:05 +1100</pubDate>
+      <guid>http://localhost:1313/posts/reddesert/</guid>
+      <description>Rate: G 红色沙漠/The Red Desert 三 晚上下了一阵暴雨，冲散了东京酷刑般的闷热。也许是因为热岛效应，东京比神奈川热上许多，明明以前夏天训练时常常大汗淋漓，牧却不觉得如此难以忍受。东京则恰相反，夏日的闷热与潮湿紧紧</description>
+    </item>
+  </channel>
+</rss>

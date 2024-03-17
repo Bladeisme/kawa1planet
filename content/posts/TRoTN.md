@@ -1,5 +1,5 @@
 ---
-title: "布茸|长夜将尽"
+title: "JOJO|布茸/长夜将尽"
 toc: false
 date: 2022-08-22T14:31:42+11:00
 tags: [JOJO,布茸]

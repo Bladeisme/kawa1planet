@@ -1,5 +1,5 @@
 ---
-title: "流仙|Uzak"
+title: "SD|流仙/Uzak"
 date: 2024-03-16T23:31:09+11:00
 lastmod:
 draft: false
@@ -12,6 +12,8 @@ hideFromHomePage:
 Summary: "中学时代的puppy love就像是云投下的一片影子"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/透卡.png"
 ---
+
+<font color=#417D7A>Rate: G</font><br><br>
 
 ## <font color=#417D7A>Uzak/远方</font>
 <img src=https://raw.githubusercontent.com/Bladeisme/blog-img/master/封面定稿.jpg height = "400px">

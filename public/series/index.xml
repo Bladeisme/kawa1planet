@@ -6,8 +6,22 @@
     <description>Recent content in Series on Kawa1Planet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Mar 2024 23:59:07 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2024 13:18:24 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orbuculum</title>
+      <link>http://localhost:1313/series/orbuculum/</link>
+      <pubDate>Sun, 17 Mar 2024 13:18:24 +1100</pubDate>
+      <guid>http://localhost:1313/series/orbuculum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Silence of the Sea/海的沉默</title>
+      <link>http://localhost:1313/series/the-silence-of-the-sea/%E6%B5%B7%E7%9A%84%E6%B2%89%E9%BB%98/</link>
+      <pubDate>Sun, 17 Mar 2024 12:56:45 +1100</pubDate>
+      <guid>http://localhost:1313/series/the-silence-of-the-sea/%E6%B5%B7%E7%9A%84%E6%B2%89%E9%BB%98/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Snow Blindness/雪盲</title>
       <link>http://localhost:1313/series/snow-blindness/%E9%9B%AA%E7%9B%B2/</link>
