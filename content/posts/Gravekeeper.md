@@ -6,6 +6,7 @@ tags: [兰吉特,Sunset Ale]
 series: [炉边碎笔]
 categories: [同人]
 Summary: "他老了，他足够强，但是老了。"
+image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/memento.jpg"
 ---
 
 ## <font color=#417D7A>守墓人</font>

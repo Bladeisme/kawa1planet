@@ -6,6 +6,7 @@ tags: [水晶公,Sunset Ale]
 series: [炉边碎笔]
 categories: [同人]
 Summary: "于是水晶公那样真实地，剥丝抽茧地，从这份手稿中浮现出来。"
+image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/memento.jpg"
 ---
 ## <font color=#417D7A>水晶的残光</font>
 <br>

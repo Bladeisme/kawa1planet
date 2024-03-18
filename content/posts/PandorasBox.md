@@ -6,6 +6,7 @@ tags: [爱梅特赛尔克,炉边碎笔]
 series: [炉边碎笔]
 categories: [同人]
 Summary: "那时他们还小，还未被选入十四席，有时候他们逃课出来，坐在草地上晒太阳聊天。那些遥远的时光早已远去，亚马乌罗提已成了海底的废墟。希斯拉德想起那日他们的争论，谁也没能说服谁。" 
+image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/memento.jpg"
 ---
 
 ## <font color=#417D7A>魔盒</font> <br> 
