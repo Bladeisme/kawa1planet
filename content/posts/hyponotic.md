@@ -1,5 +1,5 @@
 ---
-title: 同人|茸布/Hypnotic
+title: JOJO|茸布/Hypnotic
 toc: false
 draft: false
 date: 2022-12-23T11:33:55+11:00
