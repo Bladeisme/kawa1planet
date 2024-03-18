@@ -50,5 +50,12 @@
       <guid>http://localhost:1313/series/beyond-the-time/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Summertime</title>
+      <link>http://localhost:1313/series/summertime/</link>
+      <pubDate>Mon, 18 Jul 2022 23:56:07 +1100</pubDate>
+      <guid>http://localhost:1313/series/summertime/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

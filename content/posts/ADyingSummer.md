@@ -1,5 +1,5 @@
 ---
-title: "茸茶/夏日将死"
+title: "JOJO|茸茶/夏日将死"
 toc: false
 date: 2022-06-23T20:28:02+11:00
 draft: false

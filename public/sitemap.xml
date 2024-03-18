@@ -140,10 +140,28 @@
     <loc>http://localhost:1313/posts/trotn/</loc>
     <lastmod>2022-08-22T14:31:42+11:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ff14%E7%88%B1%E6%A2%85%E7%89%B9%E8%B5%9B%E5%B0%94%E5%85%8B/</loc>
-    <lastmod>2022-05-29T09:02:51+11:00</lastmod>
+    <loc>http://localhost:1313/posts/inneapoli/</loc>
+    <lastmod>2022-07-18T23:56:07+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/summertime/</loc>
+    <lastmod>2022-07-18T23:56:07+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%8C%B8%E8%8C%B6/</loc>
+    <lastmod>2022-07-18T23:56:07+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/noquarrelonwedding/</loc>
+    <lastmod>2022-07-18T23:55:47+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/sparklingwater/</loc>
+    <lastmod>2022-07-18T23:55:09+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/adyingsummer/</loc>
+    <lastmod>2022-06-23T20:28:02+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/pandorasbox/</loc>
+    <lastmod>2022-05-29T09:02:51+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E7%88%B1%E6%A2%85%E7%89%B9%E8%B5%9B%E5%B0%94%E5%85%8B/</loc>
     <lastmod>2022-05-29T09:02:51+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/reflectionsincrystal/</loc>
