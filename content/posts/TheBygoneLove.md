@@ -1,17 +1,21 @@
 ---
 title: "JOJO|布茸/旧时代爱人"
 toc: false
+draft: false
 date: 2023-01-02T12:17:59+11:00
 tags: [JOJO,布茸]
 series: [Symphony of Klein]
 Summary: "我在十五岁时遇到乔鲁诺，他说这是个好年纪，相逢的人会再相逢。"
 categories: [同人]
-image: "/images/default.jpg"
+image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/SoK.jpg"
 ---
 
-又名《我的一个朋友乔鲁诺》<br>
-旧文存档<br>
-<font color=#417D7A>Rate：G</font><br><br>
+<font color=#417D7A>
+<li>收录于茸布茸个志《Symphony of Klein》，
+<li>封面图来自个志实体本封面，由小町红绘制。
+<li>又名《我的一个朋友乔鲁诺》
+<li>旧文存档
+<li>Rate：G</font><br><br>
 
 ## <font color=#417D7A>旧时代爱人/The Bygone Love</font>
 

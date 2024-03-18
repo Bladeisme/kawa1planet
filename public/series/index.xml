@@ -43,5 +43,12 @@
       <guid>http://localhost:1313/series/symphony-of-klein/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Beyond the Time</title>
+      <link>http://localhost:1313/series/beyond-the-time/</link>
+      <pubDate>Fri, 23 Dec 2022 11:33:55 +1100</pubDate>
+      <guid>http://localhost:1313/series/beyond-the-time/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
