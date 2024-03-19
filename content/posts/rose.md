@@ -6,10 +6,11 @@ toc: false
 tags: [FE3H,雷特库罗]
 summary: "库罗德捡到一支玫瑰。"
 categories: [同人]
-image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/cld动图.gif"
+image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/rose封面cover.jpg"
 ---
 
 <img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/roseclaude.png" height="200px">
+<img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/cld动图.gif" height="220px"><br><br>
 
 # <font color=#417D7A>Rose is a Rose</font>
 <br>
