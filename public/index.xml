@@ -107,7 +107,7 @@
       <description>现在我们已经不再用星历计时，这个年代是灾难的年代，今年是第八灵灾第十年。</description>
     </item>
     <item>
-      <title>同人|茸布/Hypnotic</title>
+      <title>JOJO|茸布/Hypnotic</title>
       <link>http://localhost:1313/posts/hyponotic/</link>
       <pubDate>Fri, 23 Dec 2022 11:33:55 +1100</pubDate>
       <guid>http://localhost:1313/posts/hyponotic/</guid>
@@ -142,11 +142,39 @@
       <description>收录于茸茶个志《Summertime》，主题【夏日故事】； 阅读顺序：《Green Apricot and Sparkling Water》→《婚礼上禁止争吵》→《A Dying Summer/夏日将死》→《In Neapoli》 封面图来自个志实体本封面，</description>
     </item>
     <item>
+      <title>FE3H|贝帝/死于水</title>
+      <link>http://localhost:1313/posts/deathbywater/</link>
+      <pubDate>Sat, 25 Jun 2022 22:00:50 +1100</pubDate>
+      <guid>http://localhost:1313/posts/deathbywater/</guid>
+      <description>收录于贝帝个志《眩晕/SCHWINDEL GEFUHLE》 阅读顺序：《苦月亮》→《The Fall》→《永恒与一日》→《死于水》 封面图为实体本的外封 死于水/Death By Water 搬来塞昂镇以前，帝弥托利没见过海。</description>
+    </item>
+    <item>
       <title>JOJO|茸茶/夏日将死</title>
       <link>http://localhost:1313/posts/adyingsummer/</link>
       <pubDate>Thu, 23 Jun 2022 20:28:02 +1100</pubDate>
       <guid>http://localhost:1313/posts/adyingsummer/</guid>
       <description>乔鲁诺又知道些什么呢？他只知道种下一颗苹果明年就会长出一棵苹果树，他不记得那些伤口很痛，他只是期待地看着阿帕基。阿帕基想，他真的讨厌小孩子。</description>
+    </item>
+    <item>
+      <title>FE3H|贝库/Rose is a Rose</title>
+      <link>http://localhost:1313/posts/rose/</link>
+      <pubDate>Fri, 10 Jun 2022 22:40:56 +1100</pubDate>
+      <guid>http://localhost:1313/posts/rose/</guid>
+      <description>库罗德捡到一支玫瑰。</description>
+    </item>
+    <item>
+      <title>FE3H|贝帝/永恒与一日</title>
+      <link>http://localhost:1313/posts/eternityandaday/</link>
+      <pubDate>Fri, 10 Jun 2022 20:59:41 +1100</pubDate>
+      <guid>http://localhost:1313/posts/eternityandaday/</guid>
+      <description>帝弥托利，好久不见。</description>
+    </item>
+    <item>
+      <title>FE3H|贝帝/坠入</title>
+      <link>http://localhost:1313/posts/thefall/</link>
+      <pubDate>Tue, 07 Jun 2022 00:14:25 +1100</pubDate>
+      <guid>http://localhost:1313/posts/thefall/</guid>
+      <description>后来帝弥托利懂得了一个道理，爱者与被爱者应当同甘苦共命运，爱他的人死了，从此以后他会挣扎在幽暗的月夜，望着无法达到的月光路，为命运所苦。</description>
     </item>
     <item>
       <title>FF14|爱梅无CP/魔盒</title>
@@ -163,6 +191,13 @@
       <description>于是水晶公那样真实地，剥丝抽茧地，从这份手稿中浮现出来。</description>
     </item>
     <item>
+      <title>FE3H|贝帝/苦月亮</title>
+      <link>http://localhost:1313/posts/bittermoon/</link>
+      <pubDate>Thu, 26 May 2022 20:59:41 +1100</pubDate>
+      <guid>http://localhost:1313/posts/bittermoon/</guid>
+      <description>收录于贝帝个志《眩晕/SCHWINDEL GEFUHLE》 阅读顺序：《苦月亮》→《The Fall》→《永恒与一日》→《死于水》 封面图为实体本的外封 章节页插图作者：棠无叶 眩晕/SCHWINDEL GEFUHLE 苦月亮/</description>
+    </item>
+    <item>
       <title>JOJO|茸布/燃烧</title>
       <link>http://localhost:1313/posts/blaze/</link>
       <pubDate>Thu, 26 May 2022 18:17:17 +1100</pubDate>
@@ -175,6 +210,13 @@
       <pubDate>Fri, 22 Apr 2022 12:07:37 +1100</pubDate>
       <guid>http://localhost:1313/posts/recordjantomar/</guid>
       <description>例行的书影记录。以下都摘自我的毛象嘟文。</description>
+    </item>
+    <item>
+      <title>FE3H|贝帝/水死</title>
+      <link>http://localhost:1313/posts/dbwaddition/</link>
+      <pubDate>Tue, 15 Mar 2022 15:30:52 +1100</pubDate>
+      <guid>http://localhost:1313/posts/dbwaddition/</guid>
+      <description>为了剧本新增了一点片段，大多都是菲力克斯相关，自娱自乐一下。</description>
     </item>
     <item>
       <title>FF14|兰吉特无CP/守墓人</title>

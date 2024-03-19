@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>雷特库罗 on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/%E9%9B%B7%E7%89%B9%E5%BA%93%E7%BD%97/</link>
+    <description>Recent content in 雷特库罗 on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jun 2022 22:40:56 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E9%9B%B7%E7%89%B9%E5%BA%93%E7%BD%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FE3H|贝库/Rose is a Rose</title>
+      <link>http://localhost:1313/posts/rose/</link>
+      <pubDate>Fri, 10 Jun 2022 22:40:56 +1100</pubDate>
+      <guid>http://localhost:1313/posts/rose/</guid>
+      <description>库罗德捡到一支玫瑰。</description>
+    </item>
+  </channel>
+</rss>

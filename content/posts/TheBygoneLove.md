@@ -15,7 +15,7 @@ image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/SoK.jpg"
 <li>封面图来自个志实体本封面，由小町红绘制。
 <li>又名《我的一个朋友乔鲁诺》
 <li>旧文存档
-<li>Rate：G</font><br><br>
+<li>Rate：G</li></font><br><br>
 
 ## <font color=#417D7A>旧时代爱人/The Bygone Love</font>
 

@@ -305,7 +305,7 @@ image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/backcover.pn
 
 <p>END</p>
 <br /><br />
-FT：
+
 *出自特德·姜的《大寂静》<br /><br />
 
 ---

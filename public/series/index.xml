@@ -57,5 +57,12 @@
       <guid>http://localhost:1313/series/summertime/</guid>
       <description></description>
     </item>
+    <item>
+      <title>眩晕</title>
+      <link>http://localhost:1313/series/%E7%9C%A9%E6%99%95/</link>
+      <pubDate>Sat, 25 Jun 2022 22:00:50 +1100</pubDate>
+      <guid>http://localhost:1313/series/%E7%9C%A9%E6%99%95/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

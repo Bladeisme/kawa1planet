@@ -13,7 +13,9 @@ image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/Summertimeon
 <li>收录于茸茶个志《Summertime》，
 <li>封面图来自个志实体本封面，由Yan(twi@river23333)绘制;4TIIITONG设计；
 <li>Rate: G
-<li>Notes: 年龄操作</font></li><br>
+<li>Notes: 年龄操作</font>
+</li><br>
+
 <img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/summaertime.jpg" height="500px">
 
 ## <font color=#417D7A>红茶与梅花七</font>

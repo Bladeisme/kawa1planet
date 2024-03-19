@@ -16,7 +16,7 @@ image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/Summertimeon
 <li>收录于茸茶个志《Summertime》，
 <li>阅读顺序：《Green Apricot and Sparkling Water》→《婚礼上禁止争吵》→《A Dying Summer/夏日将死》→《In Neapoli》
 <li>封面图来自个志实体本封面，由Yan(twi@river23333)绘制;4TIIITONG设计；
-<li>Rate: G</font></li><br>
+<li>Rate: G</li></font><br>
 <img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/summaertime.jpg" height="500px">
 <br>
 

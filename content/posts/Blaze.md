@@ -13,7 +13,7 @@ image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/SoK.jpg"
 <li>收录于茸布茸个志《Symphony of Klein》，
 <li>封面图来自个志实体本封面，由小町红绘制。
 <li>Rate: M
-<li>Notes: 双性转</font></li><br>
+<li>Notes: 双性转</li></font><br>
 
 ## <font color=#417D7A>燃烧/Blaze</font>
 <br>
