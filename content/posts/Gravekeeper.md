@@ -1,6 +1,6 @@
 ---
 title: "FF14|兰吉特无CP/守墓人"
-date: 2022-05-29t08:56:55+11:00
+date: 2022-05-29T08:56:55+11:00
 draft: false
 tags: [兰吉特,Sunset Ale,FF14]
 series: [炉边碎笔]
