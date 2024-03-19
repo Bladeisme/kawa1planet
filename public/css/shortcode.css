@@ -19,7 +19,6 @@ figure img {
     border-radius: 13px;
     box-sizing: border-box;
     background-color: rgb(247, 247, 247);
-    box-shadow: 1px 1px 3px 3px rgba(120, 120, 120, 0.1);
     text-shadow: 0 0 0;
 }
 
@@ -39,7 +38,6 @@ figure img {
     overflow: hidden;
     margin-top: 4px;
     border-radius: 9px;
-    box-shadow: 1px 1px 3px 1px rgba(100, 100, 100, 0.1) inset;
     background-color: rgb(242, 242, 242);
 }
 .for-slidetoggle {
