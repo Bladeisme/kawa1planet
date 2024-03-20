@@ -149,6 +149,13 @@
       <description></description>
     </item>
     <item>
+      <title>兰吉特</title>
+      <link>http://localhost:1313/tags/%E5%85%B0%E5%90%89%E7%89%B9/</link>
+      <pubDate>Sun, 29 May 2022 08:56:55 +1100</pubDate>
+      <guid>http://localhost:1313/tags/%E5%85%B0%E5%90%89%E7%89%B9/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>水晶公</title>
       <link>http://localhost:1313/tags/%E6%B0%B4%E6%99%B6%E5%85%AC/</link>
       <pubDate>Sun, 29 May 2022 08:45:55 +1100</pubDate>
@@ -174,13 +181,6 @@
       <link>http://localhost:1313/tags/%E8%AF%BB%E4%B9%A6/</link>
       <pubDate>Fri, 22 Apr 2022 12:07:37 +1100</pubDate>
       <guid>http://localhost:1313/tags/%E8%AF%BB%E4%B9%A6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>兰吉特</title>
-      <link>http://localhost:1313/tags/%E5%85%B0%E5%90%89%E7%89%B9/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E5%85%B0%E5%90%89%E7%89%B9/</guid>
       <description></description>
     </item>
   </channel>

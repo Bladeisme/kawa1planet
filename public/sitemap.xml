@@ -188,6 +188,12 @@
     <loc>http://localhost:1313/tags/%E7%88%B1%E6%A2%85%E7%89%B9%E8%B5%9B%E5%B0%94%E5%85%8B/</loc>
     <lastmod>2022-05-29T09:02:51+11:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/gravekeeper/</loc>
+    <lastmod>2022-05-29T08:56:55+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%85%B0%E5%90%89%E7%89%B9/</loc>
+    <lastmod>2022-05-29T08:56:55+11:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/reflectionsincrystal/</loc>
     <lastmod>2022-05-29T08:45:55+11:00</lastmod>
   </url><url>
@@ -217,9 +223,5 @@
   </url><url>
     <loc>http://localhost:1313/posts/dbwaddition/</loc>
     <lastmod>2022-03-15T15:30:52+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/gravekeeper/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E5%85%B0%E5%90%89%E7%89%B9/</loc>
   </url>
 </urlset>
