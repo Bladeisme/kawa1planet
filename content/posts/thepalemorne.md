@@ -1,6 +1,7 @@
 ---
 title: JOJO|茸布茸/雾色黎明
 toc: false
+draft: false
 date: 2022-06-23T17:18:27+11:00
 tags: [JOJO,茸布茸]
 series: [Symphony of Klein]

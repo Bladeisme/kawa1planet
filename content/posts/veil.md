@@ -6,6 +6,7 @@ categories: [同人]
 series: [Days and Moons]
 summary: "大学生茸x站街布，含有抹布布情节。"
 image: "/images/default.jpg"
+draft: false
 ---
 # <font color=#417D7A>面纱/The Veil</font>
 <br>

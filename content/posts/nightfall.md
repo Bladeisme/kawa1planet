@@ -1,6 +1,7 @@
 ---
 title: JOJO|布茸/黄昏集
 toc: true
+draft: false
 date: 2022-08-22T17:31:20+11:00
 tags: [JOJO,布茸]
 series: [Symphony of Klein]

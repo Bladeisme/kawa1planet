@@ -2,7 +2,7 @@
 title: "JOJO|布茸茶Scar"
 date: 2024-03-23T00:07:08+11:00
 lastmod:
-draft: true
+draft: false
 description: 
 tags: [JOJO,布茶,茸茶,布茸]
 series: [Days and Moons]
