@@ -81,13 +81,17 @@ showToc = true
     name = "标签"
     url = "/tags"
     weight = 5
-    pre = "<i class='fa fa-tags'></i>"        
+    pre = "<i class='fa fa-tags'></i>"      
+[[menu.main]] 
+    name = "碎碎念"
+    url = "/artitalk"
+    weight = 6  
 [[menu.main]]
     name = "关于"
     url = "/about"
-    weight = 6
+    weight = 7
     pre = "<i class='fa fa-info-circle'></i>"
- 
+
 
     # page configuration
     # 页面配置  

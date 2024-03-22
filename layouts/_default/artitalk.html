@@ -1,0 +1,22 @@
+{{ define "main" }}
+<!-- 引用 artitalk -->
+<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+<!-- 存放说说的容器 -->
+<div id="artitalk_main"></div>
+<script>
+var at = new Artitalk();
+at.init({
+    appId: 'TdMePyX8o2ziWACftorcgqAH-MdYXbMMI', // Your LeanCloud appId
+    appKey: 'LvSjS9AsHPCtmUz188L6HP7A' // Your LeanCloud appKey
+    pageSize: 15, // 每页说说数量
+    color3: "var(--color-contrast-high)", // 文字颜色
+    color1: "hsla(var(--color-contrast-lower-h), var(--color-contrast-lower-s), var(--color-contrast-lower-l), 0.5)", //背景颜色1
+    color2: "hsla(var(--color-contrast-lower-h), var(--color-contrast-lower-s), var(--color-contrast-lower-l), 0.5)" // 背景颜色2
+    atEmoji: {
+         'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png',
+         'https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan',
+         'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
+        },
+})
+</script>
+{{ end }}
