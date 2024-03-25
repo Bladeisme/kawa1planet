@@ -36,9 +36,10 @@ hideFromHomePage:
 - + 风车老师给我画了guest图！我的要求是选择自己喜欢的部分，恰好她选择了我也蛮喜欢的一幕！仙道与牧二人淋了雨后回旅馆。我单独印了明信片放在了对应内容的那一页。<br><br>
 
 
-总而言之最末那个海洋/沙漠的效果是：
+总而言之最末那个海洋/沙漠的效果如下：
+动图我插在文内了，请见[《红色沙漠》](https://kawa1planet.fun/posts/reddesert/)
 
-{{< imgloop "https://raw.githubusercontent.com/Bladeisme/blog-img/master/【插画】红色沙漠-内页线稿 拷贝.jpg,https://raw.githubusercontent.com/Bladeisme/blog-img/master/【插画】红色沙漠-胶片.jpg,https://raw.githubusercontent.com/Bladeisme/blog-img/master/动图慢.gif，https://raw.githubusercontent.com/Bladeisme/blog-img/master/扉页.jpg" >}}  
+{{< imgloop "https://raw.githubusercontent.com/Bladeisme/blog-img/master/【插画】红色沙漠-内页线稿 拷贝.jpg,https://raw.githubusercontent.com/Bladeisme/blog-img/master/【插画】红色沙漠-胶片.jpg,https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ截图20240325215753.png,https://raw.githubusercontent.com/Bladeisme/blog-img/master/扉页.jpg" >}}  
 
 ## <font color=#417D7A>《UZAK》：又用硫酸纸</font><br>
 <font color=#069A8E>又用硫酸纸当然是因为我没钱印量又小啦！</font><br>
