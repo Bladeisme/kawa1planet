@@ -218,6 +218,15 @@
     <loc>http://localhost:1313/tags/%E8%8C%B8%E5%B8%83%E8%8C%B8/</loc>
     <lastmod>2022-06-23T17:18:27+11:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/bladeworkshop2/</loc>
+    <lastmod>2022-06-12T08:19:26+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%90%8C%E4%BA%BA%E6%9C%AC/</loc>
+    <lastmod>2022-06-12T08:19:26+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/%E5%90%8C%E4%BA%BA%E5%B7%A5%E5%9D%8A/</loc>
+    <lastmod>2022-06-12T08:19:26+11:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/rose/</loc>
     <lastmod>2022-06-10T22:40:56+11:00</lastmod>
   </url><url>
@@ -271,5 +280,7 @@
   </url><url>
     <loc>http://localhost:1313/posts/dbwaddition/</loc>
     <lastmod>2022-03-15T15:30:52+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/bladeworkshop/</loc>
   </url>
 </urlset>
