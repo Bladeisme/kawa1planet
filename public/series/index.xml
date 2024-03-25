@@ -6,8 +6,15 @@
     <description>Recent content in Series on Kawa1Planet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Mar 2024 00:07:08 +1100</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 20:47:32 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>同人工坊</title>
+      <link>http://localhost:1313/series/%E5%90%8C%E4%BA%BA%E5%B7%A5%E5%9D%8A/</link>
+      <pubDate>Mon, 25 Mar 2024 20:47:32 +1100</pubDate>
+      <guid>http://localhost:1313/series/%E5%90%8C%E4%BA%BA%E5%B7%A5%E5%9D%8A/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Days and Moons</title>
       <link>http://localhost:1313/series/days-and-moons/</link>
@@ -69,13 +76,6 @@
       <link>http://localhost:1313/series/%E7%9C%A9%E6%99%95/</link>
       <pubDate>Sat, 25 Jun 2022 22:00:50 +1100</pubDate>
       <guid>http://localhost:1313/series/%E7%9C%A9%E6%99%95/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>同人工坊</title>
-      <link>http://localhost:1313/series/%E5%90%8C%E4%BA%BA%E5%B7%A5%E5%9D%8A/</link>
-      <pubDate>Sun, 12 Jun 2022 08:19:26 +1100</pubDate>
-      <guid>http://localhost:1313/series/%E5%90%8C%E4%BA%BA%E5%B7%A5%E5%9D%8A/</guid>
       <description></description>
     </item>
   </channel>
