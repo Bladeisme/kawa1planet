@@ -6,8 +6,15 @@
     <description>Recent content in Summertime on Kawa1Planet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jul 2022 23:56:07 +1100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Aug 2022 10:41:41 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/series/summertime/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JOJO|茸茶/亨伯特叙述诡计</title>
+      <link>http://localhost:1313/posts/humbert/</link>
+      <pubDate>Wed, 24 Aug 2022 10:41:41 +1100</pubDate>
+      <guid>http://localhost:1313/posts/humbert/</guid>
+      <description>15岁茸x30↑茶</description>
+    </item>
     <item>
       <title>JOJO|茸茶/In Neapoli</title>
       <link>http://localhost:1313/posts/inneapoli/</link>

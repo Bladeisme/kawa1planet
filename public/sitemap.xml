@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/bladeworkshop3/</loc>
-    <lastmod>2024-03-25T20:47:32+11:00</lastmod>
+    <loc>http://localhost:1313/posts/anatomy/</loc>
+    <lastmod>2024-03-30T23:00:12+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-03-25T20:47:32+11:00</lastmod>
+    <lastmod>2024-03-30T23:00:12+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-03-25T20:47:32+11:00</lastmod>
+    <lastmod>2024-03-30T23:00:12+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-03-30T23:00:12+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/record/</loc>
+    <lastmod>2024-03-30T23:00:12+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/bladeworkshop3/</loc>
     <lastmod>2024-03-25T20:47:32+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
@@ -188,6 +194,12 @@
     <loc>http://localhost:1313/posts/veil/</loc>
     <lastmod>2022-08-24T13:41:09+11:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/humbert/</loc>
+    <lastmod>2022-08-24T10:41:41+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/summertime/</loc>
+    <lastmod>2022-08-24T10:41:41+11:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/nightfall/</loc>
     <lastmod>2022-08-22T17:31:20+11:00</lastmod>
   </url><url>
@@ -195,9 +207,6 @@
     <lastmod>2022-08-22T14:31:42+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/inneapoli/</loc>
-    <lastmod>2022-07-18T23:56:07+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/series/summertime/</loc>
     <lastmod>2022-07-18T23:56:07+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/noquarrelonwedding/</loc>
@@ -239,6 +248,9 @@
     <loc>http://localhost:1313/posts/eternityandaday/</loc>
     <lastmod>2022-06-10T20:59:41+11:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/bladeworkshop/</loc>
+    <lastmod>2022-06-10T13:56:07+11:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/thefall/</loc>
     <lastmod>2022-06-07T00:14:25+11:00</lastmod>
   </url><url>
@@ -269,9 +281,6 @@
     <loc>http://localhost:1313/tags/record/</loc>
     <lastmod>2022-04-22T12:07:37+11:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/record/</loc>
-    <lastmod>2022-04-22T12:07:37+11:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/recordjantomar/</loc>
     <lastmod>2022-04-22T12:07:37+11:00</lastmod>
   </url><url>
@@ -283,7 +292,5 @@
   </url><url>
     <loc>http://localhost:1313/posts/dbwaddition/</loc>
     <lastmod>2022-03-15T15:30:52+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/bladeworkshop/</loc>
   </url>
 </urlset>
