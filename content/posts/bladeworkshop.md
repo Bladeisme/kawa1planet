@@ -1,10 +1,10 @@
 ---
-title: Bladeworkshop|那些年我做过的同人本-1
+title: "Bladeworkshop|那些年我做过的同人本-1"
+date: 2022-06-10T13:56:07+11:00
 toc: true
 lastmod:
 draft: false
 description: 
-date: 2022-06-10T17:48:46+11：00
 tags: [同人本]
 series: [同人工坊]
 categories: [同人]
