@@ -86,10 +86,14 @@ showToc = true
     name = "碎碎念"
     url = "/artitalk"
     weight = 6  
+[[menu.main]] 
+    name = "相册"
+    url = "/photos"
+    weight = 7  
 [[menu.main]]
     name = "关于"
     url = "/about"
-    weight = 7
+    weight = 8
     pre = "<i class='fa fa-info-circle'></i>"
 
 

@@ -292,5 +292,9 @@
   </url><url>
     <loc>http://localhost:1313/posts/dbwaddition/</loc>
     <lastmod>2022-03-15T15:30:52+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/photos/photos/</loc>
   </url>
 </urlset>

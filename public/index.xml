@@ -316,5 +316,12 @@
       <guid>http://localhost:1313/posts/dbwaddition/</guid>
       <description>为了剧本新增了一点片段，大多都是菲力克斯相关，自娱自乐一下。</description>
     </item>
+    <item>
+      <title>相册</title>
+      <link>http://localhost:1313/photos/photos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/photos/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
