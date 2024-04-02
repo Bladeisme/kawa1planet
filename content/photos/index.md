@@ -1,4 +1,4 @@
 ---
-title: "相册"
+title: "我的相册"
 layout: "photos"
 ---

@@ -9,7 +9,7 @@ languageCode = 'en-us'
 title = 'Kawa1Planet'
 # theme
 # 主题
-theme = "NewBee"
+theme = 'NewBee'
 # default content of website
 # 网站默认语言
 defaultContentLanguage = "zh"
