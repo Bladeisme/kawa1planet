@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="container">
+<div class="zhuti-0">
   <div class="gallery-photos page">
   {{ range (sort (readDir "./static/photos") "Name" "desc")}}
     {{ if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
@@ -7,9 +7,9 @@
       <img class="photo-img" loading='lazy' decoding="async" src="/photos/{{ .Name }}" alt="{{ .Name }}" />
       <span class="photo-title">{{ .Name | replaceRE "^[0-9 -]+(.*)[.].*" "$1"}}</span><span class="photo-time">{{ .Name | replaceRE "^([0-9-]+).*[.].*" "$1" }}</span>
     </div>
-  </div>
     {{ end }}
   {{ end }}
+  </div>
 </div>
 
 <style>
