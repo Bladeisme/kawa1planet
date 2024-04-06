@@ -1,5 +1,5 @@
 ---
-title: "Records|一年的四分之一过去了。"
+title: "Records|一年的四分之一过去了"
 date: 2024-04-06T23:55:06+11:00
 lastmod:
 draft: false
@@ -7,7 +7,7 @@ description:
 tag: [Record]
 series: [日常]
 categories: [Record]
-toc: false
+toc: true
 hideFromHomePage:
 Summary: "但似乎一事无成。"
 image: "/images/default2.jpg"
