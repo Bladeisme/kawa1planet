@@ -165,9 +165,10 @@ show_date_time();
 ```
 短代码是：
 
-<pre><code>{{< detail "这里是折叠提示词" >}}
+<pre><code>{< detail "这里是折叠提示词" >}
 需要隐藏的内容
-{{< /detail >}} /* 需要多打一对花括号 */
+{< /detail >}   
+/* 需要多打一对花括号 */
 </code></pre>
 
 效果：  

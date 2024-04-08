@@ -4,7 +4,7 @@
     <button class="filter-button" data-category="封面">#封面</button>
     <button class="filter-button" data-category="排版">#排版</button>
     <button class="filter-button" data-category="宣图">#宣图</button>
-
+    <button class="filter-button" data-category="其他">#其他设计</button>
 </div>
 <div class="gallery-photos page">
   {{ range (sort (readDir "./static/photos") "Name" "desc")}}
