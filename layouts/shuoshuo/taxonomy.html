@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="zhuti-0">
+    <div class="container">
+        <div class="zhuti">
+          <!-- 1. 如果是包含在主题左栏里的页面, 在zhuti-l中插入自己的代码 -->
+          <div class="zhuti-l">
+            你的代码
+          </div>
+          <div class="zhuti-r">
+              {{ partial "widgets/zhuti-r.html" . }}
+          </div>
+          <!-- 1. end -->
+          
+          <!-- 2. 否则就不要zhuti-l和zhuti-r, 直接插入代码 -->
+          你的代码
+          <!-- 2. end -->
+        </div>
+    </div>
+</div>
+{{ end }}

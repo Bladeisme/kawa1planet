@@ -44,7 +44,8 @@ googleAnalytics = "G-5C3W6P2YX9"
     category = "categories"
     tag = "tags"
     series = "series"
-    
+    shuoshuo = "shuoshuo"
+
 [params]
 enableimgloop = true
 showToc = true
@@ -84,7 +85,7 @@ showToc = true
     pre = "<i class='fa fa-tags'></i>"      
 [[menu.main]] 
     name = "碎碎念"
-    url = "/artitalk"
+    url = "/shuoshuo"
     weight = 6  
 [[menu.main]] 
     name = "相册"

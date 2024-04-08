@@ -1,6 +1,7 @@
 ---
 title: "Hugo|博客装修日记"
 date: 2024-03-07T20:57:13+11:00
+lastmod: 2024-04-08T21:58:18+11:00
 draft: false
 description: 
 tags: [hugo]
@@ -165,8 +166,8 @@ show_date_time();
 ```
 短代码是：
 
-<pre><code>{< detail "这里是折叠提示词" >}
-需要隐藏的内容
+> {< detail "这里是折叠提示词" >}  
+需要隐藏的内容  
 {< /detail >}   
 /* 需要多打一对花括号 */
 </code></pre>
@@ -177,3 +178,18 @@ show_date_time();
 需要隐藏的内容
 {{< /detail >}}
 
+<br>
+
+# <font color=#417D7A>04.08更新：求助作者堂堂成功！</font>
+
+## <font color=#417D7A>新增相册页面</font>
+
+这里我遇到的问题是，新增页面后tag+图片和最顶部的导航栏重叠，F12检查半天都不成功，想办法找到了作者，给作者发了邮件，今日伊回复邮件，解决办法是：  
+> 将style.css中.hero的margin-top: 60px移除, 然后给body{}添加padding-top: 60px;
+
+依样修改后堂堂成功！
+新增方式这里不说了，请见[《小白hugo博客装修笔记（1）》-添加相册功能](https://www.blain.top/p/renovation/#%E6%B7%BB%E5%8A%A0%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD)
+
+## <font color=#417D7A>新增Artitalk说说页面</font>
+
+同上也没有成功，和上面一个问题一起给作者发邮件了，作者新写了一篇文章，[《创建新的页面》](https://xioyito.top/posts/%E5%88%9B%E5%BB%BA%E6%96%B0%E7%9A%84%E9%A1%B5%E9%9D%A2/)
