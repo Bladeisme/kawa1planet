@@ -135,6 +135,27 @@
       <description></description>
     </item>
     <item>
+      <title>Record</title>
+      <link>http://localhost:1313/tags/record/</link>
+      <pubDate>Sat, 30 Dec 2023 18:15:55 +1100</pubDate>
+      <guid>http://localhost:1313/tags/record/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>日常</title>
+      <link>http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/</link>
+      <pubDate>Sat, 30 Dec 2023 18:15:55 +1100</pubDate>
+      <guid>http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>同人</title>
+      <link>http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/</link>
+      <pubDate>Sat, 30 Dec 2023 18:15:55 +1100</pubDate>
+      <guid>http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>布莓</title>
       <link>http://localhost:1313/tags/%E5%B8%83%E8%8E%93/</link>
       <pubDate>Sat, 08 Apr 2023 16:12:50 +1100</pubDate>
@@ -209,13 +230,6 @@
       <link>http://localhost:1313/tags/%E6%B0%B4%E6%99%B6%E5%85%AC/</link>
       <pubDate>Sun, 29 May 2022 08:45:55 +1100</pubDate>
       <guid>http://localhost:1313/tags/%E6%B0%B4%E6%99%B6%E5%85%AC/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Record</title>
-      <link>http://localhost:1313/tags/record/</link>
-      <pubDate>Fri, 22 Apr 2022 12:07:37 +1100</pubDate>
-      <guid>http://localhost:1313/tags/record/</guid>
       <description></description>
     </item>
     <item>

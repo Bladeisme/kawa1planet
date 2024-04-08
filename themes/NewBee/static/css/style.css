@@ -145,6 +145,7 @@ body {
     flex-direction: column;
     background-color: var(--bgc-2);
     position: relative;
+    padding-top: 60px;
 }
 
 .chroma code {
@@ -555,7 +556,6 @@ header {
 .hero {
     width: 100%;
     padding: 20px;
-    margin-top: 60px;
     box-sizing: border-box;
     position: relative;
 }

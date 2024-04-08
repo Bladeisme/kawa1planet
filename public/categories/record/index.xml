@@ -6,14 +6,28 @@
     <description>Recent content in Record on Kawa1Planet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Mar 2024 23:00:12 +1100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2024 18:55:06 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/record/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Records|一年的四分之一过去了</title>
+      <link>http://localhost:1313/posts/march/</link>
+      <pubDate>Sat, 06 Apr 2024 18:55:06 +1100</pubDate>
+      <guid>http://localhost:1313/posts/march/</guid>
+      <description>但似乎一事无成。</description>
+    </item>
     <item>
       <title>《坠楼死亡》之我又嗑了</title>
       <link>http://localhost:1313/posts/anatomy/</link>
       <pubDate>Sat, 30 Mar 2024 23:00:12 +1100</pubDate>
       <guid>http://localhost:1313/posts/anatomy/</guid>
       <description>一些电影相关碎碎念</description>
+    </item>
+    <item>
+      <title>Record|2023年终总结</title>
+      <link>http://localhost:1313/posts/2023conclusion/</link>
+      <pubDate>Sat, 30 Dec 2023 18:15:55 +1100</pubDate>
+      <guid>http://localhost:1313/posts/2023conclusion/</guid>
+      <description>2023年终总结</description>
     </item>
     <item>
       <title>Record|1-3月书影</title>

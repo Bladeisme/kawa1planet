@@ -6,8 +6,15 @@
     <description>Recent content in Series on Kawa1Planet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2024 20:47:32 +1100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2024 18:55:06 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日常</title>
+      <link>http://localhost:1313/series/%E6%97%A5%E5%B8%B8/</link>
+      <pubDate>Sat, 06 Apr 2024 18:55:06 +1100</pubDate>
+      <guid>http://localhost:1313/series/%E6%97%A5%E5%B8%B8/</guid>
+      <description></description>
+    </item>
     <item>
       <title>同人工坊</title>
       <link>http://localhost:1313/series/%E5%90%8C%E4%BA%BA%E5%B7%A5%E5%9D%8A/</link>

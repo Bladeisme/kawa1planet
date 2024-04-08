@@ -6,8 +6,15 @@
     <description>Recent content on Kawa1Planet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Mar 2024 23:00:12 +1100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2024 18:55:06 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Records|一年的四分之一过去了</title>
+      <link>http://localhost:1313/posts/march/</link>
+      <pubDate>Sat, 06 Apr 2024 18:55:06 +1100</pubDate>
+      <guid>http://localhost:1313/posts/march/</guid>
+      <description>但似乎一事无成。</description>
+    </item>
     <item>
       <title>《坠楼死亡》之我又嗑了</title>
       <link>http://localhost:1313/posts/anatomy/</link>
@@ -126,6 +133,13 @@
       <pubDate>Sat, 03 Feb 2024 16:20:14 +1100</pubDate>
       <guid>http://localhost:1313/posts/travel-japan/</guid>
       <description>枯山水是真正的枯-山-水。</description>
+    </item>
+    <item>
+      <title>Record|2023年终总结</title>
+      <link>http://localhost:1313/posts/2023conclusion/</link>
+      <pubDate>Sat, 30 Dec 2023 18:15:55 +1100</pubDate>
+      <guid>http://localhost:1313/posts/2023conclusion/</guid>
+      <description>2023年终总结</description>
     </item>
     <item>
       <title>JOJO|布莓/不冻港</title>
@@ -317,17 +331,10 @@
       <description>为了剧本新增了一点片段，大多都是菲力克斯相关，自娱自乐一下。</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/posts/my-gallery/</link>
+      <title>我的相册</title>
+      <link>http://localhost:1313/photos/photos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-gallery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>相册</title>
-      <link>http://localhost:1313/gallery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gallery/</guid>
+      <guid>http://localhost:1313/photos/photos/</guid>
       <description></description>
     </item>
   </channel>
