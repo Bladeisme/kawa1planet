@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-04-06T18:55:06+11:00</lastmod>
+    <lastmod>2024-04-08T21:58:18+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-06T18:55:06+11:00</lastmod>
+    <lastmod>2024-04-08T21:58:18+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-04-06T18:55:06+11:00</lastmod>
+    <lastmod>2024-04-08T21:58:18+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/record/</loc>
     <lastmod>2024-04-06T18:55:06+11:00</lastmod>
@@ -30,7 +30,7 @@
     <lastmod>2024-03-25T20:47:32+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-03-25T20:47:32+11:00</lastmod>
+    <lastmod>2024-04-08T21:58:18+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E5%90%8C%E4%BA%BA/</loc>
     <lastmod>2024-03-25T20:47:32+11:00</lastmod>
@@ -138,13 +138,13 @@
     <lastmod>2024-03-16T23:31:09+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hugo/</loc>
-    <lastmod>2024-03-07T20:57:13+11:00</lastmod>
+    <lastmod>2024-04-08T21:58:18+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/hugo/</loc>
-    <lastmod>2024-03-07T20:57:13+11:00</lastmod>
+    <lastmod>2024-04-08T21:58:18+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/log2/</loc>
-    <lastmod>2024-03-07T20:57:13+11:00</lastmod>
+    <lastmod>2024-04-08T21:58:18+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/log/</loc>
     <lastmod>2024-03-07T00:03:24+11:00</lastmod>
@@ -309,6 +309,8 @@
     <lastmod>2022-03-15T15:30:52+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/shuoshuo/</loc>
   </url><url>
     <loc>http://localhost:1313/photos/photos/</loc>
   </url>
