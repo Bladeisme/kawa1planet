@@ -8,7 +8,7 @@ series: [日常]
 categories: [Record]
 toc: true
 hideFromHomePage:
-Summary: 
+Summary: "诈骗但无惊无限"
 image: "/images/default2.jpg"
 ---
 # <font color=#417D7A>Records | 平平无奇诈骗案</font>
