@@ -270,3 +270,15 @@ figure img {
     height: auto; /* 图片高度自适应宽度 */
     margin: 0; /* 可选：去除图片的默认 margin */
 }
+
+/* 文本高斯模糊 */
+.blur {
+    color: transparent;
+    text-shadow:0px 0px 8px var(--card-text-color-main)
+}
+ 
+.blur:hover {
+    color: transparent;
+    text-shadow:0px 0px 0px var(--card-text-color-main)
+   
+}

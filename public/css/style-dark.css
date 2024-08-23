@@ -457,3 +457,16 @@ p > code {
 .tabs-header > span {
     color: var(--color);
 }
+
+/* 文本高斯模糊 */
+
+.blur {
+    color: transparent;
+    text-shadow:0px 0px 8px var(--card-text-color-main)
+}
+ 
+.blur:hover {
+    color: transparent;
+    text-shadow:0px 0px 0px var(--card-text-color-main)
+   
+}
