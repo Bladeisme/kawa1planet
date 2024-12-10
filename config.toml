@@ -94,11 +94,11 @@ showToc = true
 [[menu.main]] 
     name = "约稿橱窗"
     url = "/commission"
-    weight = 7      
+    weight = 8      
 [[menu.main]]
     name = "关于"
     url = "/about"
-    weight = 8
+    weight = 9
     pre = "<i class='fa fa-info-circle'></i>"
 
 
