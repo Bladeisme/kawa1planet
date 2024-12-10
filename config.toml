@@ -91,6 +91,10 @@ showToc = true
     name = "相册"
     url = "/photos"
     weight = 7  
+[[menu.main]] 
+    name = "约稿橱窗"
+    url = "/commission"
+    weight = 7      
 [[menu.main]]
     name = "关于"
     url = "/about"

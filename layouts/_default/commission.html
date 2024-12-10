@@ -1,10 +1,10 @@
 {{ define "main" }}
 <div class="button-group">
     <button class="filter-button" data-category="-">&nbsp;All&nbsp;</button>
-    <button class="filter-button" data-category="封面">#封面</button>
-    <button class="filter-button" data-category="排版">#排版</button>
-    <button class="filter-button" data-category="宣图">#宣图</button>
-    <button class="filter-button" data-category="其他">#其他设计</button>
+    <button class="filter-button" data-category="SD">#SD</button>
+    <button class="filter-button" data-category="FE3H">#FE3H</button>
+    <button class="filter-button" data-category="FF14">#FF14</button>
+    <button class="filter-button" data-category="花陆">#花陆</button>
 </div>
 <div class="gallery-photos page">
   {{ range (sort (readDir "./static/photos") "Name" "desc")}}
