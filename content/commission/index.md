@@ -1,4 +1,4 @@
 ---
-title: "约稿橱窗"
+title: "橱窗"
 layout: "commission"
 ---
