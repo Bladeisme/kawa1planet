@@ -80,7 +80,7 @@ image: "/images/default2.jpg"
 - 十二月好像每周都在和朋友玩，愉快！
 
 请欣赏我们的奠糕（不好吃）并阴险插入古风牛郎照，菜说这么萌的小东西可惜是个牛郎，下面请欣赏牛郎照（含一张猫图）：
-{{< imgloop "https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ图片20250102170211.jpg,https://raw.githubusercontent.com/Bladeisme/blog-img/master/6F0D8778-A03C-4DC9-B0D3-5AC41BD2BA9A-49424-00003D.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/95DB70BD-51F2-409A-95E1-C335FB64C494-23741-000004.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/IMG_0449.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/IMG_0806.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/IMG_0769.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/11CF36E9-EF89-4BE8-8D6E-29F722179870-23741-000004.JPG" >}}  
+{{< imgloop "https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ图片20250102170211.jpg,https://raw.githubusercontent.com/Bladeisme/blog-img/master/6F0D8778-A03C-4DC9-B0D3-5AC41BD2BA9A-49424-00003D.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/95DB70BD-51F2-409A-95E1-C335FB64C494-23741-000004.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/IMG_0449.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/IMG_0806.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/IMG_0769.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/11CF36E9-EF89-4BE8-8D6E-29F722179870-23741-000004.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/IMG_0622.JPG" >}}  
 
 
 都已经2024年了，依旧没有时间在往前走的实感，甚至不记得我几岁，感觉一直停留在2020年年初，完全不知道自己在做什么，不知道以后应该怎么办，过去四年发生过的事也毫无印象。  
