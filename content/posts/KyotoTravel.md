@@ -28,7 +28,8 @@ image: "/images/default.jpg"
 具体参见友写的长毛象串：  
 [海关记录@Genseriyaku@m.otter.homes](https://m.otter.homes/@Genseriyaku/113923827468476193)
 
-{{< mastodon status="113923827468476193" >}}
+{{< mastodon url="https://m.otter.homes/@Genseriyaku/113923827468476193" >}}
+
 
 
 ## <font color=#417D7A>最终也没住上！</font>
@@ -64,7 +65,7 @@ btw回家后这几天京都大暴雪，我的CP……
 贴上北斗的京都咖啡店感想：  
 [京都喝咖啡感想@hokuuuuuuuto@o3o.ca](https://o3o.ca/@hokuuuuuuuto/113742598714604692)
 
-{{< mastodon status="113742598714604692" >}}
+{{< mastodon url="https://o3o.ca/@hokuuuuuuuto/113742598714604692" >}}
 
 
 ## <font color=#417D7A>回家一日游</font>
