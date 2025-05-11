@@ -23,6 +23,7 @@ image: "/images/default.jpg"
 一张桌子原是一个保安亭，因此店面很小，店内挤一挤大概能坐9人。作为一个社区咖啡店，来这里的很多都是老板们的熟客以及附近居民，基本满足对这种第三空间的想象：大家进门，和咖啡师打个招呼，找个位置坐下，与咖啡师聊聊天，也有人会翻看咖啡店里的书。  
 
 {{< imgloop "https://raw.githubusercontent.com/Bladeisme/blog-img/master/DSC00429.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/DSC00416.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/DSC00421.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/DSC00417.JPG" >}}  
+<center><font size=2>一张桌子</font></center><br> 
 
 总的来说，这里客流不算很大，据个人半年体验，周末下午人多时也就十来人，天气好的话，一些人会坐在门口空处晒太阳喝咖啡。不过这都是周末情况，他们工作日早上也会开店，并且似乎九点前买咖啡能减3元，还是不少人来买的，很容易超出他们能接受的量，由于是手工制作（客人点单后才称豆磨豆制作咖啡），经常订单进度缓慢，让客人等很久。遇到周末人比较多的情况，也需要稍微耐心一些。  
 周一~周六一般是小郑在，周日则是一张桌子定休（目前周三下午也是，不确定，可以问问），这段时间是燕子来一张桌子。燕子之前的咖啡店关了，平时在另一家咖啡店上班，周日就来一张桌子，之后要搬去别的地方开店，所以在一张桌子的时间也不会太久了。老板娘应该是因为生了孩子就没时间来上工，周日会偶尔出现。燕子与老板娘都是从业十几年的咖啡师。没试过老板娘的咖啡，燕子的话手艺很好，非常稳定，品质有保障。小郑似乎做咖啡师没几年，现在也一直在学习精进手艺，半年下来觉得稳定了很多（有一次喝到了过萃的），不过再具体的我就无法评价了！    
@@ -30,7 +31,7 @@ image: "/images/default.jpg"
 一张桌子平日的推荐招牌是<font color=#069A8E>姜汁拿铁</font> 与<font color=#069A8E>三重奏</font> 。姜汁拿铁的姜汁是他们定期熬制的，不过有时姜不是应季，熬出来的姜汁不太好，可能也会短暂下架。三重奏是汤力水+咖啡+燕麦奶，可做常温，不过还是冰的更好。三重奏是八角屿的特调（大概），不过八角屿的不叫这个名字，配方也不完全一致，还有加蜂蜜。  
 
 {{< imgloop "https://raw.githubusercontent.com/Bladeisme/blog-img/master/DSC00411.JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/DSC00414.JPG" >}}  
-*常规菜单与燕子的Haruの一日営業菜单  
+<center><font size=2>常规菜单与燕子的Haruの一日営業菜单</font></center><br> 
 
 
 
@@ -39,7 +40,7 @@ image: "/images/default.jpg"
 周日会有燕子的一日菜单，有时伊会背来一些材料，比如之前的是<font color=#069A8E>西柚拿铁</font>，用的是燕麦奶。我几乎每周日都去一张桌子，每周日都点西柚拿铁，太喜欢喝了！天冷的那段时间上的是<font color=#069A8E>南瓜拿铁</font>，分含咖啡因版与不含咖啡因版（纯牛奶）。不含咖啡因版味道比较好，燕子也是更推荐无咖啡因版。后来因为我又经常点热巧克力，燕子还做了<font color=#069A8E>个人改良版热巧克力</font>，材料可能不太一样，是非常浓郁的巧克力，喝起来有坚果的味道（燕子说有海苔味，第二回去喝确实觉得有，但第一回没喝出来）。  
 店里菜单不固定，会出一些季节限定。四月初小郑做了新饮品，成功成为了最先吃螃蟹的人！其实材料还是当天外卖过来的，说他在B站大学新学的饮料。目前推出与否不清楚，总之是一款橙汁+咖啡奶泡饮品，下面是橙汁，上面是咖啡和奶油打发而成的雪顶（咖啡顶），味道还挺不错的，特别是一口下去同时喝到橙汁与咖啡奶油的话，很适合夏天。  
 {{< imgloop "https://raw.githubusercontent.com/Bladeisme/blog-img/master/DSC00406(20250407-152902).JPG,https://raw.githubusercontent.com/Bladeisme/blog-img/master/DSC00405.JPG" >}}  
-不知道名字的新品，也可能说过名字，但我忘了
+<center><font size=2>不知道名字的新品，也可能说过名字，但我忘了</font></center><br>
 
 
 题外话：可能小郑之前是设计师吧，店里有好些设计相关的书，我还在这儿看了些，买了本回家。后来我走之前送了两本我喜欢的小说放在店里。小郑说我可以挑几本我喜欢的带走，不过我也没有地方能放书，遂作罢。最后走之前一天也去了，燕子当班，还送了我一些咖啡店咖啡师的贴纸。  
