@@ -2,7 +2,7 @@
 title: "Records|一张桌子咖啡店"
 date: 2025-05-11T14:41:45+08:00
 lastmod:
-draft: true
+draft: false
 description: 
 tag: [Record]
 series: [日常]
