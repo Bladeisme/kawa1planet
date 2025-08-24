@@ -8,7 +8,7 @@ tag: [Record]
 series: [日常]
 categories: [Record]
 toc: true
-hideFromHomePage:
+hideFromHomePage: true
 Summary: 隐匿窃听器
 image: "/images/default.jpg"
 ---

@@ -8,7 +8,7 @@ tag: [Record]
 series: [日常]
 categories: [Record]
 toc: false
-hideFromHomePage:
+hideFromHomePage: true
 Summary: "trigger,但不知道预警点啥，总之如标题"
 image: "/images/default.jpg"
 ---
