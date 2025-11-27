@@ -13,8 +13,7 @@ tag: false
 
 
 ## 关于我
-腿腿desu。永恒同人女。  
-日常看电影，时不时打游戏，偶尔看漫画，试图看书，基本不看动画了。  
+腿腿desu。永恒同人女。    
 欢迎找我聊天！  
 
 [提问箱：弱智校花与不笑豚](https://box.n3ko.cc/_/meaningless)    
@@ -27,3 +26,4 @@ tag: false
 - [谢谢所有的鱼](https://gregueria.icu/)
 - [匣](https://kiokumo.vip)
 - [夜航南飞](https://banshou-air.netlify.app/) 
+- [咖啡冰河](https://blog.mysto.cyou/)  
