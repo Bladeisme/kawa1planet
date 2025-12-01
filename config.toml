@@ -27,7 +27,6 @@ summaryLength = 100
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 # 中日韩语言请改为 true
 hasCJKLanguage = true
-googleAnalytics = "G-5C3W6P2YX9"
 
 [author]
     name = "Bladeisme"
