@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Example Site</title>
-        <link>http://localhost:1313/posts/</link>
-        <description>Recent content in Posts on Example Site</description>
+        <title>Posts on 演示站点</title>
+        <link>//localhost:1313/posts/</link>
+        <description>Recent content in Posts on 演示站点</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 18 Jul 2019 17:18:05 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>zh-cn</language>
+        <copyright>Bladeisme</copyright>
+        <lastBuildDate>Thu, 18 Jul 2019 17:18:05 +0100</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My First Post</title>
-        <link>http://localhost:1313/posts/my-first-post/</link>
+        <link>//localhost:1313/posts/my-first-post/</link>
         <pubDate>Thu, 18 Jul 2019 17:18:05 +0100</pubDate>
         
-        <guid>http://localhost:1313/posts/my-first-post/</guid>
+        <guid>//localhost:1313/posts/my-first-post/</guid>
         <description>&lt;h1 id=&#34;hugo-on-vercel&#34;&gt;Hugo on Vercel
 &lt;/h1&gt;</description>
         </item>
