@@ -15,18 +15,18 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: kawa1planet
         weight: 1
         params:
             sidebar:
-                subtitle: Example description
+                subtitle: retoting
     zh-cn:
         languageName: 中文
-        title: 演示站点
+        title: 卡哇1星球
         weight: 2
         params:
             sidebar:
-                subtitle: 演示说明
+                subtitle: 自转中
 
 services:
     # Change it to your Disqus shortname before using
