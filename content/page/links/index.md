@@ -40,11 +40,11 @@ comments: false
 ---
 
 欢迎交换友链，由于邮件不提醒评论，不能及时看到评论，可以通过长毛象@yononaka@fairy.id交换友链~
+喜欢阅读博客！平时使用支持RSS阅读的APP阅读有RSS的博客。
 
 ```yaml
-links:
-  - 博客名称: 卡哇1星球
-    description: 卡哇1星球自转中
-    website: https://kawa1planet.fun/
-    image: 
+  博客名称: 卡哇1星球
+  description: 卡哇1星球自转中
+  website: https://kawa1planet.fun/
+  image: 
 ```
