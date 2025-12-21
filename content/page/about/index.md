@@ -1,13 +1,13 @@
 ---
-title: About
-description: Hugo, the world's fastest framework for building websites
+title: 关于
+description: 欢迎登陆卡哇1星球
 date: '2019-02-28'
 aliases:
   - about-us
   - about-hugo
   - contact
-license: CC BY-NC-ND
-lastmod: '2020-10-09'
+license: Bladeisme
+lastmod: '2025-12-21'
 menu:
     main: 
         weight: -90
@@ -15,20 +15,17 @@ menu:
             icon: user
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache License 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+## 卡哇1星球
 
-Hugo makes use of a variety of open source projects including:
+同人女宇宙，致力于生产卡哇1。欢迎每一位卡哇1来本星球定居。  
+[AO3_Bladeisme/TheBlazingglacier](https://archiveofourown.org/users/Theblazingglacier)  
+[AO3_Cirrocumulus_S](https://archiveofourown.org/users/Cirrocumulus_S)  
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+## 关于我
+腿腿desu。永恒同人女。  
+喜欢看电影，打打游戏。偶尔写文。  
+也做设计，请见米画师：Inverno    
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+欢迎找我聊天！  
+[提问箱：弱智校花与不笑豚](https://box.n3ko.cc/_/meaningless)    
