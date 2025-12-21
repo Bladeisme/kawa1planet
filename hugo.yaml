@@ -203,12 +203,6 @@ menu:
     main: []
 
     social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
-          params:
-              icon: brand-github
-
         - identifier: AO3
           name: AO3
           url: https://archiveofourown.org/users/Cirrocumulus_S
