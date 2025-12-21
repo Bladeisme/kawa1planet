@@ -13,13 +13,6 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: true
 
 languages:
-    en:
-        languageName: English
-        title: kawa1planet
-        weight: 2
-        params:
-            sidebar:
-                subtitle: retating
     zh-cn:
         languageName: 中文
         title: 卡哇1星球
