@@ -67,10 +67,6 @@ params:
             enabled: true
             default: 无线电波来自卡哇1星球信号站
 
-    custom: #启用custom.scss修改页面布局
-        css: 
-            - scss/custom.scss 
-
     comments:
         enabled: true
         provider: waline
