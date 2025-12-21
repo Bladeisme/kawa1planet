@@ -220,7 +220,7 @@ menu:
           name: AO3
           url: https://archiveofourown.org/users/Cirrocumulus_S
           params:
-              icon: brand-twitter
+              icon: brand-ao3
 
 related:
     includeNewer: true
