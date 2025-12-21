@@ -21,44 +21,15 @@
   }
 }
 
-/* 文章正文区域样式优化 */
+/* 仅保留这段最核心的代码测试 */
 .article-post {
-    /* 1. 调整段间距与行高 */
     p {
-        margin-top: 1.6em;    /* 增加段前距离 */
-        margin-bottom: 1.8em; /* 增加段后距离 */
-        line-height: 1.85;    /* 增加行间距，让阅读更透气 */
-        font-size: 1.1rem;    /* 稍微放大字号，保护视力 */
+        margin-top: 3em !important;    /* 故意调大间距以便观察 */
+        margin-bottom: 3em !important; 
+        color: red !important;         /* 故意改颜色以便观察 */
     }
-
-    /* 2. 移除你手动在 Markdown 里写的 <font color> 标签限制 */
-    /* 建议以后直接写 ## 标题，由 CSS 统一控制颜色，这样更规范 */
-    h1, h2, h3, h4 {
-        color: #417D7A !important; 
-        margin-top: 2.5em;     /* 标题上方的间距，拉开层次 */
-        margin-bottom: 1.2em;
-        font-weight: 600;
-    }
-
-    /* 3. 给二级标题加一个精致的装饰 */
     h2 {
-        border-bottom: 2px solid #417D7A; /* 底部横线 */
-        display: inline-block;             /* 线条随文字长度变化 */
-        padding-bottom: 5px;
-    }
-
-    /* 4. 优化列表间距 */
-    ul, ol {
-        li {
-            margin-bottom: 0.8em; /* 列表项之间不要太挤 */
-        }
-    }
-
-    /* 5. 引用块样式优化 */
-    blockquote {
-        border-left: 4px solid #417D7A;
-        background-color: rgba(65, 125, 122, 0.05); /* 淡淡的背景色 */
-        padding: 15px 20px;
-        border-radius: 0 8px 8px 0;
+        color: #417D7A !important;
+        border-bottom: 2px solid #417D7A;
     }
 }
