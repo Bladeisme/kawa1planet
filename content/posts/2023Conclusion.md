@@ -1,13 +1,14 @@
 ---
 title: Record|2023年终总结
 toc: true
-date: 2023-12-30T18:15:55+11:00
-tags: [Record,日常,同人]
+date: 2023-12-30
+slug: 2023annualreview
+tags: 
+    - 日常
 summary: 2023年终总结
-categories: [Record]
-series: [日常]
-draft: false
-image: "/images/default2.jpg"
+categories:
+    - 行星运行报告
+image: 
 ---
 
 # <font color=#417D7A>一年过了三个冬天</font><br><br>
