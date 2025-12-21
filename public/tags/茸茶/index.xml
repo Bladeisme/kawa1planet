@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>茸茶 on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/%E8%8C%B8%E8%8C%B6/</link>
+    <description>Recent content in 茸茶 on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Mar 2024 00:07:08 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%8C%B8%E8%8C%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JOJO|布茸茶Scar</title>
+      <link>http://localhost:1313/posts/scar/</link>
+      <pubDate>Sat, 23 Mar 2024 00:07:08 +1100</pubDate>
+      <guid>http://localhost:1313/posts/scar/</guid>
+      <description>他是唯一一座活着的墓碑。</description>
+    </item>
+    <item>
+      <title>JOJO|茸茶/亨伯特叙述诡计</title>
+      <link>http://localhost:1313/posts/humbert/</link>
+      <pubDate>Wed, 24 Aug 2022 10:41:41 +1100</pubDate>
+      <guid>http://localhost:1313/posts/humbert/</guid>
+      <description>15岁茸x30↑茶</description>
+    </item>
+    <item>
+      <title>JOJO|茸茶/In Neapoli</title>
+      <link>http://localhost:1313/posts/inneapoli/</link>
+      <pubDate>Mon, 18 Jul 2022 23:56:07 +1100</pubDate>
+      <guid>http://localhost:1313/posts/inneapoli/</guid>
+      <description>收录于茸茶个志《Summertime》， 阅读顺序：《Green Apricot and Sparkling Water》→《婚礼上禁止争吵》→《A Dying Summer/夏日将死》→《In Neapoli》 封面图来自个志实体本封面，由Yan(twi@</description>
+    </item>
+    <item>
+      <title>JOJO|茸茶/婚礼上禁止争吵</title>
+      <link>http://localhost:1313/posts/noquarrelonwedding/</link>
+      <pubDate>Mon, 18 Jul 2022 23:55:47 +1100</pubDate>
+      <guid>http://localhost:1313/posts/noquarrelonwedding/</guid>
+      <description>收录于茸茶个志《Summertime》， 阅读顺序：《Green Apricot and Sparkling Water》→《婚礼上禁止争吵》→《A Dying Summer/夏日将死》→《In Neapoli》 封面图来自个志实体本封面，由Yan(twi@</description>
+    </item>
+    <item>
+      <title>JOJO|茸茶/Green Apricot and Sparkling Water</title>
+      <link>http://localhost:1313/posts/sparklingwater/</link>
+      <pubDate>Mon, 18 Jul 2022 23:55:09 +1100</pubDate>
+      <guid>http://localhost:1313/posts/sparklingwater/</guid>
+      <description>收录于茸茶个志《Summertime》，主题【夏日故事】； 阅读顺序：《Green Apricot and Sparkling Water》→《婚礼上禁止争吵》→《A Dying Summer/夏日将死》→《In Neapoli》 封面图来自个志实体本封面，</description>
+    </item>
+    <item>
+      <title>JOJO|茸茶/夏日将死</title>
+      <link>http://localhost:1313/posts/adyingsummer/</link>
+      <pubDate>Thu, 23 Jun 2022 20:28:02 +1100</pubDate>
+      <guid>http://localhost:1313/posts/adyingsummer/</guid>
+      <description>乔鲁诺又知道些什么呢？他只知道种下一颗苹果明年就会长出一棵苹果树，他不记得那些伤口很痛，他只是期待地看着阿帕基。阿帕基想，他真的讨厌小孩子。</description>
+    </item>
+  </channel>
+</rss>

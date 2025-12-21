@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beyond the Time on Kawa1Planet</title>
+    <link>http://localhost:1313/series/beyond-the-time/</link>
+    <description>Recent content in Beyond the Time on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:33:55 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/beyond-the-time/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JOJO|茸布/Hypnotic</title>
+      <link>http://localhost:1313/posts/hyponotic/</link>
+      <pubDate>Fri, 23 Dec 2022 11:33:55 +1100</pubDate>
+      <guid>http://localhost:1313/posts/hyponotic/</guid>
+      <description>我做过的最好的梦是梦见我死亡。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FF14 on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/ff14/</link>
+    <description>Recent content in FF14 on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Mar 2024 22:45:50 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ff14/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FF14|阿谢赫尔/旅人与蝴蝶</title>
+      <link>http://localhost:1313/posts/travelerandbutterfiles/</link>
+      <pubDate>Mon, 18 Mar 2024 22:45:50 +1100</pubDate>
+      <guid>http://localhost:1313/posts/travelerandbutterfiles/</guid>
+      <description>彼处水如酒</description>
+    </item>
+    <item>
+      <title>FF14|光之战士/Blackshadow</title>
+      <link>http://localhost:1313/posts/blackshadow/</link>
+      <pubDate>Mon, 02 Jan 2023 12:35:54 +1100</pubDate>
+      <guid>http://localhost:1313/posts/blackshadow/</guid>
+      <description>5.0才出了个PV的时候写的！ 旧文存档 Blackshadow 灵灾之后，这片土地就很少有人踏足了，所以我看到那个男人时着实吃了一惊。 他受了伤，靠在树上，染了血的大剑搭在他腿上。 “喂。” 我冲他喊，这里，不要说人，连动物都没多</description>
+    </item>
+    <item>
+      <title>FF14|无CP/玫瑰生长于无光之海</title>
+      <link>http://localhost:1313/posts/nightsblessed/</link>
+      <pubDate>Mon, 26 Dec 2022 17:32:13 +1100</pubDate>
+      <guid>http://localhost:1313/posts/nightsblessed/</guid>
+      <description>现在我们已经不再用星历计时，这个年代是灾难的年代，今年是第八灵灾第十年。</description>
+    </item>
+    <item>
+      <title>FF14|爱梅无CP/魔盒</title>
+      <link>http://localhost:1313/posts/pandorasbox/</link>
+      <pubDate>Sun, 29 May 2022 09:02:51 +1100</pubDate>
+      <guid>http://localhost:1313/posts/pandorasbox/</guid>
+      <description>那时他们还小，还未被选入十四席，有时候他们逃课出来，坐在草地上晒太阳聊天。那些遥远的时光早已远去，亚马乌罗提已成了海底的废墟。希斯拉德想起那日他们的争论，谁也没能说服谁。</description>
+    </item>
+    <item>
+      <title>FF14|兰吉特无CP/守墓人</title>
+      <link>http://localhost:1313/posts/gravekeeper/</link>
+      <pubDate>Sun, 29 May 2022 08:56:55 +1100</pubDate>
+      <guid>http://localhost:1313/posts/gravekeeper/</guid>
+      <description>他老了，他足够强，但是老了。</description>
+    </item>
+    <item>
+      <title>FF14|水晶公无CP/水晶的残光</title>
+      <link>http://localhost:1313/posts/reflectionsincrystal/</link>
+      <pubDate>Sun, 29 May 2022 08:45:55 +1100</pubDate>
+      <guid>http://localhost:1313/posts/reflectionsincrystal/</guid>
+      <description>于是水晶公那样真实地，剥丝抽茧地，从这份手稿中浮现出来。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>同人工坊 on Kawa1Planet</title>
+    <link>http://localhost:1313/series/%E5%90%8C%E4%BA%BA%E5%B7%A5%E5%9D%8A/</link>
+    <description>Recent content in 同人工坊 on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Mar 2024 20:47:32 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/%E5%90%8C%E4%BA%BA%E5%B7%A5%E5%9D%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bladeworkshop|又在做本了</title>
+      <link>http://localhost:1313/posts/bladeworkshop3/</link>
+      <pubDate>Mon, 25 Mar 2024 20:47:32 +1100</pubDate>
+      <guid>http://localhost:1313/posts/bladeworkshop3/</guid>
+      <description>不写文了也要做本</description>
+    </item>
+    <item>
+      <title>Bladeworkshop|那些年我做过的同人本-2</title>
+      <link>http://localhost:1313/posts/bladeworkshop2/</link>
+      <pubDate>Sun, 12 Jun 2022 08:19:26 +1100</pubDate>
+      <guid>http://localhost:1313/posts/bladeworkshop2/</guid>
+      <description>虽然我写文很烂但我做本子很强啊！（again</description>
+    </item>
+    <item>
+      <title>Bladeworkshop|那些年我做过的同人本-1</title>
+      <link>http://localhost:1313/posts/bladeworkshop/</link>
+      <pubDate>Fri, 10 Jun 2022 13:56:07 +1100</pubDate>
+      <guid>http://localhost:1313/posts/bladeworkshop/</guid>
+      <description>虽然我写文很烂但我做本子很强啊！</description>
+    </item>
+  </channel>
+</rss>

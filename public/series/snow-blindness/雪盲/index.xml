@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snow Blindness/雪盲 on Kawa1Planet</title>
+    <link>http://localhost:1313/series/snow-blindness/%E9%9B%AA%E7%9B%B2/</link>
+    <description>Recent content in Snow Blindness/雪盲 on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Mar 2024 23:59:07 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/snow-blindness/%E9%9B%AA%E7%9B%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SD|流仙/Aftersun</title>
+      <link>http://localhost:1313/posts/aftersun/</link>
+      <pubDate>Sat, 16 Mar 2024 23:59:07 +1100</pubDate>
+      <guid>http://localhost:1313/posts/aftersun/</guid>
+      <description>流川忽然意识到他的假期很长，离去东京参加训练还有许久，他还不知道要做些什么。</description>
+    </item>
+    <item>
+      <title>SD|流仙/Uzak</title>
+      <link>http://localhost:1313/posts/uzak/</link>
+      <pubDate>Sat, 16 Mar 2024 23:31:09 +1100</pubDate>
+      <guid>http://localhost:1313/posts/uzak/</guid>
+      <description>中学时代的puppy love就像是云投下的一片影子</description>
+    </item>
+  </channel>
+</rss>

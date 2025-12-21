@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Kawa1Planet</title>
+    <link>http://localhost:1313/series/</link>
+    <description>Recent content in Series on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2024 18:55:06 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日常</title>
+      <link>http://localhost:1313/series/%E6%97%A5%E5%B8%B8/</link>
+      <pubDate>Sat, 06 Apr 2024 18:55:06 +1100</pubDate>
+      <guid>http://localhost:1313/series/%E6%97%A5%E5%B8%B8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>同人工坊</title>
+      <link>http://localhost:1313/series/%E5%90%8C%E4%BA%BA%E5%B7%A5%E5%9D%8A/</link>
+      <pubDate>Mon, 25 Mar 2024 20:47:32 +1100</pubDate>
+      <guid>http://localhost:1313/series/%E5%90%8C%E4%BA%BA%E5%B7%A5%E5%9D%8A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Days and Moons</title>
+      <link>http://localhost:1313/series/days-and-moons/</link>
+      <pubDate>Sat, 23 Mar 2024 00:07:08 +1100</pubDate>
+      <guid>http://localhost:1313/series/days-and-moons/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>炉边碎笔</title>
+      <link>http://localhost:1313/series/%E7%82%89%E8%BE%B9%E7%A2%8E%E7%AC%94/</link>
+      <pubDate>Mon, 18 Mar 2024 22:45:50 +1100</pubDate>
+      <guid>http://localhost:1313/series/%E7%82%89%E8%BE%B9%E7%A2%8E%E7%AC%94/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orbuculum</title>
+      <link>http://localhost:1313/series/orbuculum/</link>
+      <pubDate>Sun, 17 Mar 2024 13:18:24 +1100</pubDate>
+      <guid>http://localhost:1313/series/orbuculum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Silence of the Sea/海的沉默</title>
+      <link>http://localhost:1313/series/the-silence-of-the-sea/%E6%B5%B7%E7%9A%84%E6%B2%89%E9%BB%98/</link>
+      <pubDate>Sun, 17 Mar 2024 12:56:45 +1100</pubDate>
+      <guid>http://localhost:1313/series/the-silence-of-the-sea/%E6%B5%B7%E7%9A%84%E6%B2%89%E9%BB%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Snow Blindness/雪盲</title>
+      <link>http://localhost:1313/series/snow-blindness/%E9%9B%AA%E7%9B%B2/</link>
+      <pubDate>Sat, 16 Mar 2024 23:59:07 +1100</pubDate>
+      <guid>http://localhost:1313/series/snow-blindness/%E9%9B%AA%E7%9B%B2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Symphony of Klein</title>
+      <link>http://localhost:1313/series/symphony-of-klein/</link>
+      <pubDate>Mon, 02 Jan 2023 12:17:59 +1100</pubDate>
+      <guid>http://localhost:1313/series/symphony-of-klein/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beyond the Time</title>
+      <link>http://localhost:1313/series/beyond-the-time/</link>
+      <pubDate>Fri, 23 Dec 2022 11:33:55 +1100</pubDate>
+      <guid>http://localhost:1313/series/beyond-the-time/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Summertime</title>
+      <link>http://localhost:1313/series/summertime/</link>
+      <pubDate>Wed, 24 Aug 2022 10:41:41 +1100</pubDate>
+      <guid>http://localhost:1313/series/summertime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>眩晕</title>
+      <link>http://localhost:1313/series/%E7%9C%A9%E6%99%95/</link>
+      <pubDate>Sat, 25 Jun 2022 22:00:50 +1100</pubDate>
+      <guid>http://localhost:1313/series/%E7%9C%A9%E6%99%95/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

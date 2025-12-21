@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>茸布 on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/%E8%8C%B8%E5%B8%83/</link>
+    <description>Recent content in 茸布 on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:33:55 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%8C%B8%E5%B8%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JOJO|茸布/Hypnotic</title>
+      <link>http://localhost:1313/posts/hyponotic/</link>
+      <pubDate>Fri, 23 Dec 2022 11:33:55 +1100</pubDate>
+      <guid>http://localhost:1313/posts/hyponotic/</guid>
+      <description>我做过的最好的梦是梦见我死亡。</description>
+    </item>
+    <item>
+      <title>JOJO|茸布/面纱</title>
+      <link>http://localhost:1313/posts/veil/</link>
+      <pubDate>Wed, 24 Aug 2022 13:41:09 +1100</pubDate>
+      <guid>http://localhost:1313/posts/veil/</guid>
+      <description>大学生茸x站街布，含有抹布布情节。</description>
+    </item>
+    <item>
+      <title>JOJO|茸布/燃烧</title>
+      <link>http://localhost:1313/posts/blaze/</link>
+      <pubDate>Thu, 26 May 2022 18:17:17 +1100</pubDate>
+      <guid>http://localhost:1313/posts/blaze/</guid>
+      <description>之前我住的修道院来了一个疯女人。据说她试图跳崖但未遂，之后她完全疯了。人们说她被魔鬼附身了，也有人说她本人就是魔鬼，所以她被送到修道院里来驱魔。</description>
+    </item>
+  </channel>
+</rss>

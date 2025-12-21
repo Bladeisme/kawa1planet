@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orbuculum on Kawa1Planet</title>
+    <link>http://localhost:1313/series/orbuculum/</link>
+    <description>Recent content in Orbuculum on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Mar 2024 13:18:24 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/orbuculum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SD|宫骨/潮汐</title>
+      <link>http://localhost:1313/posts/tide/</link>
+      <pubDate>Sun, 17 Mar 2024 13:18:24 +1100</pubDate>
+      <guid>http://localhost:1313/posts/tide/</guid>
+      <description>很久之后良太学到了海洋腐蚀这个词，金属制品在海边容易生锈，就连记忆也是。</description>
+    </item>
+    <item>
+      <title>SD|流南/伤疤</title>
+      <link>http://localhost:1313/posts/rumnmscar/</link>
+      <pubDate>Sun, 17 Mar 2024 12:55:46 +1100</pubDate>
+      <guid>http://localhost:1313/posts/rumnmscar/</guid>
+      <description>流川枫摔了一跤。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sunset Ale on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/sunset-ale/</link>
+    <description>Recent content in Sunset Ale on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Dec 2022 17:32:13 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sunset-ale/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FF14|无CP/玫瑰生长于无光之海</title>
+      <link>http://localhost:1313/posts/nightsblessed/</link>
+      <pubDate>Mon, 26 Dec 2022 17:32:13 +1100</pubDate>
+      <guid>http://localhost:1313/posts/nightsblessed/</guid>
+      <description>现在我们已经不再用星历计时，这个年代是灾难的年代，今年是第八灵灾第十年。</description>
+    </item>
+    <item>
+      <title>FF14|兰吉特无CP/守墓人</title>
+      <link>http://localhost:1313/posts/gravekeeper/</link>
+      <pubDate>Sun, 29 May 2022 08:56:55 +1100</pubDate>
+      <guid>http://localhost:1313/posts/gravekeeper/</guid>
+      <description>他老了，他足够强，但是老了。</description>
+    </item>
+    <item>
+      <title>FF14|水晶公无CP/水晶的残光</title>
+      <link>http://localhost:1313/posts/reflectionsincrystal/</link>
+      <pubDate>Sun, 29 May 2022 08:45:55 +1100</pubDate>
+      <guid>http://localhost:1313/posts/reflectionsincrystal/</guid>
+      <description>于是水晶公那样真实地，剥丝抽茧地，从这份手稿中浮现出来。</description>
+    </item>
+  </channel>
+</rss>

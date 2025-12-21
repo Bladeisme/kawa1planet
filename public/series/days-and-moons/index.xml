@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Days and Moons on Kawa1Planet</title>
+    <link>http://localhost:1313/series/days-and-moons/</link>
+    <description>Recent content in Days and Moons on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Mar 2024 00:07:08 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/days-and-moons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JOJO|布茸茶Scar</title>
+      <link>http://localhost:1313/posts/scar/</link>
+      <pubDate>Sat, 23 Mar 2024 00:07:08 +1100</pubDate>
+      <guid>http://localhost:1313/posts/scar/</guid>
+      <description>他是唯一一座活着的墓碑。</description>
+    </item>
+    <item>
+      <title>JOJO|茸布特里/圆舞曲</title>
+      <link>http://localhost:1313/posts/waltz/</link>
+      <pubDate>Sat, 23 Mar 2024 00:01:49 +1100</pubDate>
+      <guid>http://localhost:1313/posts/waltz/</guid>
+      <description>准确地来说是茸→布←特里 茸与特里微妙地互相伤害 圆舞曲 闪亮的轿车在高档酒店门口停下，乔鲁诺打开后座车门，接过特里休的手。粉发的女人穿着露背的黑色晚礼裙，外面披着一件皮草，穿着低调，却抢走了所有人的目光。</description>
+    </item>
+    <item>
+      <title>JOJO|茸莓/蛛丝</title>
+      <link>http://localhost:1313/posts/spidersilk/</link>
+      <pubDate>Fri, 22 Mar 2024 23:57:19 +1100</pubDate>
+      <guid>http://localhost:1313/posts/spidersilk/</guid>
+      <description>乔鲁诺给了他一根蛛丝，但它最终断掉了。</description>
+    </item>
+    <item>
+      <title>JOJO|承&amp;仗/海上溺亡的鱼</title>
+      <link>http://localhost:1313/posts/drwonfish/</link>
+      <pubDate>Fri, 22 Mar 2024 23:47:25 +1100</pubDate>
+      <guid>http://localhost:1313/posts/drwonfish/</guid>
+      <description>“我来迎接我的死亡。”他拨开人群走向大海，海面为他分开，他就这样走向海里，直到他再也看不见这个人。”</description>
+    </item>
+    <item>
+      <title>JOJO|布莓/不冻港</title>
+      <link>http://localhost:1313/posts/warm-waterport/</link>
+      <pubDate>Sat, 08 Apr 2023 16:12:50 +1100</pubDate>
+      <guid>http://localhost:1313/posts/warm-waterport/</guid>
+      <description>旧文存档 不冻港 北方的城市。岁月在长久的沉默中抹除了这座城市的名字，人们不再记得她的名字。这里寒冷，没有四季的分别，一年中有一半的时间都在下雪。以南方国家们的季节来计算，夏季，这座城市是明朗的，天同水面</description>
+    </item>
+    <item>
+      <title>JOJO|茸布/面纱</title>
+      <link>http://localhost:1313/posts/veil/</link>
+      <pubDate>Wed, 24 Aug 2022 13:41:09 +1100</pubDate>
+      <guid>http://localhost:1313/posts/veil/</guid>
+      <description>大学生茸x站街布，含有抹布布情节。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>读书 on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/%E8%AF%BB%E4%B9%A6/</link>
+    <description>Recent content in 读书 on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Apr 2022 12:07:37 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Record|1-3月书影</title>
+      <link>http://localhost:1313/posts/recordjantomar/</link>
+      <pubDate>Fri, 22 Apr 2022 12:07:37 +1100</pubDate>
+      <guid>http://localhost:1313/posts/recordjantomar/</guid>
+      <description>例行的书影记录。以下都摘自我的毛象嘟文。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Record on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/record/</link>
+    <description>Recent content in Record on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Dec 2023 18:15:55 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/record/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Record|2023年终总结</title>
+      <link>http://localhost:1313/posts/2023conclusion/</link>
+      <pubDate>Sat, 30 Dec 2023 18:15:55 +1100</pubDate>
+      <guid>http://localhost:1313/posts/2023conclusion/</guid>
+      <description>2023年终总结</description>
+    </item>
+    <item>
+      <title>Record|1-3月书影</title>
+      <link>http://localhost:1313/posts/recordjantomar/</link>
+      <pubDate>Fri, 22 Apr 2022 12:07:37 +1100</pubDate>
+      <guid>http://localhost:1313/posts/recordjantomar/</guid>
+      <description>例行的书影记录。以下都摘自我的毛象嘟文。</description>
+    </item>
+  </channel>
+</rss>

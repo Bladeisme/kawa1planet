@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>布莓 on Kawa1Planet</title>
+    <link>http://localhost:1313/tags/%E5%B8%83%E8%8E%93/</link>
+    <description>Recent content in 布莓 on Kawa1Planet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Apr 2023 16:12:50 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%B8%83%E8%8E%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JOJO|布莓/不冻港</title>
+      <link>http://localhost:1313/posts/warm-waterport/</link>
+      <pubDate>Sat, 08 Apr 2023 16:12:50 +1100</pubDate>
+      <guid>http://localhost:1313/posts/warm-waterport/</guid>
+      <description>旧文存档 不冻港 北方的城市。岁月在长久的沉默中抹除了这座城市的名字，人们不再记得她的名字。这里寒冷，没有四季的分别，一年中有一半的时间都在下雪。以南方国家们的季节来计算，夏季，这座城市是明朗的，天同水面</description>
+    </item>
+  </channel>
+</rss>
