@@ -1,9 +1,9 @@
 ---
 title: FE3H|贝帝/苦月亮
 date: 2022-05-26T20:59:41+11:00
+slug: bittermoon
 draft: false
-tags: [FE3H,雷特帝弥]
-series: [眩晕]
+tags: [FE3H,雷特帝弥,眩晕]
 categories: [同人]
 description: "梅尔赛德斯，为我准备一件寿衣吧，我就要死了。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/dizziness.jpg"

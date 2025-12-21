@@ -3,12 +3,13 @@ title: Record|2023年终总结
 toc: true
 date: 2023-12-30
 slug: 2023annualreview
+description: 2023年终总结
 tags: 
     - 日常
-summary: 2023年终总结
+    - 年终总结
 categories:
     - 行星运行报告
-image: 
+image: /images/default2.jpg
 ---
 
 # <font color=#417D7A>一年过了三个冬天</font><br><br>

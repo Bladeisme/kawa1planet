@@ -2,11 +2,11 @@
 title: "JOJO|茸茶/夏日将死"
 toc: false
 date: 2022-06-23T20:28:02+11:00
+slug: adyingsummer
 draft: false
 tags: [JOJO,茸茶]
-series: [Summertime]
 categories: [同人]
-summary: "乔鲁诺又知道些什么呢？他只知道种下一颗苹果明年就会长出一棵苹果树，他不记得那些伤口很痛，他只是期待地看着阿帕基。阿帕基想，他真的讨厌小孩子。"
+description: "乔鲁诺又知道些什么呢？他只知道种下一颗苹果明年就会长出一棵苹果树，他不记得那些伤口很痛，他只是期待地看着阿帕基。阿帕基想，他真的讨厌小孩子。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/Summertimeonline.jpg"
 ---
 <font color=#417D7A>

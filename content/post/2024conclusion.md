@@ -1,15 +1,15 @@
 ---
 title: "Record|2024年终总结"
 date: 2025-01-02T16:29:19+08:00
-lastmod:
+slug: 2024annualreview
 draft: false
-description: 
-tags: [Record,日常,同人]
-categories: [Record]
-series: [日常]
+description: 2024年终总结
+tags: 
+    - 日常
+    - 年终总结
+categories:
+    - 行星运行报告
 toc: true
-hideFromHomePage:
-Summary: 2024年终总结
 image: "/images/default2.jpg"
 ---
 

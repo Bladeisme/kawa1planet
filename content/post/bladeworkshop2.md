@@ -1,12 +1,12 @@
 ---
 title: Bladeworkshop|那些年我做过的同人本-2
+slug: bladeworkshop2
 toc: true
 date: 2022-06-12T08:19:26+11:00
 draft: false
 tags: [同人本]
-series: [同人工坊]
-categories: [同人]
-Summary: 虽然我写文很烂但我做本子很强啊！（again
+categories: [同人工坊]
+description: 虽然我写文很烂但我做本子很强啊！（again
 image: "/images/default.jpg"
 ---
 # <font color=#417D7A>腿腿同人本展今日再揭！</font>

@@ -1,11 +1,11 @@
 ---
 title: "FF14|光之战士/Blackshadow"
+slug: blackshadow
 toc: false
 date: 2023-01-02T12:35:54+11:00
-tags: [FF14,光之战士]
-series: [炉边碎笔]
+tags: [FF14,光之战士,炉边碎笔]
 categories: [同人]
-summary:
+description: 
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/memento.jpg"
 ---
 

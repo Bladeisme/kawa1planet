@@ -1,15 +1,15 @@
 ---
 title: "SD|流仙/Aftersun"
 date: 2024-03-16T23:59:07+11:00
+slug: aftersun
 lastmod:
 draft: false
 description: 
-tags: [SD,流仙]
-series: [Snow Blindness/雪盲]
+tags: [SD,流仙,Snow Blindness]
 categories: [同人]
 toc: false
 hideFromHomePage:
-Summary: "流川忽然意识到他的假期很长，离去东京参加训练还有许久，他还不知道要做些什么。"
+description: "流川忽然意识到他的假期很长，离去东京参加训练还有许久，他还不知道要做些什么。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/cover.jpg"
 ---
 <font color=#417D7A>Rate: G</font><br><br>

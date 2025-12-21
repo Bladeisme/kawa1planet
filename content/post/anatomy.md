@@ -1,15 +1,14 @@
 ---
 title: "《坠楼死亡》之我又嗑了"
 date: 2024-03-30T23:00:12+11:00
+slug: anatomyofship
 lastmod:
 draft: false
-description: 
-tag: [电影]
-series:
-categories: [Record]
+description: 一些电影相关碎碎念
+tag: [随机电波,日常]
+categories: [随机电波]
 toc: false
 hideFromHomePage:
-Summary: "一些电影相关碎碎念"
 image: "/images/default.jpg"
 ---
 

@@ -1,15 +1,12 @@
 ---
 title: "Bladeworkshop|又在做本了"
+slug: bladeworkshop3
 date: 2024-03-25T20:47:32+11:00
-lastmod:
-draft: false
 toc: true
 tags: [同人本]
-series: [同人工坊]
-categories: [同人]
-Summary: "不写文了也要做本"
+categories: [同人工坊]
+description: "不写文了也要做本"
 image: "/images/default.jpg"
-hideFromHomePage:
 ---
 
 # <font color=#417D7A>写文当然就是为了做本啊！</font>
