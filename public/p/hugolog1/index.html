@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="建站日记">
+<title>Hugo|从Hexo迁移到Hugo</title>
+
+<link rel='canonical' href='http://localhost:1313/p/hugolog1/'>
+
+<link rel="stylesheet" href="/scss/style.min.70f81f88595aa8ce52995d5c87fb29d663869244cf2881ee644c765f4ef1ec63.css"><meta property='og:title' content="Hugo|从Hexo迁移到Hugo">
+<meta property='og:description' content="建站日记">
+<meta property='og:url' content='http://localhost:1313/p/hugolog1/'>
+<meta property='og:site_name' content='卡哇1星球'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:published_time' content='2024-03-07T00:03:24&#43;11:00'/><meta property='article:modified_time' content='2024-03-07T00:03:24&#43;11:00'/><meta property='og:image' content='http://localhost:1313/images/default.jpg' />
+<meta name="twitter:title" content="Hugo|从Hexo迁移到Hugo">
+<meta name="twitter:description" content="建站日记"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/images/default.jpg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_huda2458f72ce188392d75c5d51cd8e24e_373_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">卡哇1星球</a></h1>
+            <h2 class="site-description">自转中</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://archiveofourown.org/users/Cirrocumulus_S'
+                        target="_blank"
+                        title="AO3"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-ao3"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 5c7.109 4.1 10.956 10.131 12 14c1.074 -4.67 4.49 -8.94 8 -11" /><path d="M14 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M7 9c-.278 5.494 -2.337 7.33 -4 10c4.013 -2 6.02 -5 15.05 -5c4.012 0 3.51 2.5 1 3c2 .5 2.508 5 -2.007 2" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://neodb.social/users/InAndOutOfTrouble/'
+                        target="_blank"
+                        title="Neodb"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-puzzle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E9%93%BE/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#font-color417d7a修改整体配色font"><font color=#417D7A>修改整体配色</font></a></li>
+    <li><a href="#font-color417d7a改头像与网站icofont"><font color=#417D7A>改头像与网站ico</font></a></li>
+    <li><a href="#font-color417d7a增加about页font"><font color=#417D7A>增加about页</font></a></li>
+    <li><a href="#font-color417d7a增加站点运行时间与全站总字数总篇数font"><font color=#417D7A>增加站点运行时间与全站总字数&amp;总篇数</font></a></li>
+    <li><a href="#font-color417d7a增加评论区并修改font"><font color=#417D7A>增加评论区并修改</font></a></li>
+    <li><a href="#font-color417d7a修改目录样式font"><font color=#417D7A>修改目录样式</font></a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/hugolog1/">
+                
+                    <img src="/images/default.jpg" loading="lazy" alt="Featured image of post Hugo|从Hexo迁移到Hugo" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/hugo/" >
+                Hugo
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/hugolog1/">Hugo|从Hexo迁移到Hugo</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            建站日记
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Mar 07, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 6 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><font color=#417D7A>搬家！</font></p>
+<h1 id="font-color417d7a建博font"><font color=#417D7A>建博</font>
+</h1><p>之前首页蛮多朋友开始自建博客，看了之后觉得蛮有趣的于是我也跟风捣鼓了一个，用的hexo，网上教程很多而且非常详细。当时想应该不会玩很久吧，没想到也两年了。2022年4月8日本博勉强开始运转，内容还不算很多，但hexo的更新列表越来越长、长到我每次更新都觉得是在报错了。于是今年决定也用hugo啦。<br>
+建站参考的塔塔的<a class="link" href="https://mantyke.icu/posts/2021/hugo-build-blog/"  target="_blank" rel="noopener"
+    >《一起动手搭建个人博客吧》</a>一文。中间因为各种原因炸了8次吧，最后换用本主题勉力动起来了，当时心情：你就在此地不要走动，我去睡个觉。</p>
+<p>选用的是<a class="link" href="https://github.com/nodejh/hugo-theme-mini"  target="_blank" rel="noopener"
+    >mini主题</a>，看它比较旧，上一次更新是好多年前，有点担心，果不其然出了问题，tag页和category页虽然显示正常，但无法点击跳转文章，并且实际上hugo server之后localhost:1313也无法显示。目前为止这个问题还没解决，查看主题issue也发现其他人遇到了一样的情况并且很不幸，也没有人回答有效的解决方式。这点加入list。</p>
+<h1 id="font-color417d7a装修font"><font color=#417D7A>装修</font>
+</h1><p>此时此刻又发现了惊天大问题，我的博客根目录下没有<code>asset</code>文件夹也没有<code>static</code>和<code>layouts</code>，只有public。我从<code>themes/mini</code>里复制了一个layouts文件夹到根目录下进行修改。</p>
+<h2 id="font-color417d7a修改整体配色font"><font color=#417D7A>修改整体配色</font>
+</h2><p>改CSS比较简单，但因为我根目录下无<code>style.css</code>，我是直接在<code>themes/mini/static/css</code>里改的，理论上似乎不能动主题文件夹但……<br>
+背景改成灰色，整体色改为绿色。<br>
+这有一个简便的修改方式：打开博客网页，按F12，可以查看每一部分的css，它会具体到<code>style.css</code>的某一行，还可以直接在上面修改、调整、预览<br>
+<img src="https://raw.githubusercontent.com/Bladeisme/blog-img/master/QQ%e6%88%aa%e5%9b%be20240307154459.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="photo"
+	
+	
+></p>
+<h2 id="font-color417d7a改头像与网站icofont"><font color=#417D7A>改头像与网站ico</font>
+</h2><p>这一步也比较简单，直接替换images文件夹下的图即可。可以搜一个将文件转换成ico格式的在线转换网站，很方便。</p>
+<h2 id="font-color417d7a增加about页font"><font color=#417D7A>增加about页</font>
+</h2><p>其实本主题导航栏里就有「关于」，但点进去404，谷歌一番后发现大家给的添加about页的教程都一样，就是直接在根目录的content文件夹里新建一个<code>about.md</code>，打开这个文件，在抬头部分写上：<code>menu: &quot;main&quot;</code><br>
+config.toml里写入：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> [[menu.main]]
+</span></span><span class="line"><span class="cl">    name = &#34;About&#34;
+</span></span><span class="line"><span class="cl">    pageRef = &#34;/about&#34;
+</span></span><span class="line"><span class="cl">    weight = 10
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>我依样画葫芦建立该文件并写好后发现，它竟然出现在了list页，并且被计入文章总数了！翻了一遍目录，想到about页应该和categories&amp;tags是一样的格式，遂把<code>about.md</code>移到了/about文件夹下，再更新，完成！</p>
+<h2 id="font-color417d7a增加站点运行时间与全站总字数总篇数font"><font color=#417D7A>增加站点运行时间与全站总字数&amp;总篇数</font>
+</h2><p>运行时间代码参考知乎这篇<a class="link" href="https://www.zhihu.com/question/614820608"  target="_blank" rel="noopener"
+    >《Hugo博客如何添加网站运行时间？》</a>。<br>
+踩的坑：<br>
+因为本主题自带copyright，我在config将copyright改成了「卡哇1星球自转中」，因此修改后无反应。于是在config中将copyright设置为false。server后发现自定义的copyright是没有了，变成了默认模式！打开footer尝试研究代码，只看懂了if/else，我灵机一动，这不就是「如果A则，否则B」的意思吗，于是将这一整块代码全部删除，把上文里的代码放到<code>&lt;footer&gt;&lt;/footer&gt;</code>之间。<br>
+之后还想添加站点总字数和总篇数，<del>抄太多了想不起来抄自哪里了（抱歉！）</del>。<br>
+我使用的代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  {{$scratch := newScratch}}
+</span></span><span class="line"><span class="cl">  {{ range (where .Site.Pages &#34;Kind&#34; &#34;page&#34; )}}
+</span></span><span class="line"><span class="cl">      {{$scratch.Add &#34;total&#34; .WordCount}}
+</span></span><span class="line"><span class="cl">  {{ end }}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>看不懂放在哪里，遂放在<code>&lt;footer id=&quot;footer&quot;&gt;</code>下一行。
+接下来是：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{ $articleCount := len .Site.RegularPages }}
+</span></span><span class="line"><span class="cl">{{ $totalWordCount := 0 }}
+</span></span><span class="line"><span class="cl">{{ range .Site.Pages }}
+</span></span><span class="line"><span class="cl">{{ $totalWordCount = add $totalWordCount .WordCount }}
+</span></span><span class="line"><span class="cl">{{ end }}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在<code>&lt; div&gt;卡哇1星球自转 &lt; span id=&quot;days&quot;&gt;0&lt; /span&gt;&lt; /div&gt;</code>这一行后加入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt; div&gt;已生产 {{ $articleCount }} 篇文章，共 {{ $totalWordCount }} 字&lt; /div&gt;
+</span></span><span class="line"><span class="cl">  /* 去掉空格 */
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="font-color417d7a增加评论区并修改font"><font color=#417D7A>增加评论区并修改</font>
+</h2><p>mini主题自带评论功能，但是用的是disqus，我想用waline，于是先按<a class="link" href="https://waline.js.org/guide/get-started/#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93"  target="_blank" rel="noopener"
+    >waline的文档</a>注册并部署。这里有几个坑：</p>
+<ol>
+<li>使用国际版LeanCloud，我在hexo时便已注册过国际版，这步这次略过。但是好像使用国内版本会出问题，具体我也不清楚，总之建议用国际版。</li>
+<li><code>serverURL</code>是vercel部署的waline地址。</li>
+<li>作为管理员注册waline时填的地址也是上面这个，不是自己博客的地址。不过写错了也没关系可以修改。</li>
+</ol>
+<p><del>虽然waline给了手把手教程但还是每一步都会踩雷我们纯小白是这样的</del><br>
+修改waline头像参考<a class="link" href="https://innerso.prvcy.page/posts/configure-waline/"  target="_blank" rel="noopener"
+    >本篇</a>,在vercel的环境变量中添加：<code>key=GRAVATAR_STR</code>，<code>value=https://cravatar.cn/avatar/{{mail|md5}}?d=monsterid</code>
+邮箱接收评论提醒：没成功，sign。<br>
+评论区CSS样式：<br>
+我因为没有asset等文件，直接写在<code>comment.html</code>文件里了。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">close</span>
+</span></span><span class="line"><span class="cl">  <span class="o">.</span><span class="n">waline</span><span class="o">-</span><span class="n">container</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">background</span><span class="o">-</span><span class="n">color</span><span class="p">:</span> <span class="n">transparent</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="n">border</span><span class="o">-</span><span class="n">radius</span><span class="p">:</span> <span class="k">var</span><span class="p">(</span><span class="o">--</span><span class="n">card</span><span class="o">-</span><span class="n">border</span><span class="o">-</span><span class="n">radius</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="p">:</span> <span class="k">var</span><span class="p">(</span><span class="o">--</span><span class="n">shadow</span><span class="o">-</span><span class="n">l1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="n">padding</span><span class="p">:</span> <span class="mi">2</span><span class="o">%</span><span class="p">;</span> <span class="o">/*</span><span class="err">缩小边距</span><span class="o">*/</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="o">.</span><span class="n">waline</span><span class="o">-</span><span class="n">container</span> <span class="o">.</span><span class="n">vcount</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">color</span><span class="p">:</span> <span class="k">var</span><span class="p">(</span><span class="o">--</span><span class="n">card</span><span class="o">-</span><span class="n">text</span><span class="o">-</span><span class="n">color</span><span class="o">-</span><span class="n">main</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">:</span><span class="n">root</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="o">/*</span> <span class="err">主题色</span> <span class="o">*/</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mi">1</span><span class="n">rem</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">theme</span><span class="o">-</span><span class="n">color</span><span class="p">:</span> <span class="c1">#154c47; /* 主题色，按钮颜色 */</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">active</span><span class="o">-</span><span class="n">color</span><span class="p">:</span> <span class="c1">#f04853c4;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">color</span><span class="p">:</span> <span class="c1">#154c47;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">bg</span><span class="o">-</span><span class="n">color</span><span class="p">:</span> <span class="n">transparent</span><span class="p">;</span> <span class="o">/*</span> <span class="err">设置背景透明，官网</span><span class="n">CSS文件里无这一条我自己添加的</span> <span class="o">*/</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">bgcolor</span><span class="o">-</span><span class="n">light</span><span class="p">:</span> <span class="c1">#c8c8c8;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">border</span><span class="o">-</span><span class="n">color</span><span class="p">:</span> <span class="c1">#154c47; /* 边框线颜色 */</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">disable</span><span class="o">-</span><span class="n">bgcolor</span><span class="p">:</span> <span class="c1">#FAF9F7;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">avatar</span><span class="o">-</span><span class="n">size</span><span class="p">:</span><span class="mi">5</span><span class="n">rem</span> <span class="o">!</span><span class="n">important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">m</span><span class="o">-</span><span class="n">avatar</span><span class="o">-</span><span class="n">size</span><span class="p">:</span><span class="n">calc</span><span class="p">(</span><span class="k">var</span><span class="p">(</span><span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">avatar</span><span class="o">-</span><span class="n">size</span><span class="p">)</span><span class="o">*</span><span class="mi">9</span><span class="o">/</span><span class="mi">13</span><span class="p">)</span> <span class="o">!</span><span class="n">important</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">badge</span><span class="o">-</span><span class="n">color</span><span class="p">:</span><span class="n">rgba</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">148</span><span class="p">,</span> <span class="mf">0.425</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">badge</span><span class="o">-</span><span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mf">0.45</span><span class="n">em</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">info</span><span class="o">-</span><span class="n">bgcolor</span><span class="p">:</span> <span class="c1">#f8f8f8 ;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">info</span><span class="o">-</span><span class="n">color</span><span class="p">:</span><span class="c1">#999 ;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">info</span><span class="o">-</span><span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mf">0.625</span><span class="n">rem</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">border</span><span class="p">:</span> <span class="mi">1</span><span class="n">px</span> <span class="n">solid</span> <span class="k">var</span><span class="p">(</span><span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">border</span><span class="o">-</span><span class="n">color</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">--</span><span class="n">waline</span><span class="o">-</span><span class="n">avatar</span><span class="o">-</span><span class="n">radius</span><span class="p">:</span> <span class="mi">50</span><span class="o">%</span><span class="p">;</span> <span class="o">/*</span> <span class="mi">0</span><span class="err">就是正方形，可以自由设置头像圆角</span> <span class="o">*/</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="o">.</span><span class="n">comment</span><span class="o">-</span><span class="n">waline</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="o">/*</span>
+</span></span><span class="line"><span class="cl">    <span class="n">margin</span><span class="o">-</span><span class="n">top</span><span class="p">:</span> <span class="mi">10</span><span class="n">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">position</span><span class="p">:</span><span class="n">relative</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="ne">float</span><span class="p">:</span> <span class="n">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">display</span><span class="p">:</span> <span class="n">inline</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">padding</span><span class="p">:</span> <span class="mi">10</span><span class="n">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*/</span>
+</span></span><span class="line"><span class="cl">    <span class="n">background</span><span class="o">-</span><span class="n">color</span><span class="p">:</span> <span class="n">transparent</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">margin</span><span class="o">-</span><span class="n">top</span><span class="p">:</span> <span class="mi">18</span><span class="n">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">padding</span><span class="o">-</span><span class="n">top</span><span class="p">:</span> <span class="mi">25</span><span class="n">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">padding</span><span class="o">-</span><span class="n">bottom</span><span class="p">:</span> <span class="mi">40</span><span class="n">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">padding</span><span class="o">-</span><span class="n">left</span><span class="p">:</span> <span class="mi">40</span><span class="n">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">padding</span><span class="o">-</span><span class="n">right</span><span class="p">:</span> <span class="mi">40</span><span class="n">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">font</span><span class="o">-</span><span class="n">weight</span><span class="p">:</span> <span class="mi">300</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">line</span><span class="o">-</span><span class="n">height</span><span class="p">:</span> <span class="mf">1.8</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">/*</span>
+</span></span><span class="line"><span class="cl">    <span class="n">border</span><span class="o">-</span><span class="n">left</span><span class="p">:</span> <span class="mi">1</span><span class="n">px</span> <span class="n">solid</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">border</span><span class="o">-</span><span class="n">right</span><span class="p">:</span> <span class="mi">1</span><span class="n">px</span> <span class="n">solid</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">*/</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="o">.</span><span class="n">comment</span><span class="o">-</span><span class="n">underline</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">display</span><span class="p">:</span> <span class="n">inline</span><span class="o">-</span><span class="n">block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">margin</span><span class="o">-</span><span class="n">top</span><span class="p">:</span> <span class="mi">10</span><span class="n">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">margin</span><span class="o">-</span><span class="n">bottom</span><span class="p">:</span> <span class="mi">0</span><span class="n">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">width</span><span class="p">:</span> <span class="mi">50</span><span class="n">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">border</span><span class="o">-</span><span class="n">bottom</span><span class="p">:</span> <span class="mi">3</span><span class="n">px</span> <span class="n">solid</span> <span class="c1">#f0485388;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="font-color417d7a修改目录样式font"><font color=#417D7A>修改目录样式</font>
+</h2><p>mini自带的目录显示在文章上方，而且比较丑。找了很多教程修改都不成功，最后绝望想起以前hexo用的主题也有目录，想研究下hexo那个主题怎么写的，没想到该主题竟然被搬到hugo来了！于是立刻复制粘贴了对方的<code>toc.html</code>。<br>
+<a class="link" href="https://github.com/flysnow-org/maupassant-hugo"  target="_blank" rel="noopener"
+    >maupassant-hugo</a>,这个主题也挺不错的，功能齐全。<br>
+替换掉我的toc.html文件后开始修改样式，发现css样式写在toc.html里了，于是直接在上面修改：</p>
+<ul>
+<li>修改<code>background-color</code>删除背景；`</li>
+<li><code>margin-left&lt;/code&gt;修改左右位置；</code></li>
+<li><code>&lt; div class=&quot;post-toc&quot; style=&quot;position: fixed; top: 100px;&quot;&gt;</code>，top是指到浏览器上方的距离。</li>
+<li>最后发现目录位置是固定的，这样一来文章下拉后就看不到目录了，感觉失去意义，于是把<code>position</code>改成了<code>fixed</code>。</li>
+</ul>
+<p><font color=#417D7A>3.14更新：研究发现除了fixed之外还有relative，感觉应该是相对的意思，但修改后不久就换了主题，所以还没有测试过效果。</font></p>
+<p>暂时先修改到这里。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/hugo/">Hugo</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>无线电波来自卡哇1星球信号站</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/hugolog2/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/default.jpg" loading="lazy" data-key="hugolog2" data-hash="/images/default.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Hugo|博客装修日记</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://unpkg.com/@waline/emojis@1.0.1/weibo","https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png","https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan","https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif"],"locale":{"admin":"Admin","placeholder":"电波接收中"},"requiredMeta":["name","email","url"],"serverURL":"https://planetwaline.vercel.app"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    
+    <section class="running-time">
+    卡哇1星球已自转
+    <span id="runningdays" class="running-days"></span>
+    </section>
+
+    
+    <section class="totalcount">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    发表了 65 篇文章 · 
+    总计 445.22k 字
+    </section>
+
+    <section class="copyright">
+        &copy; 
+        
+            2022 - 
+        
+        2025 Bladeisme
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1cf5b9e65cb77a300a2df52bb1aae272f7616f3dbb07e58585bd0258a854fb6a.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    <script>
+    let s1 = '2022-4-8'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+
+    
+    let diffInMilliseconds = s2.getTime() - s1.getTime();
+    let totalDays = Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24));
+
+    
+    let years = s2.getFullYear() - s1.getFullYear();
+    let months = s2.getMonth() - s1.getMonth();
+    let days = s2.getDate() - s1.getDate();
+
+    
+    if (days < 0) {
+    months -= 1;
+    let prevMonth = new Date(s2.getFullYear(), s2.getMonth(), 0); 
+    days += prevMonth.getDate();
+    }
+    if (months < 0) {
+    years -= 1;
+    months += 12;
+    }
+
+    
+    let result = `${years}年${months}月${days}天`;
+    document.getElementById('runningdays').innerHTML = result;
+    </script>
+    </body>
+</html>

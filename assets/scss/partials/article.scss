@@ -6,28 +6,6 @@
 
     article {
 
-        p {
-        margin-top: 1.6em;    /* 增加段前距离 */
-        margin-bottom: 1.6em; /* 增加段后距离 */
-        line-height: 1.85;    /* 增加行间距，让阅读更透气 */
-        font-size: 1.1rem;    /* 稍微放大字号，保护视力 */
-    }
-
-    /* 建议以后直接写 ## 标题，由 CSS 统一控制颜色，这样更规范 */
-    h1, h2, h3, h4 {
-        color: #417D7A !important; 
-        margin-top: 2.5em;     /* 标题上方的间距，拉开层次 */
-        margin-bottom: 1.2em;
-        font-weight: 600;
-    }
-
-    /* 3. 给二级标题加一个精致的装饰 */
-    h2 {
-        border-bottom: 2px solid #417D7A; /* 底部横线 */
-        display: inline-block;             /* 线条随文字长度变化 */
-        padding-bottom: 5px;
-    }
-
         display: flex;
         flex-direction: column;
         background-color: var(--card-background);
