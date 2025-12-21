@@ -10,20 +10,20 @@ DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 languages:
     en:
         languageName: English
         title: kawa1planet
-        weight: 1
+        weight: 2
         params:
             sidebar:
-                subtitle: retoting
+                subtitle: retating
     zh-cn:
         languageName: 中文
         title: 卡哇1星球
-        weight: 2
+        weight: 1
         params:
             sidebar:
                 subtitle: 自转中
@@ -51,7 +51,7 @@ params:
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2022
         customText:
 
     dateFormat:
@@ -72,11 +72,11 @@ params:
         readingTime: true
         license:
             enabled: true
-            default: Licensed under CC BY-NC-SA 4.0
+            default: 无线电波来自自卡哇1星球信号站
 
     comments:
         enabled: true
-        provider: disqus
+        provider: waline
 
         disqusjs:
             shortname:
@@ -111,18 +111,21 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL:
+            serverURL: https://planetwaline.vercel.app
             lang:
             pageview:
             emoji:
                 - https://unpkg.com/@waline/emojis@1.0.1/weibo
+                - https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png',
+                - https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan',
+                - https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
             requiredMeta:
                 - name
                 - email
                 - url
             locale:
                 admin: Admin
-                placeholder:
+                placeholder: 电波接收中
 
         twikoo:
             envId:
@@ -213,9 +216,9 @@ menu:
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: AO3
+          name: AO3
+          url: https://archiveofourown.org/users/Cirrocumulus_S
           params:
               icon: brand-twitter
 
