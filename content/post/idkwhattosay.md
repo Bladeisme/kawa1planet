@@ -5,8 +5,8 @@ date: 2024-11-15T17:18:12+08:00
 lastmod:
 draft: false
 description: trigger,但不知道预警点啥，总之如标题
-tag: [日常,波群延迟]
-categories: [波群延迟]
+tag: [日常,随机电波]
+categories: [随机电波]
 toc: false
 image: "/images/default.jpg"
 ---
