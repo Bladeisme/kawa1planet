@@ -20,16 +20,3 @@
     }
   }
 }
-
-/* 仅保留这段最核心的代码测试 */
-.article-post {
-    p {
-        margin-top: 3em !important;    /* 故意调大间距以便观察 */
-        margin-bottom: 3em !important; 
-        color: red !important;         /* 故意改颜色以便观察 */
-    }
-    h2 {
-        color: #417D7A !important;
-        border-bottom: 2px solid #417D7A;
-    }
-}
