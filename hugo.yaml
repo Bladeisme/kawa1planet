@@ -221,6 +221,11 @@ menu:
           url: https://archiveofourown.org/users/Cirrocumulus_S
           params:
               icon: brand-ao3
+        - identifier: rss
+          name: RSS
+          url: /index.xml  # 或者使用完整域名 https://yourblog.com/index.xml
+          params:
+              icon: rss
 
 related:
     includeNewer: true
