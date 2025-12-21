@@ -1,6 +1,6 @@
 ---
 title: "SD|流南/伤疤"
-slug:rumanscar
+slug: rumanscar
 date: 2024-03-17T12:55:46+11:00
 description: 流川枫摔了一跤。
 tags: [SD,流南,Orbuculum]
