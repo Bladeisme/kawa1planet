@@ -44,7 +44,7 @@ comments: false
 
 ```yaml
   博客名称: 卡哇1星球
-  description: 卡哇1星球自转中
-  website: https://kawa1planet.fun/
-  image: 
+  博客简介（如需）: 卡哇1星球自转中
+  博客地址: https://kawa1planet.fun/
+  博客ICON: 
 ```
