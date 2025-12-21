@@ -1,15 +1,11 @@
 ---
 title: "JOJO|茸茶/Green Apricot and Sparkling Water"
+slug: sparklingwater
 date: 2022-07-18T23:55:09+11:00
-lastmod:
-draft: false
 description: 
-tags: [JOJO,茸茶]
-series: [Summertime]
+tags: [JOJO,茸茶,Summertime]
 categories: [同人]
 toc: false
-hideFromHomePage:
-Summary:
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/Summertimeonline.jpg"
 ---
 <font color=#417D7A>

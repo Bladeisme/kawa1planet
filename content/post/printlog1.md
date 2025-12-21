@@ -1,15 +1,11 @@
 ---
 title: "Bladeworkshop|同人制品印刷总结"
+slug: printlog1
 date: 2024-04-10T22:05:13+10:00
-lastmod:
-draft: false
-description: 
+description: 但是是不负责任总结
 tags: [同人制品]
-series: [同人工坊]
-categories: [同人]
+categories: [同人工坊]
 toc: true
-hideFromHomePage:
-Summary: 但是是不负责任总结
 image: "/images/default.jpg"
 ---
 

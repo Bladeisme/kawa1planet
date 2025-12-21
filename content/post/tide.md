@@ -1,15 +1,12 @@
 ---
 title: "SD|宫骨/潮汐"
+slug: tide
 date: 2024-03-17T13:18:24+11:00
 lastmod:
-draft: false
-description: 
-tags: [SD,宫骨]
-series: [Orbuculum]
+description: 很久之后良太学到了海洋腐蚀这个词，金属制品在海边容易生锈，就连记忆也是。
+tags: [SD,宫骨,Orbuculum]
 categories: [同人]
 toc: false
-hideFromHomePage:
-Summary: "很久之后良太学到了海洋腐蚀这个词，金属制品在海边容易生锈，就连记忆也是。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/tide.jpg"
 ---
 

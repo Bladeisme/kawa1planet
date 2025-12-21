@@ -1,15 +1,13 @@
 ---
 title: "SD|仙牧/小吉"
+slug: shyokichi
 date: 2024-03-17T12:56:45+11:00
 lastmod:
 draft: false
-description: 
-tags: [SD,仙牧]
-series: [The Silence of the Sea/海的沉默]
+description: 道合须成合，先忧事更多。牧照既定轨迹不断前行，但他清楚努力不是一切，努力可以化解大部分问题，但所谓命运与运气是存在的，没遇上山王是运气，放弃打篮球比赛就是命运。
+tags: [SD,仙牧,The Silence of the Sea/海的沉默]
 categories: [同人]
 toc: false
-hideFromHomePage:
-Summary: "道合须成合，先忧事更多。牧照既定轨迹不断前行，但他清楚努力不是一切，努力可以化解大部分问题，但所谓命运与运气是存在的，没遇上山王是运气，放弃打篮球比赛就是命运。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/shyocover.jpg"
 ---
 

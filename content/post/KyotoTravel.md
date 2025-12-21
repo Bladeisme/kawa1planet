@@ -1,19 +1,17 @@
 ---
 title: "Record|1%雪月花"
+slug: setsugetsuka
 date: 2025-02-06T16:40:16+08:00
 lastmod:
 draft: false
-description: 
+description: 1%雪月花。
 tag: [旅游]
-series:
-categories: [旅游]
+categories: [山川修且广]
 toc: true
-hideFromHomePage:
-Summary: “1%雪月花。”
 image: "/images/default.jpg"
 ---
 
-# <font color=#417D7A>Records | 1%雪月花</font>
+# <font color=#417D7A>Records|1%雪月花</font>
 
 去年最初的旅行计划是去法国，自然没实现，连签证都没申请。后来想着没空去不如去台湾，趁人在外先去了再说，结果也没去成，只在回国时转机路过，算了路过也算是去过。最后还是去了日本，江浙沪打工人后花园jpg  
 虽然十一月十二月就决定要去日本，但一直到十二月月底才开始申请签证。本打算去京都找友混几天完事，十二月时菜也决定去日本，于是我们改了行程，决定去岛根玩。去年年初打了《方根胶卷》，正好小巡一趟。行程全部交给菜做，我只负责同意。我们一直拖到一月中才买好机票，临行前的礼拜一才定完酒店，心大的人永远不怕沦落街头。  

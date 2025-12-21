@@ -1,15 +1,11 @@
 ---
 title: "JOJO|布茸茶Scar"
+slug: joscar
 date: 2024-03-23T00:07:08+11:00
-lastmod:
-draft: false
-description: 
-tags: [JOJO,布茶,茸茶,布茸]
-series: [Days and Moons]
+description: 他是唯一一座活着的墓碑。
+tags: [JOJO,布茶,茸茶,布茸,Days and Moons]
 categories: [同人]
 toc: false
-hideFromHomePage:
-Summary: "他是唯一一座活着的墓碑。"
 image: "/images/default.jpg"
 ---
 <font color=#417D7A>

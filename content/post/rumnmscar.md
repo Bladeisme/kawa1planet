@@ -1,15 +1,11 @@
 ---
 title: "SD|流南/伤疤"
+slug:rumanscar
 date: 2024-03-17T12:55:46+11:00
-lastmod:
-draft: false
-description: 
-tags: [SD,流南]
-series: [Orbuculum]
+description: 流川枫摔了一跤。
+tags: [SD,流南,Orbuculum]
 categories: [同人]
 toc: false
-hideFromHomePage:
-Summary: "流川枫摔了一跤。"
 image: "/images/default2.jpg"
 ---
 

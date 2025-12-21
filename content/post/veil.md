@@ -1,12 +1,11 @@
 ---
 title: JOJO|茸布/面纱
+slug: veil
 date: 2022-08-24T13:41:09+11:00
-tags: [JOJO,茸布]
+tags: [JOJO,茸布,Days and Moons]
 categories: [同人]
-series: [Days and Moons]
-summary: "大学生茸x站街布，含有抹布布情节。"
+description: "大学生茸x站街布，含有抹布布情节。"
 image: "/images/default.jpg"
-draft: false
 ---
 # <font color=#417D7A>面纱/The Veil</font>
 <br>

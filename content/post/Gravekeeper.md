@@ -1,11 +1,11 @@
 ---
 title: "FF14|兰吉特无CP/守墓人"
+slug: gravekeeper
 date: 2022-05-29T08:56:55+11:00
 draft: false
-tags: [兰吉特,Sunset Ale,FF14]
-series: [炉边碎笔]
+tags: [兰吉特,Sunset Ale,FF14,炉边碎笔]
 categories: [同人]
-Summary: "他老了，他足够强，但是老了。"
+description: "他老了，他足够强，但是老了。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/memento.jpg"
 ---
 

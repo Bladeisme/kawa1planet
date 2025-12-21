@@ -1,15 +1,12 @@
 ---
 title: "JOJO|茸莓/蛛丝"
+slug: spidersilk
 date: 2024-03-22T23:57:19+11:00
-lastmod:
 draft: false
-description: 
-tags: [JOJO,茸莓]
-series: [Days and Moons]
+description: 乔鲁诺给了他一根蛛丝，但它最终断掉了。
+tags: [JOJO,茸莓,Days and Moons]
 categories: [同人]
 toc: false
-hideFromHomePage:
-Summary: "乔鲁诺给了他一根蛛丝，但它最终断掉了。"
 image: "/images/default.jpg"
 ---
 <font color=#417D7A><del>还是小女孩时写的（不是）</del>，旧文存档</font><br><br>

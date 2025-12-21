@@ -1,15 +1,11 @@
 ---
 title: "SD|流仙/Uzak"
+slug: uzak
 date: 2024-03-16T23:31:09+11:00
-lastmod:
-draft: false
-description: 
-tags: [SD,流仙]
-series: [Snow Blindness/雪盲]
+description: 中学时代的puppy love就像是云投下的一片影子
+tags: [SD,流仙,Snow Blindness]
 categories: [同人]
 toc: false
-hideFromHomePage:
-Summary: "中学时代的puppy love就像是云投下的一片影子"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/透卡.png"
 ---
 

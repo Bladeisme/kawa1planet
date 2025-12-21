@@ -1,11 +1,10 @@
 ---
 title: "FF14|水晶公无CP/水晶的残光"
+slug: reflectionsincrystal
 date: 2022-05-29T08:45:55+11:00
-draft: false
-tags: [水晶公,Sunset Ale,FF14]
-series: [炉边碎笔]
+tags: [水晶公,Sunset Ale,FF14,炉边碎笔]
 categories: [同人]
-Summary: "于是水晶公那样真实地，剥丝抽茧地，从这份手稿中浮现出来。"
+description:  "于是水晶公那样真实地，剥丝抽茧地，从这份手稿中浮现出来。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/memento.jpg"
 ---
 ## <font color=#417D7A>水晶的残光</font>

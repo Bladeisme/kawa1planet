@@ -1,14 +1,11 @@
 ---
 title: "Records|我去英国墨尔本玩了"
+slug: miff
 date: 2024-08-23T15:41:16+10:00
-lastmod:
-draft: false
-tag: [Record]
-series: [日常]
-categories: [Record]
+tag: [随机电波,日常]
+categories: [随机电波]
 toc: true
-hideFromHomePage:
-Summary: "有电影节怎能不凑热闹"
+description: "有电影节怎能不凑热闹"
 image: "/images/default2.jpg"
 ---
 

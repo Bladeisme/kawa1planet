@@ -1,15 +1,12 @@
 ---
 title: "SD|牧仙/红色沙漠"
+slug: reddesert
 date: 2024-03-17T12:56:05+11:00
-lastmod:
-draft: false
 description: 
-tags: [SD,牧仙牧]
-series: [The Silence of the Sea/海的沉默]
+tags: [SD,牧仙,The Silence of the Sea/海的沉默]
 categories: [同人]
 toc: false
 hideFromHomePage:
-Summary:
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/扉页.jpg"
 ---
 <font color=#417D7A>Rate: G</font><br><br>

@@ -1,10 +1,9 @@
 ---
 title: FE3H|贝库/Rose is a Rose
+slug: roseisarose
 date: 2022-06-10T22:40:56+11:00
-draft: false
-toc: false
 tags: [FE3H,雷特库罗]
-summary: "库罗德捡到一支玫瑰。"
+description: "库罗德捡到一支玫瑰。"
 categories: [同人]
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/rose封面cover.jpg"
 ---

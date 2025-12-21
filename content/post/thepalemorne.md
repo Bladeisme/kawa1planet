@@ -1,11 +1,10 @@
 ---
 title: JOJO|茸布茸/雾色黎明
+slug: thepalemone
 toc: false
-draft: false
 date: 2022-06-23T17:18:27+11:00
-tags: [JOJO,茸布茸]
-series: [Symphony of Klein]
-summary: "死就是死，死是一样的，但是每个人都有自己的死法。在布加拉提看来，死亡并不是一件类似喝水生病那样稀松平常的事。"
+tags: [JOJO,茸布茸,Symphony of Klein]
+description: 死就是死，死是一样的，但是每个人都有自己的死法。在布加拉提看来，死亡并不是一件类似喝水生病那样稀松平常的事。
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/SoK.jpg"
 categories: [同人]
 ---

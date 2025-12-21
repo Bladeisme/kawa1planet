@@ -1,15 +1,10 @@
 ---
 title: "JOJO|茸布特里/圆舞曲"
+slug: waltz
 date: 2024-03-23T00:01:49+11:00
-lastmod:
-draft: false
-description: 
-tags: [JOJO,茸布特里]
-series: [Days and Moons]
+tags: [JOJO,茸布特里,Days and Moons]
 categories: [同人]
 toc: false
-hideFromHomePage:
-Summary:
 image: "/images/default.jpg"
 ---
 <font color=#417D7A>

@@ -1,15 +1,11 @@
 ---
 title: "CP街委笔记"
+slug: comuicup
 date: 2024-10-07T16:11:48+11:00
-lastmod:
-draft: false
-description: 
-tags: [CP参展]
-series: [同人工坊]
-categories: [同人]
+description: 穷人做街委讲究的就是佛
+tags: [Comicup,街委]
+categories: [同人工坊]
 toc: true
-hideFromHomePage:
-Summary: "穷人做街委讲究的就是佛"
 image: "/images/default.jpg"
 ---
 

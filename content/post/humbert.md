@@ -1,12 +1,12 @@
 ---
 title: JOJO|茸茶/亨伯特叙述诡计
+slug: humbert
 date: 2022-08-24T10:41:41+11:00
-tags: [JOJO,茸茶]
-series: [Summertime]
+tags: [JOJO,茸茶,Summertime]
 categories: [同人]
 toc: false
 draft: false
-Summary: "15岁茸x30↑茶"
+description: "15岁茸x30↑茶"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/title.png"
 ---
 

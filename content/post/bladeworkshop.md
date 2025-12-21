@@ -5,7 +5,7 @@ slug: bladeworkshop1
 toc: true
 tags: [同人本]
 categories: [同人工坊]
-description:  虽然我写文很烂但我做本子很强啊！
+description: 虽然我写文很烂但我做本子很强啊！
 image: "/images/default.jpg"
 ---
 # <font color=#417D7A>腿腿同人本展今日开幕！</font>

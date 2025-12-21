@@ -1,10 +1,9 @@
 ---
 title: JOJO|布莓/不冻港
+slug: warmwaterport
 toc: true
-draft: false
 date: 2023-04-08T16:12:50+11:00
-tags: [JOJO,布莓]
-series: [Days and Moons]
+tags: [JOJO,布莓,Days and Moons]
 description: 音乐声渐渐消去，人群散开来，福葛说：“夏天结束了。”
 categories: [同人]
 image: "/images/default2.jpg"

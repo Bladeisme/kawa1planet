@@ -1,15 +1,11 @@
 ---
 title: "Records|一年的四分之一过去了"
+slug: 202403record
 date: 2024-04-06T18:55:06+11:00
-lastmod:
-draft: false
-description: 
-tag: [Record]
-series: [日常]
-categories: [Record]
+description: 但似乎一事无成。
+tag: [日常,波群延迟]
+categories: [波群延迟]
 toc: true
-hideFromHomePage:
-Summary: "但似乎一事无成。"
 image: "/images/default2.jpg"
 ---
 

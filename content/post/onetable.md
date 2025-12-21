@@ -1,15 +1,12 @@
 ---
 title: "Records|一张桌子咖啡店"
+slug: onetable
 date: 2025-05-11T14:41:45+08:00
-lastmod:
 draft: false
-description: 
-tag: [Record]
-series: [日常]
-categories: [Record]
+description: 快乐老家！
+tag: [随机电波,日常]
+categories: [随机电波]
 toc: true
-hideFromHomePage:
-Summary: 快乐老家！
 image: "/images/default.jpg"
 ---
 # <font color=#417D7A>Records| 一张桌子咖啡店</font>

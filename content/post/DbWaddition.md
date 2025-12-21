@@ -1,12 +1,12 @@
 ---
-title: "FE3H|贝帝/水死"
+title: "FE3H|贝帝/水死addition"
+slug: deathbywateraddtion
 toc: false
 date: 2022-03-15T15:30:52+11:00
 draft: false
-tags: [FE3H,雷特帝弥]
-series: [眩晕]
+tags: [FE3H,雷特帝弥,眩晕]
 categories: [同人]
-summary: "为了剧本新增了一点片段，大多都是菲力克斯相关，自娱自乐一下。"
+description: "为了剧本新增了一点片段，大多都是菲力克斯相关，自娱自乐一下。"
 image: "/images/default.jpg"
 ---
 帝弥托利正在浏览INS，菲力克斯的主页，几乎没有内容。他搜索格廉，点击头像后，跳出来一段快拍：格廉正陪未婚妻试婚纱；菲力克斯坐在家里，电脑旁边放着一杯咖啡，他看到格廉在拍他后皱起眉询问，背过身去。<br>

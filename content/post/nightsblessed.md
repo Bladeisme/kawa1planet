@@ -1,12 +1,11 @@
 ---
 title: FF14|无CP/玫瑰生长于无光之海
+slug: nightblessed
 toc: false
 date: 2022-12-26T17:32:13+11:00
-draft: false
-tags: [Sunset Ale,FF14]
-series: [炉边碎笔]
+tags: [Sunset Ale,FF14,炉边碎笔]
 categories: [同人]
-summary: "现在我们已经不再用星历计时，这个年代是灾难的年代，今年是第八灵灾第十年。"
+description: "现在我们已经不再用星历计时，这个年代是灾难的年代，今年是第八灵灾第十年。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/memento.jpg"
 ---
 <font color=#417D7A>前几年和朋友玩命题作文时的文，稀薄的关键词：倒计时</font><br><br>

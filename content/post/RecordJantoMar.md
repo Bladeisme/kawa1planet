@@ -1,12 +1,12 @@
 ---
 title: "Record|1-3月书影"
+slug: 202201to03
 date: 2022-04-22T12:07:37+11:00
-tags: [Record,电影,读书]
-categories: [Record]
+tag: [日常,波群延迟]
+categories: [波群延迟]
 toc: true
-Summary: "例行的书影记录。以下都摘自我的毛象嘟文。"
+description: 例行的书影记录。以下都摘自我的毛象嘟文。
 image: "/images/default.jpg"
-hidden: true
 ---
 <!--more-->
 

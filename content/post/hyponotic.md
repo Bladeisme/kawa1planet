@@ -1,11 +1,11 @@
 ---
 title: JOJO|茸布/Hypnotic
+slug: hypnotic
 toc: false
 draft: false
 date: 2022-12-23T11:33:55+11:00
-tags: [JOJO,茸布]
-series: [Beyond the Time]
-summary: "我做过的最好的梦是梦见我死亡。"
+tags: [JOJO,茸布,Beyond the Time]
+description: "我做过的最好的梦是梦见我死亡。"
 categories: [同人]
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/btt.jpg"
 ---

@@ -1,10 +1,10 @@
 ---
 title: JOJO|茸布/燃烧
 date: 2022-05-26T18:17:17+11:00
+slug: blaze
 toc: false
-tags: [JOJO,茸布]
-series: [Symphony of Klein]
-categories: [同人]
+tags: [JOJO,茸布,Symphony of Klein]
+description: [同人]
 summary: "之前我住的修道院来了一个疯女人。据说她试图跳崖但未遂，之后她完全疯了。人们说她被魔鬼附身了，也有人说她本人就是魔鬼，所以她被送到修道院里来驱魔。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/SoK.jpg"
 ---

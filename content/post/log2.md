@@ -1,14 +1,12 @@
 ---
 title: "Hugo|博客装修日记"
+slug: hugolog2
 date: 2024-03-07T20:57:13+11:00
 lastmod: 2024-04-08T21:58:18+11:00
-draft: false
-description: 
+description: 解决不了问题就解决提出问题的东西
 tags: [hugo]
 categories: [hugo]
 toc: true
-hidden: 
-Summary: "解决不了问题就解决提出问题的东西"
 image: "/images/default.jpg"
 ---
 

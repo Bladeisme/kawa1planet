@@ -1,11 +1,10 @@
 ---
 title: JOJO|布茸/黄昏集
+slug: nightfall
 toc: true
-draft: false
 date: 2022-08-22T17:31:20+11:00
-tags: [JOJO,布茸]
-series: [Symphony of Klein]
-summary: “‘经典’曲目总是大同小异。”我说，“以前我也是个‘吉普赛琴手’时，最多的一次，一天表演了九遍《教父》。”
+tags: [JOJO,布茸,Symphony of Klein]
+description: “‘经典’曲目总是大同小异。”我说，“以前我也是个‘吉普赛琴手’时，最多的一次，一天表演了九遍《教父》。”
 categories: [同人]
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/SoK.jpg"
 ---

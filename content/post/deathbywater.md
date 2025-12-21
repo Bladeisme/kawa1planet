@@ -1,9 +1,9 @@
 ---
 title: FE3H|贝帝/死于水
+slug: deathbywater
 date: 2022-06-25T22:00:50+11:00
 draft: false
-tags: [FE3H,雷特帝弥]
-series: [眩晕]
+tags: [FE3H,雷特帝弥,眩晕]
 categories: [同人]
 description: "人怎么能阻止他人奔赴信仰呢？帝弥托利想，也许伊卡洛斯明知会失去翅膀，摔得粉身碎骨，可他仍要飞向太阳。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/dizziness.jpg"

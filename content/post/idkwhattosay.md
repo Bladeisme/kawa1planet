@@ -1,15 +1,13 @@
 ---
 title: "Records|每个女儿父母心里都有一个儿子那就是他们的未来女婿"
+slug: idkwhattosay
 date: 2024-11-15T17:18:12+08:00
 lastmod:
 draft: false
-description: 
-tag: [Record]
-series: [日常]
-categories: [Record]
+description: trigger,但不知道预警点啥，总之如标题
+tag: [日常,波群延迟]
+categories: [波群延迟]
 toc: false
-hideFromHomePage: true
-Summary: "trigger,但不知道预警点啥，总之如标题"
 image: "/images/default.jpg"
 ---
 

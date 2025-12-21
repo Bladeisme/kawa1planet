@@ -1,14 +1,12 @@
 ---
 title: "Records|平平无奇诈骗案"
+slug: steamscam
 date: 2024-08-11T00:25:28+10:00
-lastmod:
 draft: false
-tag: [Record]
-series: [日常]
-categories: [Record]
+tag: [随机电波,日常]
+categories: [随机电波]
 toc: true
-hideFromHomePage:
-Summary: "诈骗但无惊无限"
+description: "诈骗但无惊无限"
 image: "/images/default2.jpg"
 ---
 # <font color=#417D7A>Records | 平平无奇诈骗案</font>

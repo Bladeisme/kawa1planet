@@ -1,15 +1,12 @@
 ---
 title: "FF14|阿谢赫尔/旅人与蝴蝶"
+slug: travellerandbutterflies
 date: 2024-03-18T22:45:50+11:00
-lastmod:
 draft: false
-description: 
-tags: [FF14,阿谢赫尔]
-series: [炉边碎笔]
+description: 彼处水如酒
+tags: [FF14,阿谢赫尔,炉边碎笔] 
 categories: [同人]
 toc: false
-hideFromHomePage:
-Summary: "彼处水如酒"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/backcover.png"
 ---
 

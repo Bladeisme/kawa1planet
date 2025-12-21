@@ -1,15 +1,12 @@
 ---
 title: "JOJO|承&仗/海上溺亡的鱼"
+slug: drownfish
 date: 2024-03-22T23:47:25+11:00
 lastmod:
-draft: false
-description: 
-tags: [JOJO,承&仗]
-series: [Days and Moons]
+description: “我来迎接我的死亡。”他拨开人群走向大海，海面为他分开，他就这样走向海里，直到他再也看不见这个人。”
+tags: [JOJO,承&仗,Days and Moons]
 categories: [同人]
 toc: false
-hideFromHomePage:
-Summary: "“我来迎接我的死亡。”他拨开人群走向大海，海面为他分开，他就这样走向海里，直到他再也看不见这个人。”"
 image: "/images/default2.jpg"
 ---
 <font color=#417D7A><del>还是小女孩时写的</del>，旧文存档</font><br><br>

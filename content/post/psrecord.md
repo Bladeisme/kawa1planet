@@ -1,15 +1,12 @@
 ---
 title: "Bladeworkshop|PS小技巧"
+slug: pslog1
 date: 2024-08-16T19:23:14+10:00
 lastmod:
-draft: false
-description: 
-tag: [软件操作]
-series: [同人工坊]
-categories: [Design]
+description: 柔光、做旧、描线、抠透明物体
+tag: [Design]
+categories: [同人工坊]
 toc: true
-hideFromHomePage:
-Summary: 柔光、做旧、描线、抠透明物体
 image: "/images/default2.jpg"
 ---
 

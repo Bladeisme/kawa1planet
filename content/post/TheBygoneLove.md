@@ -1,12 +1,12 @@
 ---
 title: "JOJO|布茸/旧时代爱人"
+slug: thebygonelove
 toc: false
 draft: false
 date: 2023-01-02T12:17:59+11:00
-tags: [JOJO,布茸]
-series: [Symphony of Klein]
+tags: [JOJO,布茸,Symphony of Klein]
 Summary: "我在十五岁时遇到乔鲁诺，他说这是个好年纪，相逢的人会再相逢。"
-categories: [同人]
+description: [同人]
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/SoK.jpg"
 ---
 

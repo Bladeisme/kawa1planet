@@ -1,13 +1,13 @@
 ---
 title: FE3H|贝帝/永恒与一日
+slug: eternityandaday
 date: 2022-06-10T20:59:41+11:00
 draft: false
-tags: [FE3H,雷特帝弥]
-series: [眩晕]
+tags: [FE3H,雷特帝弥,眩晕]
 categories: [同人]
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/dizziness.jpg"
 hideFromHomePage:
-Summary: "帝弥托利，好久不见。"
+description: "帝弥托利，好久不见。"
 ---
 
 <font color=#417D7A>

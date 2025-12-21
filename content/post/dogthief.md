@@ -1,15 +1,11 @@
 ---
 title: "Records|一条小狗消失了"
 date: 2024-12-03T15:45:12+08:00
-lastmod:
-draft: false
-description: 
-tag: [Record]
-series: [日常]
-categories: [Record]
+description: 如标题，有虐狗等提及。trigger warning
+tag: [随机电波,日常]
+categories: [随机电波]
 toc: false
 hideFromHomePage:
-Summary: "如标题，有虐狗等提及。trigger warning"
 image: "/images/default.jpg"
 ---
 

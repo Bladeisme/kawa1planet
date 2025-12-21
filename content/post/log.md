@@ -1,13 +1,13 @@
 ---
 title: Hugo|从Hexo迁移到Hugo
+slug: hugolog1
 date: 2024-03-07T00:03:24+11:00
 draft: false
 description: 
 tags: [hugo]
 categories: [hugo]
 toc: true
-hidden: 
-Summary: "建站日记"
+description: "建站日记"
 image: "/images/default.jpg"
 ---
 

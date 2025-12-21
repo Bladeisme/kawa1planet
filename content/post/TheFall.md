@@ -1,11 +1,11 @@
 ---
 title: "FE3H|贝帝/坠入"
+slug: thefall
 date: 2022-06-07T00:14:25+11:00
 draft: false
-tags: [FE3H,雷特帝弥]
-series: [眩晕]
+tags: [FE3H,雷特帝弥,眩晕]
 categories: [同人]
-summary: "后来帝弥托利懂得了一个道理，爱者与被爱者应当同甘苦共命运，爱他的人死了，从此以后他会挣扎在幽暗的月夜，望着无法达到的月光路，为命运所苦。"
+description: "后来帝弥托利懂得了一个道理，爱者与被爱者应当同甘苦共命运，爱他的人死了，从此以后他会挣扎在幽暗的月夜，望着无法达到的月光路，为命运所苦。"
 image: "https://raw.githubusercontent.com/Bladeisme/blog-img/master/dizziness.jpg"
 ---
 
