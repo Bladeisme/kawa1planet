@@ -3,7 +3,7 @@ title: 花陆/甘草薄饼
 description: 现代pa，花满楼Ace，陆小凤Bi。
 slug: licoricepizza
 tag: [花陆,满船明月从此去]
-category: [同人]
+categories: [同人]
 date: 2025-12-23T22:06:26+08:00
 image: https://raw.githubusercontent.com/Bladeisme/blog-img/master/hualu_moon.png
 comments: true

@@ -3,7 +3,7 @@ title: "花陆/好梦如昨"
 description: 满船明月从此去，我本江湖寂寞人。
 slug: olddream
 tag: [花陆,满船明月从此去]
-category: [同人]
+categories: [同人]
 date: 2025-12-23T22:15:36+08:00
 image: https://raw.githubusercontent.com/Bladeisme/blog-img/master/hualu_moon.png
 comments: true
