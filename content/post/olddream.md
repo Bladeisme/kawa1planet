@@ -5,7 +5,7 @@ slug: olddream
 tag: [花陆,满船明月从此去]
 category: [同人]
 date: 2025-12-23T22:15:36+08:00
-image: /static/hualu_moon.png
+image: https://raw.githubusercontent.com/Bladeisme/blog-img/master/hualu_moon.png
 comments: true
 draft: false
 ---

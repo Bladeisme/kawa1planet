@@ -1,16 +1,18 @@
 ---
 title: 花陆/甘草薄饼
-description: 
+description: 现代pa，花满楼Ace，陆小凤Bi。
 slug: licoricepizza
 tag: [花陆,满船明月从此去]
 category: [同人]
 date: 2025-12-23T22:06:26+08:00
-image: /static/hualu_moon.png
+image: https://raw.githubusercontent.com/Bladeisme/blog-img/master/hualu_moon.png
 comments: true
 draft: false
 ---
 
-# 花陆/甘草薄饼
+## 甘草薄饼
+> 甘草薄饼=甘草披萨=Licorice Pizza，指黑胶唱片，不过和电影没什么关系。
+
 
 晚上九点多，陆小凤蹲在音乐学院的冒菜店门口玩手机。餐馆已经打烊，老板开着电视拖地收拾。门被拉开时陆小凤听到陡地放大的新闻播报声：“东方之星”邮轮沉没事件已成立专项调查组。接着随香辣味与污水一同被泼出，陆小凤怪叫一声，急哄哄地跳起来检查衣裤。几秒后老板探出头：“哟，不好意思啊陆小凤，你下回来吃我给你免单。”
 
