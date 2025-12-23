@@ -1,6 +1,6 @@
 ---
 title: "花陆/好梦如昨"
-description: 
+description: 满船明月从此去，我本江湖寂寞人。
 slug: olddream
 tag: [花陆,满船明月从此去]
 category: [同人]
