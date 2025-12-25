@@ -33,6 +33,10 @@ links:
     description: 關山正飛雪
     website: https://u-mok.blog/
     image: https://www.notion.so/image/attachment%3A31fc9d17-0d1e-4ac0-8027-0ea013ba651b%3Abedfbd3aca642515999a7bbf0a6793aa.jpg?table=collection&id=2c65c20a-2eb6-81b4-985e-000bbc9f87c3&t=2c65c20a-2eb6-81b4-985e-000bbc9f87c3
+  - title: 咕噜咕庐
+    description: 某天，一个人类想制作一个灵魂容器…
+    website: https://blog.gulugulurave.com/
+    image: https://blog.gulugulurave.com/img/avatar.png
 menu:
     main: 
         weight: -50
