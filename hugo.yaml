@@ -57,7 +57,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/avatar1.jpg
 
     article:
         math: false
