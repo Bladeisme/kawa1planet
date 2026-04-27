@@ -43,6 +43,9 @@ params:
     rssFullContent: true
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
+    # 图片轮播
+    enableimgloop: true
+
     footer:
         since: 2022
         customText:
