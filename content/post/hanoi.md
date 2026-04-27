@@ -1,7 +1,7 @@
 ---
-title: "Hanoi"
-description: 2026springtravelhanoi
-slug: "毫无计划的旅游"
+title: "Record|随意的河内之旅"
+description: 毫无计划的旅行
+slug: "2026springtravelhanoi"
 tag: [旅游]
 categories: [山川修且广]
 date: 2026-04-27T22:49:33+08:00
