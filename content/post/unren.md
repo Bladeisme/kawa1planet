@@ -40,7 +40,7 @@ unrpyc：https://github.com/CensoredUsername/unrpyc
 rpaExtract解包完的文件会自动出现在根目录。我解包完后出现了chapter、character等文件夹，可以根据自己所需查找不同文件夹并再次解压。  
 ### 3.3 unrpyc
 在unrpyc文件根目录右键cmd，输入`py -3 unrpyc.py "需要解包的rpyc文件地址" "解包后文件存放地址"`  
-注：1.输入`py -3 unrpyc.py`后可以直接将文件拖入cmd窗口，会自动生成需要解包文件的地址；第二个地址可以不输入，不输入则解包后文件会出现在原rpyc文件所在位置。
+注：1.输入`py -3 unrpyc.py`后可以直接将文件拖入cmd窗口，会自动生成需要解包文件的地址；第二个地址可以不输入，不输入则解包后文件会出现在原rpyc文件所在位置。  
 unren给的readme里的用法是：`python unrpyc.py file1.rpyc file2.rpyc`或者`python unrpyc.py folder/xxxx`，但我使用了这串代码没有反应，所以还是用了`py -3 unrpyc.py`  
 
 如图：  
