@@ -1,5 +1,5 @@
 ---
-title: "Unren"
+title: "捣鼓|如何解包renpy游戏"
 description: 
 slug: unrenpy
 tag: [随机电波,捣鼓]
@@ -48,8 +48,6 @@ unren给的readme里的用法是：`python unrpyc.py file1.rpyc file2.rpyc`或�
 
 解包出来的文件为rpy格式，用VSCode直接打开就可以阅读啦！
 
-::: tip Note
-
+::: tip 引用标题
 unrpyc指令在其他文件根目录下打开cmd时无法运行，只能在unrpyc文件根目录下运行，个人情况是这样。
-
-::: 
+:::
